@@ -1,0 +1,10 @@
+name,club,age,position,position_cat,market_value,page_views,fpl_value,fpl_sel,fpl_points,region,nationality,latitude,longitude,new_foreign,age_cat,club_id,big_club,new_signing
+Alexis Sanchez,Arsenal,28,LW,1,65,4329,12,17.10%,264,3,Chile,-35.675147,-71.542969,0,4,1,1,0
+Mesut Ozil,Arsenal,28,AM,1,50,4395,9.5,5.60%,167,2,Germany,51.165691,10.451526,0,4,1,1,0
+Petr Cech,Arsenal,35,GK,4,7,1529,5.5,5.90%,134,2,Czech Republic,49.817492,15.472962,0,6,1,1,0
+Theo Walcott,Arsenal,28,RW,1,20,2393,7.5,1.50%,122,1,England,52.3555177,-1.1743197,0,4,1,1,0
+Laurent Koscielny,Arsenal,31,CB,3,22,912,6,0.70%,121,2,France,46.227638,2.213749,0,4,1,1,0
+Hector Bellerin,Arsenal,22,RB,3,30,1675,6,13.70%,119,2,Spain,40.463667,-3.74922,0,2,1,1,0
+Olivier Giroud,Arsenal,30,CF,1,22,2230,8.5,2.50%,116,2,France,46.227638,2.213749,0,4,1,1,0
+Nacho Monreal,Arsenal,31,LB,3,13,555,5.5,4.70%,115,2,Spain,40.463667,-3.74922,0,4,1,1,0
+Shkodran Mustafi,Arsenal,25,CB,3,30,1877,5.5,4.00%,90,2,Germany,51.165691,10.451526,0,3,1,1,1
