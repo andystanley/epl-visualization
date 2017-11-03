@@ -17,13 +17,27 @@
   </head>
   <body>
     <div id="map"></div>
+    <h3 id="label"></h3>
     <script>
       var map;
+      var infoWindow;
+      var oms;
+
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 2,
-          center: new google.maps.LatLng(2.8,-187.3),
+          zoom: 3,
+          center: new google.maps.LatLng(45.943161,24.96676),
           mapTypeId: 'terrain'
+        });
+
+        infoWindow = new google.maps.InfoWindow();
+
+        // Create an overlapping marker spidifier
+        oms = new OverlappingMarkerSpiderfier(map, {
+          markersWontMove: true,
+          markersWontHide: true,
+          basicFormatEvents: true,
+          legWeight: 0
         });
 
         // Create a <script> tag and set the USGS URL as the source.
@@ -38,19 +52,53 @@
       // set of coordinates.
       window.eqfeed_callback = function(results) {
         for (var i = 0; i < results.features.length; i++) {
-          // Get the coordinates from the JSON
+          // Get the player name
+          var name = results.features[i].properties.name;
+          // Get the players club
+          var club = results.features[i].properties.club;
+          // Get the players coordinates
           var coords = results.features[i].geometry.coordinates;
           // Get the latitude and longitude
           var latLng = new google.maps.LatLng(coords[1],coords[0]);
+          // Create the marker icon
+          var icon = {
+            url: 'logos/' + club + '.png', // url
+            scaledSize: new google.maps.Size(30, 30), // scaled size
+            origin: new google.maps.Point(0,0), // origin
+            anchor: new google.maps.Point(0, 0) // anchor
+          };
+          // Create a marker
           var marker = new google.maps.Marker({
             position: latLng,
-            map: map
+            map: map,
+            icon: icon
           });
+
+          // Add a listener for when a marker is clicked on
+          marker.addListener('spider_click', function() {
+            // Set the content of the infoWindow
+            infoWindow.setContent(this.label);
+            // Open the infoWindow to the markers location
+            infoWindow.open(map, this);
+          });
+
+          oms.addMarker(marker);
+          /*
+          // Add a listener for when a marker is clicked on
+          marker.addListener('spider_click', function() {
+            map.setZoom(8);
+            map.setCenter(this.getPosition());
+            //this.setLabel(name);
+          });
+          */
         }
       }
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIczLmrse3tNr3S7EP2Hwk8gdMTAvjL9s&callback=initMap">
+    </script>
+    <script async defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/OverlappingMarkerSpiderfier/1.0.3/oms.min.js">
     </script>
   </body>
 </html>
