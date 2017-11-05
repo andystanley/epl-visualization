@@ -27,6 +27,8 @@
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           zoom: 3,
+          minZoom: 2,
+          maxZoom: 5,
           center: new google.maps.LatLng(45.9,24.9),
           mapTypeId: 'terrain'
         });
@@ -37,13 +39,12 @@
         oms = new OverlappingMarkerSpiderfier(map, {
           markersWontMove: true,
           markersWontHide: true,
+          keepSpiderfied: true,
           basicFormatEvents: true,
           legWeight: 0,
-          /*
-          circleFootSeparation: 60, 
-          spiralFootSeparation: 60, 
+          circleFootSeparation: 20, 
+          spiralFootSeparation: 20,
           spiralLengthFactor: 20
-          */
         });
 
         // Create a <script> tag and set the USGS URL as the source.
@@ -71,7 +72,7 @@
               url: 'logos/' + club + '.png', // url
               scaledSize: new google.maps.Size(20, 20), // scaled size
               origin: new google.maps.Point(0,0), // origin
-              anchor: new google.maps.Point(20, 0) // anchor
+              anchor: new google.maps.Point(10, 0) // anchor
           }
 
           // Create the marker label
@@ -91,7 +92,7 @@
           // Add the marker to the array of the all the markers
           allMarkers.push(marker);
 
-          // Add a listener for when a marker is clicked on
+          // Add a listener for when a marker cluster is clicked on
           marker.addListener('spider_click', function() {
             // Set the content of the infoWindow
             infoWindow.setContent(this.label.text);
@@ -109,7 +110,17 @@
                 allMarkers[i].icon.scaledSize = new google.maps.Size(size, size);
                 allMarkers[i].icon.size = new google.maps.Size(size, size);
                 allMarkers[i].setMap(map);
-            }
+              }
+              // Expand the size between the spiderfied markers based on the zoom level
+              var seperation = oms.circleFootSeparation;
+              if (map.getZoom() > 3) {
+                seperation = 40;
+              }
+              else if (map.getZoom() < 3) {
+                seperation = 15;
+              }
+              oms.circleFootSeparation = seperation;
+              oms.spiralFootSeparation = seperation;
           });
         }
       }
