@@ -22,11 +22,12 @@
       var map;
       var infoWindow;
       var oms;
+      var allMarkers = [];
 
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           zoom: 3,
-          center: new google.maps.LatLng(45.943161,24.96676),
+          center: new google.maps.LatLng(45.9,24.9),
           mapTypeId: 'terrain'
         });
 
@@ -38,9 +39,11 @@
           markersWontHide: true,
           basicFormatEvents: true,
           legWeight: 0,
+          /*
           circleFootSeparation: 60, 
           spiralFootSeparation: 60, 
           spiralLengthFactor: 20
+          */
         });
 
         // Create a <script> tag and set the USGS URL as the source.
@@ -65,22 +68,28 @@
           var latLng = new google.maps.LatLng(coords[1],coords[0]);
           // Create the marker icon
           var icon = {
-            url: 'logos/' + club + '.png', // url
-            scaledSize: new google.maps.Size(40, 40), // scaled size
-            origin: new google.maps.Point(0,0), // origin
-            anchor: new google.maps.Point(0, 0) // anchor
-          };
+              url: 'logos/' + club + '.png', // url
+              scaledSize: new google.maps.Size(20, 20), // scaled size
+              origin: new google.maps.Point(0,0), // origin
+              anchor: new google.maps.Point(20, 0) // anchor
+          }
+
+          // Create the marker label
+          var label = {
+              text: name,
+              fontSize: '0px' // Hide the name from appearing as a label
+          }
 
           // Create a marker
           var marker = new google.maps.Marker({
             position: latLng,
             map: map,
             icon: icon,
-            label: {
-              text: name,
-              fontSize: '0px' // Hide the name from appearing as a label
-            }
+            label: label
           });
+
+          // Add the marker to the array of the all the markers
+          allMarkers.push(marker);
 
           // Add a listener for when a marker is clicked on
           marker.addListener('spider_click', function() {
@@ -91,14 +100,17 @@
           });
 
           oms.addMarker(marker);
-          /*
-          // Add a listener for when a marker is clicked on
-          marker.addListener('spider_click', function() {
-            map.setZoom(8);
-            map.setCenter(this.getPosition());
-            //this.setLabel(name);
+
+          // Add a listener for when the zoom is changed
+          map.addListener('zoom_changed', function() {
+              // For every marker, dynamically change the icon size based on the current zoom level
+              for(var i = 0; i < allMarkers.length; i++) {
+                var size = map.getZoom() * 10;
+                allMarkers[i].icon.scaledSize = new google.maps.Size(size, size);
+                allMarkers[i].icon.size = new google.maps.Size(size, size);
+                allMarkers[i].setMap(map);
+            }
           });
-          */
         }
       }
     </script>
