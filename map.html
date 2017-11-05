@@ -30,7 +30,7 @@
           minZoom: 2,
           maxZoom: 5,
           center: new google.maps.LatLng(45.9,24.9),
-          mapTypeId: 'terrain'
+          mapTypeId: 'hybrid'
         });
 
         infoWindow = new google.maps.InfoWindow();
@@ -59,14 +59,17 @@
       // set of coordinates.
       window.eqfeed_callback = function(results) {
         for (var i = 0; i < results.features.length; i++) {
-          // Get the player name
+          // Get the player properties
           var name = results.features[i].properties.name;
-          // Get the players club
           var club = results.features[i].properties.club;
-          // Get the players coordinates
+          var nationality = results.features[i].properties.nationality;
+          var age = results.features[i].properties.age;
+          var position = results.features[i].properties.position;
           var coords = results.features[i].geometry.coordinates;
-          // Get the latitude and longitude
+
+          // Set up the players location
           var latLng = new google.maps.LatLng(coords[1],coords[0]);
+
           // Create the marker icon
           var icon = {
               url: 'logos/' + club + '.png', // url
@@ -77,7 +80,8 @@
 
           // Create the marker label
           var label = {
-              text: name,
+              text: name + ', ' + age + ', ' + position + '<br>'
+                    + nationality + ' / ' + club,
               fontSize: '0px' // Hide the name from appearing as a label
           }
 
