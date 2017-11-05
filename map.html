@@ -37,7 +37,10 @@
           markersWontMove: true,
           markersWontHide: true,
           basicFormatEvents: true,
-          legWeight: 0
+          legWeight: 0,
+          circleFootSeparation: 60, 
+          spiralFootSeparation: 60, 
+          spiralLengthFactor: 20
         });
 
         // Create a <script> tag and set the USGS URL as the source.
@@ -63,21 +66,26 @@
           // Create the marker icon
           var icon = {
             url: 'logos/' + club + '.png', // url
-            scaledSize: new google.maps.Size(30, 30), // scaled size
+            scaledSize: new google.maps.Size(40, 40), // scaled size
             origin: new google.maps.Point(0,0), // origin
             anchor: new google.maps.Point(0, 0) // anchor
           };
+
           // Create a marker
           var marker = new google.maps.Marker({
             position: latLng,
             map: map,
-            icon: icon
+            icon: icon,
+            label: {
+              text: name,
+              fontSize: '0px' // Hide the name from appearing as a label
+            }
           });
 
           // Add a listener for when a marker is clicked on
           marker.addListener('spider_click', function() {
             // Set the content of the infoWindow
-            infoWindow.setContent(this.label);
+            infoWindow.setContent(this.label.text);
             // Open the infoWindow to the markers location
             infoWindow.open(map, this);
           });
