@@ -37,7 +37,7 @@
           minZoom: 2,
           maxZoom: 5,
           center: new google.maps.LatLng(45.9,24.9),
-          mapTypeId: 'hybrid'
+          mapTypeId: 'roadmap'
         });
 
         infoWindow = new google.maps.InfoWindow();
@@ -79,7 +79,7 @@
 
           // Create the marker icon
           var icon = {
-              url: 'logos/' + club + '.png', // url
+              url: 'logos/' + club + '.svg', // url
               scaledSize: new google.maps.Size(20, 20), // scaled size
               origin: new google.maps.Point(0,0), // origin
               anchor: new google.maps.Point(10, 0) // anchor
@@ -140,7 +140,7 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIczLmrse3tNr3S7EP2Hwk8gdMTAvjL9s&callback=initMap">
     </script>
     <script async defer
-    src="https://cdnjs.cloudflare.com/ajax/libs/OverlappingMarkerSpiderfier/1.0.3/oms.min.js">
+    src="oms.min.js">
     </script>
   </body>
 </html>
