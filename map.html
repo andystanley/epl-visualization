@@ -7,6 +7,14 @@
       #map {
         height: 100%;
       }
+      #panel { 
+      	background-color: #DDD; 
+      	position: absolute; 
+      	top: 0; 
+      	right: 0; 
+      	bottom: 0; 
+      	width: 300px; 
+      }
       img {
         position: absolute;
         top: 86%;
@@ -22,6 +30,7 @@
   </head>
   <body>
     <div id="map"></div>
+    <div id="panel"></div>
     <a href="https://github.com/andystanley/EPL-Players-Nationality">
     <img src="logos/github.png">
 </div>
@@ -88,8 +97,7 @@
           // Create the marker label
           var label = {
             fontSize: '0px', // Hide the name from appearing as a label
-            text: name + ', ' + age + ', ' + position + '<br>'+ 
-                  nationality + ' / ' + club
+            text: nationality
           }
 
           // Create a marker
@@ -111,6 +119,24 @@
             infoWindow.open(map, this);
           });
 
+          
+          marker.addListener('click', function() {
+          	nat = this.label.text;
+          	// Get the nationality of the marker that was clicked on
+            document.getElementById('panel').innerHTML += '<b>' + nat + ' Players' + '<b>' + '<br>';
+
+            // Print out the markers by nationality in the side panel
+            for(var i = 0; i < allMarkers.length; i++) {
+            	if (allMarkers[i].label.text === nat) {
+            		document.getElementById('panel').innerHTML += results.features[i].properties.name +  ', ' + 
+            													  results.features[i].properties.age + ', ' + 
+            													  results.features[i].properties.position + ', ' + 
+            		                                              results.features[i].properties.club + '<br>';
+            	}
+            }
+          });
+          
+
           oms.addMarker(marker);
 
           // Add a listener for when the zoom is changed
@@ -122,6 +148,7 @@
                 allMarkers[i].icon.size = new google.maps.Size(size, size);
                 allMarkers[i].setMap(map);
               }
+              /*
               // Expand the size between the spiderfied markers based on the zoom level
               var seperation = oms.circleFootSeparation;
               if (map.getZoom() > 3) {
@@ -132,6 +159,7 @@
               }
               oms.circleFootSeparation = seperation;
               oms.spiralFootSeparation = seperation;
+              */
           });
         }
       }
