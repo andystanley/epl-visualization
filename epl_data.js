@@ -4573,7 +4573,7 @@ eqfeed_callback(
        "coordinates":  [ -8.2,39.3 ]
     },
     "properties": {
-    "name":"DuÃ…Â¡an TadiÃ„â€¡",
+    "name":"Dusan Tadic",
     "club":"Southampton",
     "age":28,
     "position":"LW",
@@ -4629,7 +4629,7 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Marko ArnautoviÃ„â€¡",
+    "name":"Marko Arnautovic",
     "club":"Stoke City",
     "age":28,
     "position":"LW",
@@ -4867,7 +4867,7 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Bojan KrkiÃ„â€¡",
+    "name":"Bojan Krkic",
     "club":"Stoke City",
     "age":26,
     "position":"SS",
@@ -5203,7 +5203,7 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Ãƒâ‚¬ngel Rangel",
+    "name":"Angel Rangel",
     "club":"Swansea",
     "age":34,
     "position":"RB",
@@ -5469,7 +5469,7 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Georges-Kevin N%27Koudou",
+    "name":"Georges-Kevin N'koudou",
     "club":"Tottenham",
     "age":22,
     "position":"LW",
@@ -5679,7 +5679,7 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Ãƒâ€°tienne Capoue",
+    "name":"Etienne Capoue",
     "club":"Watford",
     "age":29,
     "position":"DM",
@@ -5693,7 +5693,7 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"YounÃƒÂ¨s Kaboul",
+    "name":"Younes Kaboul",
     "club":"Watford",
     "age":31,
     "position":"CB",
