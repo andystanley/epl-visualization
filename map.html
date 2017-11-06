@@ -111,6 +111,18 @@
             infoWindow.open(map, this);
           });
 
+          /*
+          marker.addListener('click', function() {
+            if ((this.label.text).includes("Germany")) {
+              console.log(this.label.text);
+
+              oms.circleFootSeparation = 26;
+              oms.spiralFootSeparation = 11;
+              oms.spiralLengthFactor = 4;
+            }
+          });
+          */
+
           oms.addMarker(marker);
 
           // Add a listener for when the zoom is changed
@@ -122,6 +134,7 @@
                 allMarkers[i].icon.size = new google.maps.Size(size, size);
                 allMarkers[i].setMap(map);
               }
+              /*
               // Expand the size between the spiderfied markers based on the zoom level
               var seperation = oms.circleFootSeparation;
               if (map.getZoom() > 3) {
@@ -132,6 +145,7 @@
               }
               oms.circleFootSeparation = seperation;
               oms.spiralFootSeparation = seperation;
+              */
           });
         }
       }
