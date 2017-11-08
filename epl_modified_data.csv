@@ -1,11 +1,98 @@
 name,club,age,position,nationality,latitude,longitude
+Riyad Mahrez,Leicester City,26,RW,Algeria,28,1.6
+Islam Slimani,Leicester City,29,CF,Algeria,28,1.6
+Sofiane Feghouli,West Ham,27,RW,Algeria,28,1.6
 Emiliano Martinez,Arsenal,24,GK,Argentina,-38.4,-63.6
+Bruno,Brighton,36,RB,Argentina,-38.4,-63.6
+Willy Caballero,Chelsea,35,GK,Argentina,-38.4,-63.6
+Julian Speroni,Crystal Palace,38,GK,Argentina,-38.4,-63.6
+Ramiro Funes Mori,Everton,26,CB,Argentina,-38.4,-63.6
+Leonardo Ulloa,Leicester City,30,CF,Argentina,-38.4,-63.6
+Sergio Aguero,Manchester City,29,CF,Argentina,-38.4,-63.6
+Nicolas Otamendi,Manchester City,29,CB,Argentina,-38.4,-63.6
+Marcos Rojo,Manchester United,27,CB,Argentina,-38.4,-63.6
+Sergio Romero,Manchester United,30,GK,Argentina,-38.4,-63.6
+Federico Fernandez,Swansea,28,CB,Argentina,-38.4,-63.6
+Erik Lamela,Tottenham,25,RW,Argentina,-38.4,-63.6
+Roberto Pereyra,Watford,26,AM,Argentina,-38.4,-63.6
+Mauro Zarate,Watford,30,SS,Argentina,-38.4,-63.6
+Claudio Yacob,West Brom,30,DM,Argentina,-38.4,-63.6
+Manuel Lanzini,West Ham,24,AM,Argentina,-38.4,-63.6
+Pablo Zabaleta,West Ham,32,RB,Argentina,-38.4,-63.6
+Henrikh Mkhitaryan,Manchester United,28,AM,Armenia,40,45
+Adam Federici,Bournemouth,32,GK,Australia,-25.2,133.7
+Brad Smith,Bournemouth,23,LB,Australia,-25.2,133.7
+Mathew Ryan,Brighton,25,GK,Australia,-25.2,133.7
+Aaron Mooy,Huddersfield,26,CM,Australia,-25.2,133.7
+Markus Suttner,Brighton,30,LB,Austria,47.5,14.5
+Christian Fuchs,Leicester City,31,LB,Austria,47.5,14.5
+Kevin Wimmer,Tottenham,24,CB,Austria,47.5,14.5
+Sebastian Prodl,Watford,30,CB,Austria,47.5,14.5
+Steven Defour,Burnley,29,CM,Belgium,50.5,4.4
+Eden Hazard,Chelsea,26,LW,Belgium,50.5,4.4
+Thibaut Courtois,Chelsea,25,GK,Belgium,50.5,4.4
+Michy Batshuayi,Chelsea,23,CF,Belgium,50.5,4.4
+Christian Benteke,Crystal Palace,26,CF,Belgium,50.5,4.4
+Kevin Mirallas,Everton,29,RW,Belgium,50.5,4.4
+Laurent Depoitre,Huddersfield,28,CF,Belgium,50.5,4.4
+Simon Mignolet,Liverpool,29,GK,Belgium,50.5,4.4
+Divock Origi,Liverpool,22,CF,Belgium,50.5,4.4
+Kevin De Bruyne,Manchester City,26,AM,Belgium,50.5,4.4
+Vincent Kompany,Manchester City,31,CB,Belgium,50.5,4.4
+Romelu Lukaku,Manchester United,24,CF,Belgium,50.5,4.4
+Marouane Fellaini,Manchester United,29,CM,Belgium,50.5,4.4
+Jan Vertonghen,Tottenham,30,CB,Belgium,50.5,4.4
+Toby Alderweireld,Tottenham,28,CB,Belgium,50.5,4.4
+Mousa Dembele,Tottenham,30,CM,Belgium,50.5,4.4
+Kabasele,Watford,26,CB,Belgium,50.5,4.4
+Nacer Chadli,West Brom,27,LW,Belgium,50.5,4.4
+Steve Mounie,Huddersfield,22,CF,Benin,9.3,2.3
+Nahki Wells,Huddersfield,27,CF,Bermuda,32.3,-64.7
 Sead Kolasinac,Arsenal,24,LB,Bosnia & Herzegovina,43.9,17.6
+Asmir Begovic,Bournemouth,30,GK,Bosnia & Herzegovina,43.9,17.6
 Gabriel Paulista,Arsenal,26,CB,Brazil,-14.2,-51.9
+David Luiz,Chelsea,30,CB,Brazil,-14.2,-51.9
+Willian,Chelsea,28,RW,Brazil,-14.2,-51.9
+Kenedy,Chelsea,21,LB,Brazil,-14.2,-51.9
+Roberto Firmino,Liverpool,25,SS,Brazil,-14.2,-51.9
+Philippe Coutinho,Liverpool,25,AM,Brazil,-14.2,-51.9
+Lucas Leiva,Liverpool,30,DM,Brazil,-14.2,-51.9
+Fernandinho,Manchester City,32,DM,Brazil,-14.2,-51.9
+Gabriel Jesus,Manchester City,20,CF,Brazil,-14.2,-51.9
+Fernando,Manchester City,32,DM,Brazil,-14.2,-51.9
+Ederson Moraes,Manchester City,23,GK,Brazil,-14.2,-51.9
+Heurelho Gomes,Watford,36,GK,Brazil,-14.2,-51.9
+Gaetan Bong,Brighton,29,LB,Cameroon,7.3,12.3
+Joel Matip,Liverpool,25,CB,Cameroon,7.3,12.3
+Allan Nyom,West Brom,29,RB,Cameroon,7.3,12.3
+Scott Arfield,Burnley,28,LM,Canada,7.3,12.3
 Alexis Sanchez,Arsenal,28,LW,Chile,-35.6,-71.5
+Claudio Bravo,Manchester City,34,GK,Chile,-35.6,-71.5
 David Ospina,Arsenal,28,GK,Colombia,4.5,-74.2
+Benik Afobe,Bournemouth,24,CF,Congo DR,-4,21.7
+Yannick Bolasie,Everton,28,LW,Congo DR,-4,21.7
+Elias Kachunga,Huddersfield,25,RW,Congo DR,-4,21.7
+Arthur Masuaku,West Ham,23,LB,Congo DR,-4,21.7
+Max Gradel,Bournemouth,29,LW,Cote d'Ivoire,7.5,-5.5
+Wilfried Zaha,Crystal Palace,24,RW,Cote d'Ivoire,7.5,-5.5
+Yaya Toure,Manchester City,34,CM,Cote d'Ivoire,7.5,-5.5
+Eric Bailly,Manchester United,23,CB,Cote d'Ivoire,7.5,-5.5
+Dejan Lovren,Liverpool,28,CB,Croatia,45.1,15.2
+Cuco Martina,Everton,27,RB,Curacao,12.1,-68.9
 Petr Cech,Arsenal,35,GK,Czech Republic,49.8,15.4
+Jiri Skalak,Brighton,25,LW,Czech Republic,49.8,15.4
+Jonas Lossl,Huddersfield,28,GK,Denmark,56.2,9.5
+Mathias Jorgensen,Huddersfield,27,CB,Denmark,56.2,9.5
+Philip Billing,Huddersfield,21,CM,Denmark,56.2,9.5
+Kasper Schmeichel,Leicester City,30,GK,Denmark,56.2,9.5
+Pierre-Emile Hojbjerg,Southampton,21,CM,Denmark,56.2,9.5
+Christian Eriksen,Tottenham,25,AM,Denmark,56.2,9.5
+Antonio Valencia,Manchester United,31,RB,Ecuador,-1.8,-78.1
+Jefferson Montero,Swansea,27,LW,Ecuador,-1.8,-78.1
 Mohamed Elneny,Arsenal,25,DM,Egypt,26.8,30.8
+Mohamed Salah,Liverpool,25,RW,Egypt,26.8,30.8
+Ramadan Sobhi,Stoke City,20,LW,Egypt,26.8,30.8
+Ahmed Hegazy,West Brom,26,CB,Egypt,26.8,30.8
 Theo Walcott,Arsenal,28,RW,England,52.6,-1.1
 Alex Oxlade-Chamberlain,Arsenal,23,RM,England,52.6,-1.1
 Jack Wilshere,Arsenal,25,CM,England,52.6,-1.1
@@ -13,25 +100,6 @@ Kieran Gibbs,Arsenal,27,LB,England,52.6,-1.1
 Danny Welbeck,Arsenal,26,CF,England,52.6,-1.1
 Rob Holding,Arsenal,21,CB,England,52.6,-1.1
 Carl Jenkinson,Arsenal,25,RB,England,52.6,-1.1
-Laurent Koscielny,Arsenal,31,CB,France,46.2,2.2
-Olivier Giroud,Arsenal,30,CF,France,46.2,2.2
-Francis Coquelin,Arsenal,26,DM,France,46.2,2.2
-Alexandre Lacazette,Arsenal,26,CF,France,46.2,2.2
-Mesut Ozil,Arsenal,28,AM,Germany,51.1,10.4
-Shkodran Mustafi,Arsenal,25,CB,Germany,51.1,10.4
-Per Mertesacker,Arsenal,32,CB,Germany,51.1,10.4
-Alex Iwobi,Arsenal,21,LW,Nigeria,9,8.6
-Hector Bellerin,Arsenal,22,RB,Spain,40.4,-3.7
-Nacho Monreal,Arsenal,31,LB,Spain,40.4,-3.7
-Santi Cazorla,Arsenal,32,CM,Spain,40.4,-3.7
-Lucas Perez,Arsenal,28,CF,Spain,40.4,-3.7
-Granit Xhaka,Arsenal,24,DM,Switzerland,46.8,8.2
-Aaron Ramsey,Arsenal,26,CM,Wales,52.1,-3.6
-Adam Federici,Bournemouth,32,GK,Australia,-25.2,133.7
-Brad Smith,Bournemouth,23,LB,Australia,-25.2,133.7
-Asmir Begovic,Bournemouth,30,GK,Bosnia & Herzegovina,43.9,17.6
-Benik Afobe,Bournemouth,24,CF,Congo DR,-4,21.7
-Max Gradel,Bournemouth,29,LW,Cote d'Ivoire,7.5,-5.5
 Jermain Defoe,Bournemouth,34,CF,England,52.6,-1.1
 Charlie Daniels,Bournemouth,30,LB,England,52.6,-1.1
 Steve Cook,Bournemouth,26,CB,England,52.6,-1.1
@@ -45,17 +113,6 @@ Andrew Surman,Bournemouth,30,CM,England,52.6,-1.1
 Jordon Ibe,Bournemouth,21,RW,England,52.6,-1.1
 Lewis Cook,Bournemouth,20,CM,England,52.6,-1.1
 Tyrone Mings,Bournemouth,24,CB,England,52.6,-1.1
-Lys Mousset,Bournemouth,21,CF,France,46.2,2.2
-Harry Arter,Bournemouth,27,CM,Ireland,53.4,-8.2
-Nathan Ake,Bournemouth,22,CB,Netherlands,52.1,5.2
-Joshua King,Bournemouth,25,SS,Norway,60.4,8.4
-Artur Boruc,Bournemouth,37,GK,Poland,51.9,19.1
-Ryan Fraser,Bournemouth,23,LW,Scotland,57.1,-3.8
-Bruno,Brighton,36,RB,Argentina,-38.4,-63.6
-Mathew Ryan,Brighton,25,GK,Australia,-25.2,133.7
-Markus Suttner,Brighton,30,LB,Austria,47.5,14.5
-Gaetan Bong,Brighton,29,LB,Cameroon,7.3,12.3
-Jiri Skalak,Brighton,25,LW,Czech Republic,49.8,15.4
 Lewis Dunk,Brighton,25,CB,England,52.6,-1.1
 Liam Rosenior,Brighton,33,RB,England,52.6,-1.1
 Connor Goldson,Brighton,24,CB,England,52.6,-1.1
@@ -64,17 +121,6 @@ Steve Sidwell,Brighton,34,CM,England,52.6,-1.1
 Solly March,Brighton,23,RM,England,52.6,-1.1
 Glenn Murray,Brighton,33,CF,England,52.6,-1.1
 Sam Baldock,Brighton,28,CF,England,52.6,-1.1
-Niki Maenpaa,Brighton,32,GK,Finland,61.9,25.7
-Anthony Knockaert,Brighton,25,RW,France,46.2,2.2
-Uwe Hunemeier,Brighton,31,CB,Germany,51.1,10.4
-Pascal Gross,Brighton,26,CM,Germany,51.1,10.4
-Shane Duffy,Brighton,25,CB,Ireland,53.4,-8.2
-Beram Kayal,Brighton,29,CM,Israel,31,34.8
-Tomer Hemed,Brighton,30,CF,Israel,31,34.8
-Oliver Norwood,Brighton,26,CM,Northern Ireland,54.7,-6.6
-Jamie Murphy,Brighton,27,LW,Scotland,57.1,-3.8
-Steven Defour,Burnley,29,CM,Belgium,50.5,4.4
-Scott Arfield,Burnley,28,LM,Canada,7.3,12.3
 Tom Heaton,Burnley,31,GK,England,52.6,-1.1
 Andre Gray,Burnley,26,CF,England,52.6,-1.1
 Ben Mee,Burnley,27,CB,England,52.6,-1.1
@@ -85,35 +131,7 @@ Jack Cork,Burnley,28,DM,England,52.6,-1.1
 James Tarkowski,Burnley,24,CB,England,52.6,-1.1
 Ashley Westwood,Burnley,27,DM,England,52.6,-1.1
 Matthew Taylor,Burnley,35,LM,England,52.6,-1.1
-Johann Berg Gudmundsson,Burnley,26,RW,Iceland,64.9,-19
-Stephen Ward,Burnley,31,LB,Ireland,53.4,-8.2
-Jeff Hendrick,Burnley,25,CM,Ireland,53.4,-8.2
-Robbie Brady,Burnley,25,LM,Ireland,53.4,-8.2
-Kevin Long,Burnley,26,CB,Ireland,53.4,-8.2
-Sam Vokes,Burnley,27,CF,Wales,52.1,-3.6
-Willy Caballero,Chelsea,35,GK,Argentina,-38.4,-63.6
-Eden Hazard,Chelsea,26,LW,Belgium,50.5,4.4
-Thibaut Courtois,Chelsea,25,GK,Belgium,50.5,4.4
-Michy Batshuayi,Chelsea,23,CF,Belgium,50.5,4.4
-David Luiz,Chelsea,30,CB,Brazil,-14.2,-51.9
-Willian,Chelsea,28,RW,Brazil,-14.2,-51.9
-Kenedy,Chelsea,21,LB,Brazil,-14.2,-51.9
 Gary Cahill,Chelsea,31,CB,England,52.6,-1.1
-N%27Golo Kante,Chelsea,26,DM,France,46.2,2.2
-Kurt Zouma,Chelsea,22,CB,France,46.2,2.2
-Tiemoue Bakayoko,Chelsea,22,DM,France,46.2,2.2
-Antonio Rudiger,Chelsea,24,CB,Germany,51.1,10.4
-Victor Moses,Chelsea,26,RM,Nigeria,9,8.6
-Eduardo Carvalho,Chelsea,34,LW,Portugal,39.3,-8.2
-Nemanja Matic,Chelsea,28,DM,Serbia,44,21
-Diego Costa,Chelsea,28,CF,Spain,40.4,-3.7
-Marcos Alonso Mendoza,Chelsea,26,LB,Spain,40.4,-3.7
-Cesar Azpilicueta,Chelsea,27,RB,Spain,40.4,-3.7
-Pedro,Chelsea,29,RW,Spain,40.4,-3.7
-Cesc Fabregas,Chelsea,30,CM,Spain,40.4,-3.7
-Julian Speroni,Crystal Palace,38,GK,Argentina,-38.4,-63.6
-Christian Benteke,Crystal Palace,26,CF,Belgium,50.5,4.4
-Wilfried Zaha,Crystal Palace,24,RW,Cote d'Ivoire,7.5,-5.5
 Andros Townsend,Crystal Palace,26,RW,England,52.6,-1.1
 Jason Puncheon,Crystal Palace,31,AM,England,52.6,-1.1
 Joel Ward,Crystal Palace,27,RB,England,52.6,-1.1
@@ -122,20 +140,6 @@ Scott Dann,Crystal Palace,30,CB,England,52.6,-1.1
 Martin Kelly,Crystal Palace,27,RB,England,52.6,-1.1
 Connor Wickham,Crystal Palace,24,CF,England,52.6,-1.1
 Ruben Loftus-Cheek,Crystal Palace,21,CM,England,52.6,-1.1
-Yohan Cabaye,Crystal Palace,31,CM,France,46.2,2.2
-Jeffrey Schlupp,Crystal Palace,24,LB,Ghana,7.9,-1
-Damien Delaney,Crystal Palace,36,CB,Ireland,53.4,-8.2
-Bakary Sako,Crystal Palace,29,LW,Mali,17.5,-3.9
-Patrick van Aanholt,Crystal Palace,26,LB,Netherlands,52.1,5.2
-James McArthur,Crystal Palace,29,CM,Scotland,57.1,-3.8
-Pape Souare,Crystal Palace,27,LB,Senegal,14.4,-14.4
-Luka Milivojevic,Crystal Palace,26,DM,Serbia,44,21
-Lee Chung-yong,Crystal Palace,29,RW,South Korea,35.9,127.7
-Wayne Hennessey,Crystal Palace,30,GK,Wales,52.1,-3.6
-Ramiro Funes Mori,Everton,26,CB,Argentina,-38.4,-63.6
-Kevin Mirallas,Everton,29,RW,Belgium,50.5,4.4
-Yannick Bolasie,Everton,28,LW,Congo DR,-4,21.7
-Cuco Martina,Everton,27,RB,Curacao,12.1,-68.9
 Ross Barkley,Everton,23,AM,England,52.6,-1.1
 Leighton Baines,Everton,32,LB,England,52.6,-1.1
 Michael Keane,Everton,24,CB,England,52.6,-1.1
@@ -150,24 +154,6 @@ Dominic Calvert-Lewin,Everton,20,SS,England,52.6,-1.1
 Ademola Lookman,Everton,19,LW,England,52.6,-1.1
 Matthew Pennington,Everton,22,CB,England,52.6,-1.1
 Jonjoe Kenny,Everton,20,RB,England,52.6,-1.1
-Morgan Schneiderlin,Everton,27,DM,France,46.2,2.2
-Muhamed Besic,Everton,24,DM,Germany,51.1,10.4
-Seamus Coleman,Everton,28,RB,Ireland,53.4,-8.2
-James McCarthy,Everton,26,CM,Ireland,53.4,-8.2
-Maarten Stekelenburg,Everton,34,GK,Netherlands,52.1,5.2
-Davy Klaassen,Everton,24,AM,Netherlands,52.1,5.2
-Idrissa Gueye,Everton,27,CM,Senegal,14.4,-14.4
-Joel Robles,Everton,27,GK,Spain,40.4,-3.7
-Sandro Ramirez,Everton,22,CF,Spain,40.4,-3.7
-Ashley Williams,Everton,32,CB,Wales,52.1,-3.6
-Aaron Mooy,Huddersfield,26,CM,Australia,-25.2,133.7
-Laurent Depoitre,Huddersfield,28,CF,Belgium,50.5,4.4
-Steve Mounie,Huddersfield,22,CF,Benin,9.3,2.3
-Nahki Wells,Huddersfield,27,CF,Bermuda,32.3,-64.7
-Elias Kachunga,Huddersfield,25,RW,Congo DR,-4,21.7
-Jonas Lossl,Huddersfield,28,GK,Denmark,56.2,9.5
-Mathias Jorgensen,Huddersfield,27,CB,Denmark,56.2,9.5
-Philip Billing,Huddersfield,21,CM,Denmark,56.2,9.5
 Joel Coleman,Huddersfield,21,GK,England,52.6,-1.1
 Tommy Smith,Huddersfield,25,RB,England,52.6,-1.1
 Martin Cranie,Huddersfield,30,CB,England,52.6,-1.1
@@ -180,19 +166,6 @@ Dean Whitehead,Huddersfield,35,CM,England,52.6,-1.1
 Harry Bunn,Huddersfield,24,LW,England,52.6,-1.1
 Tom Ince,Huddersfield,25,RW,England,52.6,-1.1
 Kasey Palmer,Huddersfield,20,AM,England,52.6,-1.1
-Christopher Schindler,Huddersfield,27,CB,Germany,51.1,10.4
-Chris Lowe,Huddersfield,28,LB,Germany,51.1,10.4
-Michael Hefele,Huddersfield,26,CB,Germany,51.1,10.4
-Collin Quaner,Huddersfield,26,CF,Germany,51.1,10.4
-Sean Scannell,Huddersfield,26,RW,Ireland,53.4,-8.2
-Rajiv van La Parra,Huddersfield,26,LW,Netherlands,52.1,5.2
-Jon Gorenc Stankovic,Huddersfield,21,CB,Slovenia,46.1,14.9
-Andy Williams,Huddersfield,26,CB,Trinidad and Tobago,10.6,-61.2
-Riyad Mahrez,Leicester City,26,RW,Algeria,28,1.6
-Islam Slimani,Leicester City,29,CF,Algeria,28,1.6
-Leonardo Ulloa,Leicester City,30,CF,Argentina,-38.4,-63.6
-Christian Fuchs,Leicester City,31,LB,Austria,47.5,14.5
-Kasper Schmeichel,Leicester City,30,GK,Denmark,56.2,9.5
 Jamie Vardy,Leicester City,30,CF,England,52.6,-1.1
 Marc Albrighton,Leicester City,27,LM,England,52.6,-1.1
 Danny Simpson,Leicester City,30,RB,England,52.6,-1.1
@@ -201,25 +174,6 @@ Danny Drinkwater,Leicester City,27,CM,England,52.6,-1.1
 Demarai Gray,Leicester City,21,LW,England,52.6,-1.1
 Ben Chilwell,Leicester City,20,LB,England,52.6,-1.1
 Ben Hamer,Leicester City,29,GK,England,52.6,-1.1
-Nampalys Mendy,Leicester City,25,DM,France,46.2,2.2
-Robert Huth,Leicester City,32,CB,Germany,51.1,10.4
-Daniel Amartey,Leicester City,22,DM,Ghana,7.9,-1
-Wes Morgan,Leicester City,33,CB,Jamaica,18.1,-77.2
-Shinji Okazaki,Leicester City,31,CF,Japan,36.2,138.2
-Molla Wague,Leicester City,26,CB,Mali,17.5,-3.9
-Wilfred Ndidi,Leicester City,20,DM,Nigeria,9,8.6
-Ahmed Musa,Leicester City,24,CF,Nigeria,9,8.6
-Vicente Iborra,Leicester City,29,DM,Spain,40.4,-3.7
-Yohan Benalouane,Leicester City,30,CB,Tunisia,33.8,9.5
-Andy King,Leicester City,28,CM,Wales,52.1,-3.6
-Simon Mignolet,Liverpool,29,GK,Belgium,50.5,4.4
-Divock Origi,Liverpool,22,CF,Belgium,50.5,4.4
-Roberto Firmino,Liverpool,25,SS,Brazil,-14.2,-51.9
-Philippe Coutinho,Liverpool,25,AM,Brazil,-14.2,-51.9
-Lucas Leiva,Liverpool,30,DM,Brazil,-14.2,-51.9
-Joel Matip,Liverpool,25,CB,Cameroon,7.3,12.3
-Dejan Lovren,Liverpool,28,CB,Croatia,45.1,15.2
-Mohamed Salah,Liverpool,25,RW,Egypt,26.8,30.8
 James Milner,Liverpool,31,CM,England,52.6,-1.1
 Adam Lallana,Liverpool,29,AM,England,52.6,-1.1
 Nathaniel Clyne,Liverpool,26,RB,England,52.6,-1.1
@@ -230,42 +184,10 @@ Joe Gomez,Liverpool,20,CB,England,52.6,-1.1
 Sheyi Ojo,Liverpool,20,LW,England,52.6,-1.1
 Danny Ings,Liverpool,24,CF,England,52.6,-1.1
 Dominic Solanke,Liverpool,19,CF,England,52.6,-1.1
-Ragnar Klavan,Liverpool,31,CB,Estonia,58.5,25
-Mamadou Sakho,Liverpool,27,CB,France,46.2,2.2
-Emre Can,Liverpool,23,DM,Germany,51.1,10.4
-Loris Karius,Liverpool,24,GK,Germany,51.1,10.4
-Georginio Wijnaldum,Liverpool,26,CM,Netherlands,52.1,5.2
-Sadio Mane,Liverpool,25,LW,Senegal,14.4,-14.4
-Marko Grujic,Liverpool,21,CM,Serbia,44,21
-Alberto Moreno,Liverpool,25,LB,Spain,40.4,-3.7
-Ben Woodburn,Liverpool,17,LW,Wales,52.1,-3.6
-Sergio Aguero,Manchester City,29,CF,Argentina,-38.4,-63.6
-Nicolas Otamendi,Manchester City,29,CB,Argentina,-38.4,-63.6
-Kevin De Bruyne,Manchester City,26,AM,Belgium,50.5,4.4
-Vincent Kompany,Manchester City,31,CB,Belgium,50.5,4.4
-Fernandinho,Manchester City,32,DM,Brazil,-14.2,-51.9
-Gabriel Jesus,Manchester City,20,CF,Brazil,-14.2,-51.9
-Fernando,Manchester City,32,DM,Brazil,-14.2,-51.9
-Ederson Moraes,Manchester City,23,GK,Brazil,-14.2,-51.9
-Claudio Bravo,Manchester City,34,GK,Chile,-35.6,-71.5
-Yaya Toure,Manchester City,34,CM,Cote d'Ivoire,7.5,-5.5
 Raheem Sterling,Manchester City,22,LW,England,52.6,-1.1
 Kyle Walker,Manchester City,27,RB,England,52.6,-1.1
 John Stones,Manchester City,23,CB,England,52.6,-1.1
 Fabian Delph,Manchester City,27,CM,England,52.6,-1.1
-Leroy Sane,Manchester City,21,LW,Germany,51.1,10.4
-Ilkay Gundogan,Manchester City,26,CM,Germany,51.1,10.4
-Kelechi Iheanacho,Manchester City,20,CF,Nigeria,9,8.6
-Bernardo Silva,Manchester City,22,RW,Portugal,39.3,-8.2
-Aleksandar Kolarov,Manchester City,31,LB,Serbia,44,21
-David Silva,Manchester City,31,AM,Spain,40.4,-3.7
-Marcos Rojo,Manchester United,27,CB,Argentina,-38.4,-63.6
-Sergio Romero,Manchester United,30,GK,Argentina,-38.4,-63.6
-Henrikh Mkhitaryan,Manchester United,28,AM,Armenia,40,45
-Romelu Lukaku,Manchester United,24,CF,Belgium,50.5,4.4
-Marouane Fellaini,Manchester United,29,CM,Belgium,50.5,4.4
-Eric Bailly,Manchester United,23,CB,Cote d'Ivoire,7.5,-5.5
-Antonio Valencia,Manchester United,31,RB,Ecuador,-1.8,-78.1
 Marcus Rashford,Manchester United,19,CF,England,52.6,-1.1
 Jesse Lingard,Manchester United,24,LW,England,52.6,-1.1
 Phil Jones,Manchester United,25,CB,England,52.6,-1.1
@@ -274,38 +196,12 @@ Luke Shaw,Manchester United,22,LB,England,52.6,-1.1
 Michael Carrick,Manchester United,35,DM,England,52.6,-1.1
 Ashley Young,Manchester United,32,LM,England,52.6,-1.1
 Axel Tuanzebe,Manchester United,19,CB,England,52.6,-1.1
-Paul Pogba,Manchester United,24,CM,France,46.2,2.2
-Anthony Martial,Manchester United,21,CF,France,46.2,2.2
-Matteo Darmian,Manchester United,27,RB,Italy,41.8,12.5
-Daley Blind,Manchester United,27,LB,Netherlands,52.1,5.2
-Timothy Fosu-Mensah,Manchester United,19,DM,Netherlands,52.1,5.2
-Joel Castro Pereira,Manchester United,21,GK,Portugal,39.3,-8.2
-David de Gea,Manchester United,26,GK,Spain,40.4,-3.7
-Juan Mata,Manchester United,29,AM,Spain,40.4,-3.7
-Ander Herrera,Manchester United,27,CM,Spain,40.4,-3.7
-Victor Lindelof,Manchester United,23,CB,Sweden,60.1,18.6
 Karl Darlow,Newcastle United,26,GK,England,52.6,-1.1
 Lascelles,Newcastle United,27,CB,England,52.6,-1.1
 Jonjo Shelvey,Newcastle United,25,CM,England,52.6,-1.1
 Jack Colback,Newcastle United,27,DM,England,52.6,-1.1
 Rolando Aarons,Newcastle United,21,LW,England,52.6,-1.1
 Dwight Gayle,Newcastle United,26,CF,England,52.6,-1.1
-Florian Lejeune,Newcastle United,26,CB,France,46.2,2.2
-Massadio Haidara,Newcastle United,24,LB,France,46.2,2.2
-Christian Atsu,Newcastle United,25,RW,Ghana,7.9,-1
-Rob Elliot,Newcastle United,31,GK,Ireland,53.4,-8.2
-Ciaran Clark,Newcastle United,27,CB,Ireland,53.4,-8.2
-Daryl Murphy,Newcastle United,34,CF,Ireland,53.4,-8.2
-Siem de Jong,Newcastle United,28,AM,Netherlands,52.1,5.2
-Grant Hanley,Newcastle United,25,CB,Scotland,57.1,-3.8
-Matt Ritchie,Newcastle United,27,RM,Scotland,57.1,-3.8
-Mohamed Diame,Newcastle United,30,CM,Senegal,14.4,-14.4
-Aleksandar Mitrovic,Newcastle United,22,CF,Serbia,44,21
-Jesus Gamez,Newcastle United,32,RB,Spain,40.4,-3.7
-Ayoze Perez,Newcastle United,23,SS,Spain,40.4,-3.7
-DeAndre Yedlin,Newcastle United,24,RB,United States,37,-95.7
-Paul Dummett,Newcastle United,25,LB,Wales,52.1,-3.6
-Pierre-Emile Hojbjerg,Southampton,21,CM,Denmark,56.2,9.5
 Fraser Forster,Southampton,29,GK,England,52.6,-1.1
 Nathan Redmond,Southampton,23,RW,England,52.6,-1.1
 Ryan Bertrand,Southampton,27,LB,England,52.6,-1.1
@@ -316,19 +212,6 @@ Sam McQueen,Southampton,22,LM,England,52.6,-1.1
 Matt Targett,Southampton,21,LB,England,52.6,-1.1
 Josh Sims,Southampton,20,RW,England,52.6,-1.1
 Jason McCarthy,Southampton,21,CB,England,52.6,-1.1
-Jeremy Pied,Southampton,28,RM,France,46.2,2.2
-Shane Long,Southampton,30,CF,Ireland,53.4,-8.2
-Manolo Gabbiadini,Southampton,25,CF,Italy,41.8,12.5
-Maya Yoshida,Southampton,28,CB,Japan,36.2,138.2
-Sofiane Boufal,Southampton,23,AM,Morocco,31.7,-7
-Virgil van Dijk,Southampton,26,CB,Netherlands,52.1,5.2
-Jordy Clasie,Southampton,26,DM,Netherlands,52.1,5.2
-Steven Davis,Southampton,32,CM,Northern Ireland,54.7,-6.6
-Jan Bednarek,Southampton,21,CB,Poland,51.9,19.1
-Dusan Tadic,Southampton,28,LW,Portugal,39.3,-8.2
-Cedric Soares,Southampton,25,RB,Portugal,39.3,-8.2
-Oriol Romeu,Southampton,25,DM,Spain,40.4,-3.7
-Ramadan Sobhi,Stoke City,20,LW,Egypt,26.8,30.8
 Marko Arnautovic,Stoke City,28,LW,England,52.6,-1.1
 Lee Grant,Stoke City,34,GK,England,52.6,-1.1
 Ryan Shawcross,Stoke City,29,CB,England,52.6,-1.1
@@ -337,21 +220,6 @@ Glen Johnson,Stoke City,32,RB,England,52.6,-1.1
 Saido Berahino,Stoke City,23,CF,England,52.6,-1.1
 Jack Butland,Stoke City,24,GK,England,52.6,-1.1
 Josh Tymon,Stoke City,18,LB,England,52.6,-1.1
-Giannelli Imbula,Stoke City,24,DM,France,46.2,2.2
-Glenn Whelan,Stoke City,33,DM,Ireland,53.4,-8.2
-Erik Pieters,Stoke City,28,LB,Netherlands,52.1,5.2
-Ibrahim Afellay,Stoke City,31,LM,Netherlands,52.1,5.2
-Steven Fletcher,Stoke City,30,CF,Scotland,57.1,-3.8
-Charlie Adam,Stoke City,31,CM,Scotland,57.1,-3.8
-Phil Bardsley,Stoke City,32,RB,Scotland,57.1,-3.8
-Mame Biram Diouf,Stoke City,29,CF,Senegal,14.4,-14.4
-Marc Muniesa,Stoke City,25,CB,Spain,40.4,-3.7
-Bojan Krkic,Stoke City,26,SS,Spain,40.4,-3.7
-Xherdan Shaqiri,Stoke City,25,RW,Switzerland,46.8,8.2
-Geoff Cameron,Stoke City,32,CB,United States,37,-95.7
-Joe Allen,Stoke City,27,CM,Wales,52.1,-3.6
-Federico Fernandez,Swansea,28,CB,Argentina,-38.4,-63.6
-Jefferson Montero,Swansea,27,LW,Ecuador,-1.8,-78.1
 Alfie Mawson,Swansea,23,CB,England,52.6,-1.1
 Kyle Naughton,Swansea,28,RB,England,52.6,-1.1
 Wayne Routledge,Swansea,32,LW,England,52.6,-1.1
@@ -359,104 +227,236 @@ Tom Carroll,Swansea,25,CM,England,52.6,-1.1
 Leon Britton,Swansea,34,CM,England,52.6,-1.1
 Nathan Dyer,Swansea,29,RW,England,52.6,-1.1
 Tammy Abraham,Swansea,19,CF,England,52.6,-1.1
-Jordan Ayew,Swansea,25,CF,Ghana,7.9,-1
-Gylfi Sigurdsson,Swansea,27,AM,Iceland,64.9,-19
-Leroy Fer,Swansea,27,CM,Netherlands,52.1,5.2
-Luciano Narsingh,Swansea,26,RW,Netherlands,52.1,5.2
-Mike van der Hoorn,Swansea,24,CB,Netherlands,52.1,5.2
-Lucas Fabianski,Swansea,32,GK,Poland,51.9,19.1
-Stephen Kingsley,Swansea,22,LB,Scotland,57.1,-3.8
-Jay Fulton,Swansea,23,CM,Scotland,57.1,-3.8
-Oliver McBurnie,Swansea,21,CF,Scotland,57.1,-3.8
-Ki Sung-yueng,Swansea,28,DM,South Korea,35.9,127.7
-Fernando Llorente,Swansea,32,CF,Spain,40.4,-3.7
-Angel Rangel,Swansea,34,RB,Spain,40.4,-3.7
-Roque Mesa,Swansea,28,CM,Spain,40.4,-3.7
-Martin Olsson,Swansea,29,LB,Sweden,60.1,18.6
-Kristoffer Nordfeldt,Swansea,28,GK,Sweden,60.1,18.6
-Modou Barrow,Swansea,24,RW,The Gambia,13.4,-15.3
-Erik Lamela,Tottenham,25,RW,Argentina,-38.4,-63.6
-Kevin Wimmer,Tottenham,24,CB,Austria,47.5,14.5
-Jan Vertonghen,Tottenham,30,CB,Belgium,50.5,4.4
-Toby Alderweireld,Tottenham,28,CB,Belgium,50.5,4.4
-Mousa Dembele,Tottenham,30,CM,Belgium,50.5,4.4
-Christian Eriksen,Tottenham,25,AM,Denmark,56.2,9.5
 Dele Alli,Tottenham,21,CM,England,52.6,-1.1
 Harry Kane,Tottenham,23,CF,England,52.6,-1.1
 Eric Dier,Tottenham,23,DM,England,52.6,-1.1
 Danny Rose,Tottenham,27,LB,England,52.6,-1.1
 Kieran Trippier,Tottenham,26,RB,England,52.6,-1.1
 Harry Winks,Tottenham,21,CM,England,52.6,-1.1
-Hugo Lloris,Tottenham,30,GK,France,46.2,2.2
-Moussa Sissokho,Tottenham,27,CM,France,46.2,2.2
-Georges-Kevin N'koudou,Tottenham,22,LW,France,46.2,2.2
-Victor Wanyama,Tottenham,26,DM,Kenya,0,37.9
-Vincent Janssen,Tottenham,23,CF,Netherlands,52.1,5.2
-Michel Vorm,Tottenham,33,GK,Netherlands,52.1,5.2
-Son Heung-min,Tottenham,25,LW,South Korea,35.9,127.7
-Ben Davies,Tottenham,24,LB,Wales,52.1,-3.6
-Roberto Pereyra,Watford,26,AM,Argentina,-38.4,-63.6
-Mauro Zarate,Watford,30,SS,Argentina,-38.4,-63.6
-Sebastian Prodl,Watford,30,CB,Austria,47.5,14.5
-Kabasele,Watford,26,CB,Belgium,50.5,4.4
-Heurelho Gomes,Watford,36,GK,Brazil,-14.2,-51.9
 Troy Deeney,Watford,29,CF,England,52.6,-1.1
 Tom Cleverley,Watford,27,CM,England,52.6,-1.1
 Nathaniel Chalobah,Watford,22,DM,England,52.6,-1.1
 Will Hughes,Watford,22,CM,England,52.6,-1.1
-Etienne Capoue,Watford,29,DM,France,46.2,2.2
-Younes Kaboul,Watford,31,CB,France,46.2,2.2
-Abdoulaye Doucoure,Watford,24,CM,France,46.2,2.2
-Jose Holebas,Watford,33,LB,Greece,39,21.8
-Stefano Okaka,Watford,27,CF,Italy,41.8,12.5
-Adrian Mariappa,Watford,30,CB,Jamaica,18.1,-77.2
-Nordin Amrabat,Watford,30,LW,Morocco,31.7,-7
-Daryl Janmaat,Watford,27,RB,Netherlands,52.1,5.2
-Steven Berghuis,Watford,25,RW,Netherlands,52.1,5.2
-Isaac Success,Watford,21,LW,Nigeria,9,8.6
-Craig Cathcart,Watford,28,CB,Northern Ireland,54.7,-6.6
-Costel Pantilimon,Watford,30,GK,Romania,45.9,24.9
-Kiko Femenia,Watford,26,RB,Spain,40.4,-3.7
-Valon Behrami,Watford,32,DM,Switzerland,46.8,8.2
-Miguel Britos,Watford,32,CB,Uruguay,-32.5,-55.7
-Claudio Yacob,West Brom,30,DM,Argentina,-38.4,-63.6
-Nacer Chadli,West Brom,27,LW,Belgium,50.5,4.4
-Allan Nyom,West Brom,29,RB,Cameroon,7.3,12.3
-Ahmed Hegazy,West Brom,26,CB,Egypt,26.8,30.8
 Ben Foster,West Brom,34,GK,England,52.6,-1.1
 Craig Dawson,West Brom,27,RB,England,52.6,-1.1
 Jake Livermore,West Brom,27,DM,England,52.6,-1.1
 Jay Rodriguez,West Brom,27,CF,England,52.6,-1.1
 Jonathan Leko,West Brom,18,RW,England,52.6,-1.1
 Sam Field,West Brom,19,CM,England,52.6,-1.1
-James McClean,West Brom,28,LW,Ireland,53.4,-8.2
-Gareth McAuley,West Brom,37,CB,Northern Ireland,54.7,-6.6
-Chris Brunt,West Brom,32,LM,Northern Ireland,54.7,-6.6
-Jonny Evans,West Brom,29,CB,Northern Ireland,54.7,-6.6
-Matt Phillips,West Brom,26,RW,Scotland,57.1,-3.8
-James Morrison,West Brom,31,CM,Scotland,57.1,-3.8
-Salomon Rondon,West Brom,27,CF,Venezuela,6.4,-66.5
-Hal Robson-Kanu,West Brom,28,LW,Wales,52.1,-3.6
-Boaz Myhill,West Brom,34,GK,Wales,52.1,-3.6
-Sofiane Feghouli,West Ham,27,RW,Algeria,28,1.6
-Manuel Lanzini,West Ham,24,AM,Argentina,-38.4,-63.6
-Pablo Zabaleta,West Ham,32,RB,Argentina,-38.4,-63.6
-Arthur Masuaku,West Ham,23,LB,Congo DR,-4,21.7
 Michail Antonio,West Ham,27,RW,England,52.6,-1.1
 Mark Noble,West Ham,30,CM,England,52.6,-1.1
 Andy Carroll,West Ham,28,CF,England,52.6,-1.1
 Aaron Cresswell,West Ham,27,LB,England,52.6,-1.1
 Sam Byram,West Ham,23,RB,England,52.6,-1.1
 Ashley Fletcher,West Ham,21,CF,England,52.6,-1.1
+Ragnar Klavan,Liverpool,31,CB,Estonia,58.5,25
+Niki Maenpaa,Brighton,32,GK,Finland,61.9,25.7
+Laurent Koscielny,Arsenal,31,CB,France,46.2,2.2
+Olivier Giroud,Arsenal,30,CF,France,46.2,2.2
+Francis Coquelin,Arsenal,26,DM,France,46.2,2.2
+Alexandre Lacazette,Arsenal,26,CF,France,46.2,2.2
+Lys Mousset,Bournemouth,21,CF,France,46.2,2.2
+Anthony Knockaert,Brighton,25,RW,France,46.2,2.2
+N%27Golo Kante,Chelsea,26,DM,France,46.2,2.2
+Kurt Zouma,Chelsea,22,CB,France,46.2,2.2
+Tiemoue Bakayoko,Chelsea,22,DM,France,46.2,2.2
+Yohan Cabaye,Crystal Palace,31,CM,France,46.2,2.2
+Morgan Schneiderlin,Everton,27,DM,France,46.2,2.2
+Nampalys Mendy,Leicester City,25,DM,France,46.2,2.2
+Mamadou Sakho,Liverpool,27,CB,France,46.2,2.2
+Paul Pogba,Manchester United,24,CM,France,46.2,2.2
+Anthony Martial,Manchester United,21,CF,France,46.2,2.2
+Florian Lejeune,Newcastle United,26,CB,France,46.2,2.2
+Massadio Haidara,Newcastle United,24,LB,France,46.2,2.2
+Jeremy Pied,Southampton,28,RM,France,46.2,2.2
+Giannelli Imbula,Stoke City,24,DM,France,46.2,2.2
+Hugo Lloris,Tottenham,30,GK,France,46.2,2.2
+Moussa Sissokho,Tottenham,27,CM,France,46.2,2.2
+Georges-Kevin N'koudou,Tottenham,22,LW,France,46.2,2.2
+Etienne Capoue,Watford,29,DM,France,46.2,2.2
+Younes Kaboul,Watford,31,CB,France,46.2,2.2
+Abdoulaye Doucoure,Watford,24,CM,France,46.2,2.2
+Mesut Ozil,Arsenal,28,AM,Germany,51.1,10.4
+Shkodran Mustafi,Arsenal,25,CB,Germany,51.1,10.4
+Per Mertesacker,Arsenal,32,CB,Germany,51.1,10.4
+Uwe Hunemeier,Brighton,31,CB,Germany,51.1,10.4
+Pascal Gross,Brighton,26,CM,Germany,51.1,10.4
+Antonio Rudiger,Chelsea,24,CB,Germany,51.1,10.4
+Muhamed Besic,Everton,24,DM,Germany,51.1,10.4
+Christopher Schindler,Huddersfield,27,CB,Germany,51.1,10.4
+Chris Lowe,Huddersfield,28,LB,Germany,51.1,10.4
+Michael Hefele,Huddersfield,26,CB,Germany,51.1,10.4
+Collin Quaner,Huddersfield,26,CF,Germany,51.1,10.4
+Robert Huth,Leicester City,32,CB,Germany,51.1,10.4
+Emre Can,Liverpool,23,DM,Germany,51.1,10.4
+Loris Karius,Liverpool,24,GK,Germany,51.1,10.4
+Leroy Sane,Manchester City,21,LW,Germany,51.1,10.4
+Ilkay Gundogan,Manchester City,26,CM,Germany,51.1,10.4
+Jeffrey Schlupp,Crystal Palace,24,LB,Ghana,7.9,-1
+Daniel Amartey,Leicester City,22,DM,Ghana,7.9,-1
+Christian Atsu,Newcastle United,25,RW,Ghana,7.9,-1
+Jordan Ayew,Swansea,25,CF,Ghana,7.9,-1
 Andre Ayew,West Ham,27,LW,Ghana,7.9,-1
+Jose Holebas,Watford,33,LB,Greece,39,21.8
+Johann Berg Gudmundsson,Burnley,26,RW,Iceland,64.9,-19
+Gylfi Sigurdsson,Swansea,27,AM,Iceland,64.9,-19
+Harry Arter,Bournemouth,27,CM,Ireland,53.4,-8.2
+Shane Duffy,Brighton,25,CB,Ireland,53.4,-8.2
+Stephen Ward,Burnley,31,LB,Ireland,53.4,-8.2
+Jeff Hendrick,Burnley,25,CM,Ireland,53.4,-8.2
+Robbie Brady,Burnley,25,LM,Ireland,53.4,-8.2
+Kevin Long,Burnley,26,CB,Ireland,53.4,-8.2
+Damien Delaney,Crystal Palace,36,CB,Ireland,53.4,-8.2
+Seamus Coleman,Everton,28,RB,Ireland,53.4,-8.2
+James McCarthy,Everton,26,CM,Ireland,53.4,-8.2
+Sean Scannell,Huddersfield,26,RW,Ireland,53.4,-8.2
+Rob Elliot,Newcastle United,31,GK,Ireland,53.4,-8.2
+Ciaran Clark,Newcastle United,27,CB,Ireland,53.4,-8.2
+Daryl Murphy,Newcastle United,34,CF,Ireland,53.4,-8.2
+Shane Long,Southampton,30,CF,Ireland,53.4,-8.2
+Glenn Whelan,Stoke City,33,DM,Ireland,53.4,-8.2
+James McClean,West Brom,28,LW,Ireland,53.4,-8.2
 Darren Randolph,West Ham,30,GK,Ireland,53.4,-8.2
+Beram Kayal,Brighton,29,CM,Israel,31,34.8
+Tomer Hemed,Brighton,30,CF,Israel,31,34.8
+Matteo Darmian,Manchester United,27,RB,Italy,41.8,12.5
+Manolo Gabbiadini,Southampton,25,CF,Italy,41.8,12.5
+Stefano Okaka,Watford,27,CF,Italy,41.8,12.5
 Angelo Ogbonna,West Ham,29,CB,Italy,41.8,12.5
+Wes Morgan,Leicester City,33,CB,Jamaica,18.1,-77.2
+Adrian Mariappa,Watford,30,CB,Jamaica,18.1,-77.2
+Shinji Okazaki,Leicester City,31,CF,Japan,36.2,138.2
+Maya Yoshida,Southampton,28,CB,Japan,36.2,138.2
+Victor Wanyama,Tottenham,26,DM,Kenya,0,37.9
+Bakary Sako,Crystal Palace,29,LW,Mali,17.5,-3.9
+Molla Wague,Leicester City,26,CB,Mali,17.5,-3.9
+Sofiane Boufal,Southampton,23,AM,Morocco,31.7,-7
+Nordin Amrabat,Watford,30,LW,Morocco,31.7,-7
+Nathan Ake,Bournemouth,22,CB,Netherlands,52.1,5.2
+Patrick van Aanholt,Crystal Palace,26,LB,Netherlands,52.1,5.2
+Maarten Stekelenburg,Everton,34,GK,Netherlands,52.1,5.2
+Davy Klaassen,Everton,24,AM,Netherlands,52.1,5.2
+Rajiv van La Parra,Huddersfield,26,LW,Netherlands,52.1,5.2
+Georginio Wijnaldum,Liverpool,26,CM,Netherlands,52.1,5.2
+Daley Blind,Manchester United,27,LB,Netherlands,52.1,5.2
+Timothy Fosu-Mensah,Manchester United,19,DM,Netherlands,52.1,5.2
+Siem de Jong,Newcastle United,28,AM,Netherlands,52.1,5.2
+Virgil van Dijk,Southampton,26,CB,Netherlands,52.1,5.2
+Jordy Clasie,Southampton,26,DM,Netherlands,52.1,5.2
+Erik Pieters,Stoke City,28,LB,Netherlands,52.1,5.2
+Ibrahim Afellay,Stoke City,31,LM,Netherlands,52.1,5.2
+Leroy Fer,Swansea,27,CM,Netherlands,52.1,5.2
+Luciano Narsingh,Swansea,26,RW,Netherlands,52.1,5.2
+Mike van der Hoorn,Swansea,24,CB,Netherlands,52.1,5.2
+Vincent Janssen,Tottenham,23,CF,Netherlands,52.1,5.2
+Michel Vorm,Tottenham,33,GK,Netherlands,52.1,5.2
+Daryl Janmaat,Watford,27,RB,Netherlands,52.1,5.2
+Steven Berghuis,Watford,25,RW,Netherlands,52.1,5.2
 Winston Reid,West Ham,29,CB,New Zealand,-40.9,174.8
+Alex Iwobi,Arsenal,21,LW,Nigeria,9,8.6
+Victor Moses,Chelsea,26,RM,Nigeria,9,8.6
+Wilfred Ndidi,Leicester City,20,DM,Nigeria,9,8.6
+Ahmed Musa,Leicester City,24,CF,Nigeria,9,8.6
+Kelechi Iheanacho,Manchester City,20,CF,Nigeria,9,8.6
+Isaac Success,Watford,21,LW,Nigeria,9,8.6
+Oliver Norwood,Brighton,26,CM,Northern Ireland,54.7,-6.6
+Steven Davis,Southampton,32,CM,Northern Ireland,54.7,-6.6
+Craig Cathcart,Watford,28,CB,Northern Ireland,54.7,-6.6
+Gareth McAuley,West Brom,37,CB,Northern Ireland,54.7,-6.6
+Chris Brunt,West Brom,32,LM,Northern Ireland,54.7,-6.6
+Jonny Evans,West Brom,29,CB,Northern Ireland,54.7,-6.6
+Joshua King,Bournemouth,25,SS,Norway,60.4,8.4
+Artur Boruc,Bournemouth,37,GK,Poland,51.9,19.1
+Jan Bednarek,Southampton,21,CB,Poland,51.9,19.1
+Lucas Fabianski,Swansea,32,GK,Poland,51.9,19.1
+Eduardo Carvalho,Chelsea,34,LW,Portugal,39.3,-8.2
+Bernardo Silva,Manchester City,22,RW,Portugal,39.3,-8.2
+Joel Castro Pereira,Manchester United,21,GK,Portugal,39.3,-8.2
+Dusan Tadic,Southampton,28,LW,Portugal,39.3,-8.2
+Cedric Soares,Southampton,25,RB,Portugal,39.3,-8.2
 Jose Fonte,West Ham,33,CB,Portugal,39.3,-8.2
+Costel Pantilimon,Watford,30,GK,Romania,45.9,24.9
+Ryan Fraser,Bournemouth,23,LW,Scotland,57.1,-3.8
+Jamie Murphy,Brighton,27,LW,Scotland,57.1,-3.8
+James McArthur,Crystal Palace,29,CM,Scotland,57.1,-3.8
+Grant Hanley,Newcastle United,25,CB,Scotland,57.1,-3.8
+Matt Ritchie,Newcastle United,27,RM,Scotland,57.1,-3.8
+Steven Fletcher,Stoke City,30,CF,Scotland,57.1,-3.8
+Charlie Adam,Stoke City,31,CM,Scotland,57.1,-3.8
+Phil Bardsley,Stoke City,32,RB,Scotland,57.1,-3.8
+Stephen Kingsley,Swansea,22,LB,Scotland,57.1,-3.8
+Jay Fulton,Swansea,23,CM,Scotland,57.1,-3.8
+Oliver McBurnie,Swansea,21,CF,Scotland,57.1,-3.8
+Matt Phillips,West Brom,26,RW,Scotland,57.1,-3.8
+James Morrison,West Brom,31,CM,Scotland,57.1,-3.8
 Robert Snodgrass,West Ham,29,RW,Scotland,57.1,-3.8
+Pape Souare,Crystal Palace,27,LB,Senegal,14.4,-14.4
+Idrissa Gueye,Everton,27,CM,Senegal,14.4,-14.4
+Sadio Mane,Liverpool,25,LW,Senegal,14.4,-14.4
+Mohamed Diame,Newcastle United,30,CM,Senegal,14.4,-14.4
+Mame Biram Diouf,Stoke City,29,CF,Senegal,14.4,-14.4
 Cheikhou Kouyate,West Ham,27,DM,Senegal,14.4,-14.4
 Diafra Sakho,West Ham,27,CF,Senegal,14.4,-14.4
+Nemanja Matic,Chelsea,28,DM,Serbia,44,21
+Luka Milivojevic,Crystal Palace,26,DM,Serbia,44,21
+Marko Grujic,Liverpool,21,CM,Serbia,44,21
+Aleksandar Kolarov,Manchester City,31,LB,Serbia,44,21
+Aleksandar Mitrovic,Newcastle United,22,CF,Serbia,44,21
+Jon Gorenc Stankovic,Huddersfield,21,CB,Slovenia,46.1,14.9
+Lee Chung-yong,Crystal Palace,29,RW,South Korea,35.9,127.7
+Ki Sung-yueng,Swansea,28,DM,South Korea,35.9,127.7
+Son Heung-min,Tottenham,25,LW,South Korea,35.9,127.7
+Hector Bellerin,Arsenal,22,RB,Spain,40.4,-3.7
+Nacho Monreal,Arsenal,31,LB,Spain,40.4,-3.7
+Santi Cazorla,Arsenal,32,CM,Spain,40.4,-3.7
+Lucas Perez,Arsenal,28,CF,Spain,40.4,-3.7
+Diego Costa,Chelsea,28,CF,Spain,40.4,-3.7
+Marcos Alonso Mendoza,Chelsea,26,LB,Spain,40.4,-3.7
+Cesar Azpilicueta,Chelsea,27,RB,Spain,40.4,-3.7
+Pedro,Chelsea,29,RW,Spain,40.4,-3.7
+Cesc Fabregas,Chelsea,30,CM,Spain,40.4,-3.7
+Joel Robles,Everton,27,GK,Spain,40.4,-3.7
+Sandro Ramirez,Everton,22,CF,Spain,40.4,-3.7
+Vicente Iborra,Leicester City,29,DM,Spain,40.4,-3.7
+Alberto Moreno,Liverpool,25,LB,Spain,40.4,-3.7
+David Silva,Manchester City,31,AM,Spain,40.4,-3.7
+David de Gea,Manchester United,26,GK,Spain,40.4,-3.7
+Juan Mata,Manchester United,29,AM,Spain,40.4,-3.7
+Ander Herrera,Manchester United,27,CM,Spain,40.4,-3.7
+Jesus Gamez,Newcastle United,32,RB,Spain,40.4,-3.7
+Ayoze Perez,Newcastle United,23,SS,Spain,40.4,-3.7
+Oriol Romeu,Southampton,25,DM,Spain,40.4,-3.7
+Marc Muniesa,Stoke City,25,CB,Spain,40.4,-3.7
+Bojan Krkic,Stoke City,26,SS,Spain,40.4,-3.7
+Fernando Llorente,Swansea,32,CF,Spain,40.4,-3.7
+Angel Rangel,Swansea,34,RB,Spain,40.4,-3.7
+Roque Mesa,Swansea,28,CM,Spain,40.4,-3.7
+Kiko Femenia,Watford,26,RB,Spain,40.4,-3.7
 Adrian,West Ham,30,GK,Spain,40.4,-3.7
 Pedro Obiang,West Ham,25,CM,Spain,40.4,-3.7
+Victor Lindelof,Manchester United,23,CB,Sweden,60.1,18.6
+Martin Olsson,Swansea,29,LB,Sweden,60.1,18.6
+Kristoffer Nordfeldt,Swansea,28,GK,Sweden,60.1,18.6
+Granit Xhaka,Arsenal,24,DM,Switzerland,46.8,8.2
+Xherdan Shaqiri,Stoke City,25,RW,Switzerland,46.8,8.2
+Valon Behrami,Watford,32,DM,Switzerland,46.8,8.2
 Edimilson Fernandes,West Ham,21,CM,Switzerland,46.8,8.2
+Modou Barrow,Swansea,24,RW,The Gambia,13.4,-15.3
+Andy Williams,Huddersfield,26,CB,Trinidad and Tobago,10.6,-61.2
+Yohan Benalouane,Leicester City,30,CB,Tunisia,33.8,9.5
+DeAndre Yedlin,Newcastle United,24,RB,United States,37,-95.7
+Geoff Cameron,Stoke City,32,CB,United States,37,-95.7
+Miguel Britos,Watford,32,CB,Uruguay,-32.5,-55.7
+Salomon Rondon,West Brom,27,CF,Venezuela,6.4,-66.5
+Aaron Ramsey,Arsenal,26,CM,Wales,52.1,-3.6
+Sam Vokes,Burnley,27,CF,Wales,52.1,-3.6
+Wayne Hennessey,Crystal Palace,30,GK,Wales,52.1,-3.6
+Ashley Williams,Everton,32,CB,Wales,52.1,-3.6
+Andy King,Leicester City,28,CM,Wales,52.1,-3.6
+Ben Woodburn,Liverpool,17,LW,Wales,52.1,-3.6
+Paul Dummett,Newcastle United,25,LB,Wales,52.1,-3.6
+Joe Allen,Stoke City,27,CM,Wales,52.1,-3.6
+Ben Davies,Tottenham,24,LB,Wales,52.1,-3.6
+Hal Robson-Kanu,West Brom,28,LW,Wales,52.1,-3.6
+Boaz Myhill,West Brom,34,GK,Wales,52.1,-3.6
 James Collins,West Ham,33,CB,Wales,52.1,-3.6
