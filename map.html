@@ -1,160 +1,208 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-      #map {
-        height: 100%;
-      }
-      img {
-        position: absolute;
-        top: 86%;
-        left: 0.6%;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
+        #map {
+            height: 100%;
+            width: 85%;
+        }
+        #panel {
+            background-color: white;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 15%;
+            height: 100%;
+            overflow-y: auto;
+            text-align: center;
+        }
+        #collapse {
+            position: absolute;
+            width: 1.5%;
+            left: 83.5%;
+            top: 50%;
+            font-size: 125%;
+            border-radius: 8px;
+        }
+        img {
+            position: absolute;
+            top: 86%;
+            left: 0.6%;
+        }
+        h3 {
+            padding: 0px;
+            margin: 0px;
+        }
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
     </style>
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="map"></div>
+    <div id="panel"></div>
+    <button id="collapse" onclick="collapsePanel()">-</button>
     <a href="https://github.com/andystanley/EPL-Players-Nationality">
     <img src="logos/github.png">
-</div>
-    <script>
-      var map;
-      var infoWindow;
-      var oms;
-      var allMarkers = [];
+        <script>
+            var map;
+            var infoWindow;
+            var allMarkers = [];
+            var button = document.getElementById('collapse');
+            var panel = document.getElementById('panel');
+            var mapStyle = document.getElementById('map').style;
 
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 3,
-          minZoom: 2,
-          maxZoom: 5,
-          center: new google.maps.LatLng(45.9,24.9),
-          mapTypeId: 'roadmap'
-        });
+            panel.innerHTML = '<h3>Player Viewer<h3><br>';
+            panel.innerHTML += '<i>Click on a club in a country to view all players from that country.<i><br><br>';
 
-        infoWindow = new google.maps.InfoWindow();
+            function initMap() {
+                map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 4,
+                    minZoom: 3,
+                    maxZoom: 5,
+                    center: new google.maps.LatLng(45.9, 24.9),
+                    mapTypeId: 'roadmap'
+                });
 
-        // Create an overlapping marker spidifier
-        oms = new OverlappingMarkerSpiderfier(map, {
-          markersWontMove: true,
-          markersWontHide: true,
-          keepSpiderfied: true,
-          basicFormatEvents: true,
-          legWeight: 0,
-          circleFootSeparation: 20, 
-          spiralFootSeparation: 20,
-          spiralLengthFactor: 20
-        });
+                infoWindow = new google.maps.InfoWindow();
 
-        // Create a <script> tag and set the USGS URL as the source.
-        var script = document.createElement('script');
-        // This example uses a local copy of the GeoJSON stored atepl.js
-        // http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp
-        script.src = 'epl_data.js';
-        document.getElementsByTagName('head')[0].appendChild(script);
-      }
-
-      // Loop through the results array and place a marker for each
-      // set of coordinates.
-      window.eqfeed_callback = function(results) {
-        for (var i = 0; i < results.features.length; i++) {
-          // Get the player properties
-          var name = results.features[i].properties.name;
-          var club = results.features[i].properties.club;
-          var nationality = results.features[i].properties.nationality;
-          var age = results.features[i].properties.age;
-          var position = results.features[i].properties.position;
-          var coords = results.features[i].geometry.coordinates;
-
-          // Set up the players location
-          var latLng = new google.maps.LatLng(coords[1],coords[0]);
-
-          // Create the marker icon
-          var icon = {
-              url: 'logos/' + club + '.png', // url
-              scaledSize: new google.maps.Size(20, 20), // scaled size
-              origin: new google.maps.Point(0,0), // origin
-              anchor: new google.maps.Point(10, 0) // anchor
-          }
-
-          // Create the marker label
-          var label = {
-            fontSize: '0px', // Hide the name from appearing as a label
-            text: name + ', ' + age + ', ' + position + '<br>'+ 
-                  nationality + ' / ' + club
-          }
-
-          // Create a marker
-          var marker = new google.maps.Marker({
-            position: latLng,
-            map: map,
-            icon: icon,
-            label: label
-          });
-
-          // Add the marker to the array of the all the markers
-          allMarkers.push(marker);
-
-          // Add a listener for when a marker cluster is clicked on
-          marker.addListener('spider_click', function() {
-            // Set the content of the infoWindow
-            infoWindow.setContent(this.label.text);
-            // Open the infoWindow to the markers location
-            infoWindow.open(map, this);
-          });
-
-          /*
-          marker.addListener('click', function() {
-            if ((this.label.text).includes("Germany")) {
-              console.log(this.label.text);
-
-              oms.circleFootSeparation = 26;
-              oms.spiralFootSeparation = 11;
-              oms.spiralLengthFactor = 4;
+                // Create a <script> tag and set the USGS URL as the source.
+                var script = document.createElement('script');
+                // This example uses a local copy of the GeoJSON stored atepl.js
+                // http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp
+                script.src = 'epl_data.js';
+                document.getElementsByTagName('head')[0].appendChild(script);
             }
-          });
-          */
 
-          oms.addMarker(marker);
+            // Loop through the results array and place a marker for each
+            // set of coordinates.
+            window.eqfeed_callback = function(results) {
+                for (var i = 0; i < results.features.length; i++) {
+                    // Get the player properties
+                    var name = results.features[i].properties.name;
+                    var club = results.features[i].properties.club;
+                    var nationality = results.features[i].properties.nationality;
+                    var age = results.features[i].properties.age;
+                    var role = results.features[i].properties.position;
+                    var coords = results.features[i].geometry.coordinates;
 
-          // Add a listener for when the zoom is changed
-          map.addListener('zoom_changed', function() {
-              // For every marker, dynamically change the icon size based on the current zoom level
-              for(var i = 0; i < allMarkers.length; i++) {
-                var size = map.getZoom() * 10;
-                allMarkers[i].icon.scaledSize = new google.maps.Size(size, size);
-                allMarkers[i].icon.size = new google.maps.Size(size, size);
-                allMarkers[i].setMap(map);
-              }
-              /*
-              // Expand the size between the spiderfied markers based on the zoom level
-              var seperation = oms.circleFootSeparation;
-              if (map.getZoom() > 3) {
-                seperation = 40;
-              }
-              else if (map.getZoom() < 3) {
-                seperation = 15;
-              }
-              oms.circleFootSeparation = seperation;
-              oms.spiralFootSeparation = seperation;
-              */
-          });
-        }
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIczLmrse3tNr3S7EP2Hwk8gdMTAvjL9s&callback=initMap">
-    </script>
-    <script async defer
-    src="oms.min.js">
-    </script>
-  </body>
+                    // Set up the players location
+                    var latLng = new google.maps.LatLng(coords[1], coords[0]);
+
+                    // Create the marker icon
+                    var icon = {
+                        url: 'logos/' + club + '.png', // url
+                        scaledSize: new google.maps.Size(40, 40), // scaled size
+                        origin: new google.maps.Point(0, 0), // origin
+                        anchor: new google.maps.Point(20, 20),
+                        labelOrigin: new google.maps.Point(20, 50) // anchor
+                    }
+
+                    // Create the marker label
+                    var label = {
+                        fontSize: '12px',
+                        text: '.' // Hide the name from appearing as a label
+                    }
+
+                    // Create a marker
+                    var marker = new google.maps.Marker({
+                        position: latLng,
+                        map: map,
+                        icon: icon,
+                        label: label,
+                        name: name,
+                        club: club,
+                        nationality: nationality,
+                        age: age,
+                        role: role
+                    });
+
+                    // Add the marker to the array of the all the markers
+                    allMarkers.push(marker);
+
+                    // Trigger when the map is fully loaded
+                    google.maps.event.addListenerOnce(map, 'idle', function() {
+                        var n = 1;  // i + 1
+                        var players = 1;  // Counts the number of players in a country.  There must be a minimum of 1 player, so the variable is initialized to 1
+
+                        for (var i = 0; i < allMarkers.length; i++) {
+                        	var nation = results.features[i].properties.nationality;
+                        	if (allMarkers[n].nationality !== nation) {
+                        		allMarkers[i].setLabel(players.toString());
+                        	    players = 0;
+                        	}
+                        	players++;
+                        	n++;
+                        }
+					});
+
+                    marker.addListener('click', function() {
+                        var nat = this.nationality;
+                        var numOfPlayers = 0;
+
+                        panel.innerHTML = '<h3>Player Viewer<h3><br>';
+                        panel.innerHTML += '<i>Click on a club in a country to view all players from that country.<i><br><br>';
+                        panel.innerHTML += '<b>' + nat + ' Players' + '<b>' + '<br>';
+
+                        // Print out the markers by nationality in the side panel
+                        for (var i = 0; i < allMarkers.length; i++) {
+                            if (allMarkers[i].nationality === nat) {
+                                panel.innerHTML += allMarkers[i].name + ', ' +
+                                    allMarkers[i].age + ', ' +
+                                    allMarkers[i].role + ', ' +
+                                    allMarkers[i].club + '<br>';
+                                numOfPlayers += 1;
+                            }
+                        }
+                        if (numOfPlayers === 1) {
+                            infoWindow.setContent(numOfPlayers.toString() + ' ' + nat + ' Player');
+                        } else {
+                            infoWindow.setContent(numOfPlayers.toString() + ' ' + nat + ' Players');
+                        }
+                        infoWindow.open(map, this);
+                    });
+
+                    // Add a listener for when the zoom is changed
+                    map.addListener('zoom_changed', function() {
+                        // For every marker, dynamically change the icon size based on the current zoom level
+                        for (var i = 0; i < allMarkers.length; i++) {
+                            var size = map.getZoom() * 10;
+                            allMarkers[i].icon.scaledSize = new google.maps.Size(size, size);
+                            allMarkers[i].icon.size = new google.maps.Size(size, size);
+                            allMarkers[i].setMap(map);
+                        }
+                    });
+                }
+            }
+
+            function collapsePanel() {
+                if (button.innerHTML === "-") {
+                    button.innerHTML = "+";
+                    button.style.left = "96%";
+                    panel.style.color = "white";
+                    panel.style.overflow = "hidden";
+                    panel.style.width = "2%";
+                    mapStyle.width = "98%";
+                } else {
+                    button.innerHTML = "-";
+                    button.style.left = "83.5%";
+                    panel.style.color = "black";
+                    panel.style.overflow = "initial";
+                    panel.style.width = "15%";
+                    mapStyle.width = "85%";
+                }
+                google.maps.event.trigger(map, 'resize');
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIczLmrse3tNr3S7EP2Hwk8gdMTAvjL9s&callback=initMap">
+        </script>
+        <script async defer src="oms.min.js">
+        </script>
+</body>
 </html>
