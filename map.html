@@ -106,7 +106,7 @@
 
                     // Create the marker label
                     var label = {
-                        fontSize: '12px',
+                        fontSize: '0px',
                         text: '.' // Hide the name from appearing as a label
                     }
 
@@ -123,7 +123,7 @@
                         role: role
                     });
 
-                    // Add the marker to the array of the all the markers
+                    // Add the marker to the array of all the markers
                     allMarkers.push(marker);
 
                     // Trigger when the map is fully loaded
@@ -131,11 +131,18 @@
                         var n = 1;  // i + 1
                         var players = 1;  // Counts the number of players in a country.  There must be a minimum of 1 player, so the variable is initialized to 1
 
+                        // Loop through all the markers
                         for (var i = 0; i < allMarkers.length; i++) {
                         	var nation = results.features[i].properties.nationality;
+                        	// Compare the elements and if they do not match, set the label for the last element and reset the player count
                         	if (allMarkers[n].nationality !== nation) {
                         		allMarkers[i].setLabel(players.toString());
                         	    players = 0;
+                        	}
+                        	// If the end of the loop has been reached, print out the last element and exit
+                        	if ((n+1) === allMarkers.length) {  
+                        		allMarkers[i].setLabel((players + 1).toString());  
+								break;  // Exit the loop
                         	}
                         	players++;
                         	n++;
