@@ -83,7 +83,6 @@
     <img src="logos/github.png">
         <script>
             var map;
-            var infoWindow;
             var allMarkers = [];
             var button = document.getElementById('collapse');
             var panel = document.getElementById('panel');
@@ -101,8 +100,6 @@
                     center: new google.maps.LatLng(45.9, 24.9),
                     mapTypeId: 'roadmap'
                 });
-
-                infoWindow = new google.maps.InfoWindow();
 
                 // Create a <script> tag and set the USGS URL as the source.
                 var script = document.createElement('script');
@@ -202,12 +199,6 @@
                                 numOfPlayers += 1;
                             }
                         }
-                        if (numOfPlayers === 1) {
-                            infoWindow.setContent(numOfPlayers.toString() + ' ' + nat + ' Player');
-                        } else {
-                            infoWindow.setContent(numOfPlayers.toString() + ' ' + nat + ' Players');
-                        }
-                        infoWindow.open(map, this);
                     });
 
                     // Add a listener for when the zoom is changed
