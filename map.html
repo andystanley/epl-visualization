@@ -56,7 +56,7 @@
     <div id="map"></div>
     <div id="panel"></div>
     <button id="collapse" onclick="collapsePanel()">-</button>
-    <select id="filter" onchange="filterMarkers(this.value);">
+    <select id="filter" onchange="filterMarkers(this.value)">
 	    <option value="">Filter by Club</option>
 	    <option value="Arsenal">Arsenal</option>
 	    <option value="Bournemouth">Bournemouth</option>
@@ -87,6 +87,7 @@
             var allMarkers = [];
             var button = document.getElementById('collapse');
             var panel = document.getElementById('panel');
+            var filter = document.getElementById('filter');
             var mapStyle = document.getElementById('map').style;
 
             panel.innerHTML = '<h3>Player Viewer<h3><br>';
@@ -260,15 +261,70 @@
                 google.maps.event.trigger(map, 'resize');
             }
 
-		   	filterMarkers = function (club) {
-		   		debugger;
+		   	filterMarkers = function (selectedClub) {
+		   		// Create an array to store the markers that belong to the same team
+		   		var team = [];
+
+		  		// m represents n + 1
+		   		var m = 1;
+
+		   		// Store the number of players in a given team
+		   		var players = 1;
+
+		   		// Loop through every marker
 			    for (i = 0; i < allMarkers.length; i++) {
-			        marker = allMarkers[i];
-			        // If is same category or category not picked
-			        if (marker.club === club || club.length === 0) {
-			            marker.setVisible(true);
+
+			        var marker = allMarkers[i];
+
+			        // If the current markers club and the selected club match
+			        if (marker.club === selectedClub || selectedClub.length === 0) {
+
+			        	// Display the marker
+			        	marker.setVisible(true);
+
+			        	// Add the marker to the team array
+			        	team.push(marker);
+
+			        	// The team array must have more than one player in it
+			        	if (team.length > 1) {
+
+			        		// Loop through every player/marker in the team
+			     			for (n = 0; n < team.length; n++) {
+
+			     				// If the nationality of element 0 and 1 match(for example)
+				        		if (team[m].nationality === team[n].nationality) {
+
+				        			// Set the former markers label to nothing
+				        			team[n].setLabel('');
+
+				        			// Set the current markers label to the number of players
+				        			marker.setLabel(players.toString());
+
+				      				// Increase the player count by 1
+				        			players++;
+				        		}
+				        		// If the elements nationality does not match
+				        		else {
+				        			// Set the current markers label to the player count(which should always be 1)
+				        			marker.setLabel(players.toString());
+
+				        			// Reset the player counter
+				        			players = 1;
+				        		}
+			        		}
+			        		// Increase the m variable by 1
+			     			m++;
+			        	}
+			        	// If the team array only has one player
+			        	else {
+				        			// Set the current markers label to the player count(which should always be 1)
+			        		marker.setLabel(players.toString());
+
+			        		// Reset the player counter
+			        		players = 1;
+			        	}
 			        }
-			        // Categories don't match 
+			        // If the clubs don't match hide the marker
 			        else {
 			            marker.setVisible(false);
 			        }
