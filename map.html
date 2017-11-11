@@ -181,6 +181,7 @@
 					});
 
                     marker.addListener('click', function() {
+                    	var selectedClub = document.getElementById("filter").value;
                         var nat = this.nationality;
                         var numOfPlayers = 0;
 
@@ -192,11 +193,13 @@
                         for (var i = 0; i < allMarkers.length; i++) {
                         	var marker = allMarkers[i];
                             if (marker.nationality === nat) {
-                                panel.innerHTML += marker.name + ', ' +
-                                    marker.age + ', ' +
-                                    marker.role + ', ' +
-                                    marker.club + '<br>';
-                                numOfPlayers += 1;
+                            	if (marker.club === selectedClub || selectedClub.length === 0) {
+                            		panel.innerHTML += marker.name + ', ' +
+					                                   marker.age + ', ' +
+					                                   marker.role + ', ' +
+					                                   marker.club + '<br>';
+					                numOfPlayers += 1;
+                            	}
                             }
                         }
                     });
@@ -308,7 +311,7 @@
 			        	}
 			        	// If the team array only has one player
 			        	else {
-				        			// Set the current markers label to the player count(which should always be 1)
+				        	// Set the current markers label to the player count(which should always be 1)
 			        		marker.setLabel(players.toString());
 
 			        		// Reset the player counter
