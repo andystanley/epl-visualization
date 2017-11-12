@@ -288,6 +288,7 @@
 			    		// Set the player information in the panel only if a club is selected
 			    		if (selectedClub.length !== 0) {
 			    			var name = document.createElement('a');
+                            name.setAttribute('href', '#');
 							name.appendChild(document.createTextNode(marker.name));
 							name.addEventListener("click", 
 								function() {
