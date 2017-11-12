@@ -83,6 +83,7 @@
     <img src="logos/github.png">
         <script>
             var map;
+            var infoWindow;
             var allMarkers = [];
             var button = document.getElementById('collapse');
             var panel = document.getElementById('panel');
@@ -100,6 +101,8 @@
                     center: new google.maps.LatLng(45.9, 24.9),
                     mapTypeId: 'roadmap'
                 });
+
+                infoWindow = new google.maps.InfoWindow();
 
                 // Create a <script> tag and set the USGS URL as the source.
                 var script = document.createElement('script');
@@ -265,6 +268,15 @@
 		   		// Store the number of players in a given team
 		   		var players = 1;
 
+		   		// Set the panel text
+		   		panel.innerHTML = '<h3>Player Viewer<h3><br>';
+             	panel.innerHTML += '<i>Click on a club in a country to view all players from that country.<i><br><br>';
+                
+                // If a club is selected, set the appropriate text
+             	if (selectedClub.length !== 0) {
+             		panel.innerHTML += '<b>' + selectedClub + ' Players' + '<b>' + '<br>';
+             	}
+
 		   		// Loop through every marker
 			    for (i = 0; i < allMarkers.length; i++) {
 
@@ -272,6 +284,25 @@
 
 			        // If the current markers club and the selected club match
 			        if (marker.club === selectedClub || selectedClub.length === 0) {
+			    		
+			    		// Set the player information in the panel only if a club is selected
+			    		if (selectedClub.length !== 0) {
+			    			var name = document.createElement('a');
+							name.appendChild(document.createTextNode(marker.name));
+							name.addEventListener("click", 
+								function() {
+									playerClicked(this.innerHTML);
+								}, false);
+							panel.appendChild(name);
+							var info = document.createElement('a');
+							info.appendChild(document.createTextNode(', ' +
+											   marker.age + ', ' +
+											   marker.role + ', ' +
+											   marker.nationality));
+							panel.appendChild(info);
+							var linebreak = document.createElement('br');
+							panel.appendChild(linebreak);
+			    		}
 
 			        	// Display the marker
 			        	marker.setVisible(true);
@@ -323,6 +354,26 @@
 			            marker.setVisible(false);
 			        }
 		    	}
+			}
+
+			playerClicked = function (playerName) {
+		        // Loop through all the markers
+                for (var i = 0; i < allMarkers.length; i++) {
+
+                    var marker = allMarkers[i];
+                	var markerName = allMarkers[i].name;
+
+                	if (playerName === markerName) {
+
+                        // Get the position of the marker and pan to that position
+                		var position = allMarkers[i].getPosition();
+                		map.panTo(position);
+
+                        // Set the infoWindow content to the players name and place it at the markers position
+                		infoWindow.setContent(playerName);
+                		infoWindow.open(map, marker);
+                	}
+                }
 			}
         </script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIczLmrse3tNr3S7EP2Hwk8gdMTAvjL9s&callback=initMap">
