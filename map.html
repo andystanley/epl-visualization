@@ -188,6 +188,10 @@
                         var nat = this.nationality;
                         var numOfPlayers = 0;
 
+                        // Set the infoWindow content to the markers nationality and place it at the markers position
+                        infoWindow.setContent(nat);
+                        infoWindow.open(map, this);
+
                         panel.innerHTML = '<h3>Player Viewer<h3><br>';
                         panel.innerHTML += '<i>Click on a club in a country to view all players from that country.<i><br><br>';
                         panel.innerHTML += '<b>' + nat + ' Players' + '<b>' + '<br>';
@@ -239,7 +243,7 @@
                 }
             }
 
-            function collapsePanel() {
+            collapsePanel = function () {
                 if (button.innerHTML === "-") {
                     button.innerHTML = "+";
                     button.style.left = "96%";
