@@ -9,10 +9,9 @@ eqfeed_callback(
        "coordinates":  [ 1.6,28 ]
     },
     "properties": {
-    "name":"Riyad Mahrez",
+    "player":"Riyad Mahrez",
+    "position":"Midfielder",
     "club":"Leicester City",
-    "age":26,
-    "position":"RW",
     "nationality":"Algeria"
     }
   },
@@ -23,24 +22,9 @@ eqfeed_callback(
        "coordinates":  [ 1.6,28 ]
     },
     "properties": {
-    "name":"Islam Slimani",
+    "player":"Islam Slimani",
+    "position":"Forward",
     "club":"Leicester City",
-    "age":29,
-    "position":"CF",
-    "nationality":"Algeria"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 1.6,28 ]
-    },
-    "properties": {
-    "name":"Sofiane Feghouli",
-    "club":"West Ham",
-    "age":27,
-    "position":"RW",
     "nationality":"Algeria"
     }
   },
@@ -51,38 +35,9 @@ eqfeed_callback(
        "coordinates":  [ -63.6,-38.4 ]
     },
     "properties": {
-    "name":"Emiliano Martinez",
-    "club":"Arsenal",
-    "age":24,
-    "position":"GK",
-    "nationality":"Argentina"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -63.6,-38.4 ]
-    },
-    "properties": {
-    "name":"Bruno",
-    "club":"Brighton",
-    "age":36,
-    "position":"RB",
-    "nationality":"Argentina"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -63.6,-38.4 ]
-    },
-    "properties": {
-    "name":"Willy Caballero",
+    "player":"Willy Caballero",
+    "position":"Goalkeeper",
     "club":"Chelsea",
-    "age":35,
-    "position":"GK",
     "nationality":"Argentina"
     }
   },
@@ -93,10 +48,9 @@ eqfeed_callback(
        "coordinates":  [ -63.6,-38.4 ]
     },
     "properties": {
-    "name":"Julian Speroni",
+    "player":"Julian Speroni",
+    "position":"Goalkeeper",
     "club":"Crystal Palace",
-    "age":38,
-    "position":"GK",
     "nationality":"Argentina"
     }
   },
@@ -107,10 +61,9 @@ eqfeed_callback(
        "coordinates":  [ -63.6,-38.4 ]
     },
     "properties": {
-    "name":"Ramiro Funes Mori",
+    "player":"Ramiro Funes Mori",
+    "position":"Defender",
     "club":"Everton",
-    "age":26,
-    "position":"CB",
     "nationality":"Argentina"
     }
   },
@@ -121,10 +74,9 @@ eqfeed_callback(
        "coordinates":  [ -63.6,-38.4 ]
     },
     "properties": {
-    "name":"Leonardo Ulloa",
+    "player":"Leonardo Ulloa",
+    "position":"Forward",
     "club":"Leicester City",
-    "age":30,
-    "position":"CF",
     "nationality":"Argentina"
     }
   },
@@ -135,10 +87,9 @@ eqfeed_callback(
        "coordinates":  [ -63.6,-38.4 ]
     },
     "properties": {
-    "name":"Sergio Aguero",
+    "player":"Nicolas Otamendi",
+    "position":"Defender",
     "club":"Manchester City",
-    "age":29,
-    "position":"CF",
     "nationality":"Argentina"
     }
   },
@@ -149,10 +100,9 @@ eqfeed_callback(
        "coordinates":  [ -63.6,-38.4 ]
     },
     "properties": {
-    "name":"Nicolas Otamendi",
+    "player":"Sergio Aguero",
+    "position":"Forward",
     "club":"Manchester City",
-    "age":29,
-    "position":"CB",
     "nationality":"Argentina"
     }
   },
@@ -163,10 +113,9 @@ eqfeed_callback(
        "coordinates":  [ -63.6,-38.4 ]
     },
     "properties": {
-    "name":"Marcos Rojo",
+    "player":"Sergio Romero",
+    "position":"Goalkeeper",
     "club":"Manchester United",
-    "age":27,
-    "position":"CB",
     "nationality":"Argentina"
     }
   },
@@ -177,10 +126,9 @@ eqfeed_callback(
        "coordinates":  [ -63.6,-38.4 ]
     },
     "properties": {
-    "name":"Sergio Romero",
+    "player":"Marcos Rojo",
+    "position":"Defender",
     "club":"Manchester United",
-    "age":30,
-    "position":"GK",
     "nationality":"Argentina"
     }
   },
@@ -191,10 +139,9 @@ eqfeed_callback(
        "coordinates":  [ -63.6,-38.4 ]
     },
     "properties": {
-    "name":"Federico Fernandez",
-    "club":"Swansea",
-    "age":28,
-    "position":"CB",
+    "player":"Federico Fernandez",
+    "position":"Defender",
+    "club":"Swansea City",
     "nationality":"Argentina"
     }
   },
@@ -205,10 +152,9 @@ eqfeed_callback(
        "coordinates":  [ -63.6,-38.4 ]
     },
     "properties": {
-    "name":"Erik Lamela",
-    "club":"Tottenham",
-    "age":25,
-    "position":"RW",
+    "player":"Erik Lamela",
+    "position":"Midfielder",
+    "club":"Tottenham Hotspur",
     "nationality":"Argentina"
     }
   },
@@ -219,10 +165,35 @@ eqfeed_callback(
        "coordinates":  [ -63.6,-38.4 ]
     },
     "properties": {
-    "name":"Roberto Pereyra",
+    "player":"Paulo Gazzaniga",
+    "position":"Goalkeeper",
+    "club":"Tottenham Hotspur",
+    "nationality":"Argentina"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -63.6,-38.4 ]
+    },
+    "properties": {
+    "player":"Juan Foyth",
+    "position":"Defender",
+    "club":"Tottenham Hotspur",
+    "nationality":"Argentina"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -63.6,-38.4 ]
+    },
+    "properties": {
+    "player":"Roberto Pereyra",
+    "position":"Midfielder",
     "club":"Watford",
-    "age":26,
-    "position":"AM",
     "nationality":"Argentina"
     }
   },
@@ -233,10 +204,9 @@ eqfeed_callback(
        "coordinates":  [ -63.6,-38.4 ]
     },
     "properties": {
-    "name":"Mauro Zarate",
-    "club":"Watford",
-    "age":30,
-    "position":"SS",
+    "player":"Claudio Yacob",
+    "position":"Midfielder",
+    "club":"West Bromwich Albion",
     "nationality":"Argentina"
     }
   },
@@ -247,10 +217,9 @@ eqfeed_callback(
        "coordinates":  [ -63.6,-38.4 ]
     },
     "properties": {
-    "name":"Claudio Yacob",
-    "club":"West Brom",
-    "age":30,
-    "position":"DM",
+    "player":"Pablo Zabaleta",
+    "position":"Defender",
+    "club":"West Ham United",
     "nationality":"Argentina"
     }
   },
@@ -261,24 +230,9 @@ eqfeed_callback(
        "coordinates":  [ -63.6,-38.4 ]
     },
     "properties": {
-    "name":"Manuel Lanzini",
-    "club":"West Ham",
-    "age":24,
-    "position":"AM",
-    "nationality":"Argentina"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -63.6,-38.4 ]
-    },
-    "properties": {
-    "name":"Pablo Zabaleta",
-    "club":"West Ham",
-    "age":32,
-    "position":"RB",
+    "player":"Manuel Lanzini",
+    "position":"Midfielder",
+    "club":"West Ham United",
     "nationality":"Argentina"
     }
   },
@@ -289,10 +243,9 @@ eqfeed_callback(
        "coordinates":  [ 45,40 ]
     },
     "properties": {
-    "name":"Henrikh Mkhitaryan",
+    "player":"Henrikh Mkhitaryan",
+    "position":"Midfielder",
     "club":"Manchester United",
-    "age":28,
-    "position":"AM",
     "nationality":"Armenia"
     }
   },
@@ -303,10 +256,9 @@ eqfeed_callback(
        "coordinates":  [ 133.7,-25.2 ]
     },
     "properties": {
-    "name":"Adam Federici",
-    "club":"Bournemouth",
-    "age":32,
-    "position":"GK",
+    "player":"Brad Smith",
+    "position":"Defender",
+    "club":"AFC Bournemouth",
     "nationality":"Australia"
     }
   },
@@ -317,10 +269,9 @@ eqfeed_callback(
        "coordinates":  [ 133.7,-25.2 ]
     },
     "properties": {
-    "name":"Brad Smith",
-    "club":"Bournemouth",
-    "age":23,
-    "position":"LB",
+    "player":"Mat Ryan",
+    "position":"Goalkeeper",
+    "club":"Brighton & Hove Albion",
     "nationality":"Australia"
     }
   },
@@ -331,24 +282,9 @@ eqfeed_callback(
        "coordinates":  [ 133.7,-25.2 ]
     },
     "properties": {
-    "name":"Mathew Ryan",
-    "club":"Brighton",
-    "age":25,
-    "position":"GK",
-    "nationality":"Australia"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 133.7,-25.2 ]
-    },
-    "properties": {
-    "name":"Aaron Mooy",
-    "club":"Huddersfield",
-    "age":26,
-    "position":"CM",
+    "player":"Aaron Mooy",
+    "position":"Midfielder",
+    "club":"Huddersfield Town",
     "nationality":"Australia"
     }
   },
@@ -359,10 +295,9 @@ eqfeed_callback(
        "coordinates":  [ 14.5,47.5 ]
     },
     "properties": {
-    "name":"Markus Suttner",
-    "club":"Brighton",
-    "age":30,
-    "position":"LB",
+    "player":"Markus Suttner",
+    "position":"Defender",
+    "club":"Brighton & Hove Albion",
     "nationality":"Austria"
     }
   },
@@ -373,276 +308,100 @@ eqfeed_callback(
        "coordinates":  [ 14.5,47.5 ]
     },
     "properties": {
-    "name":"Christian Fuchs",
-    "club":"Leicester City",
-    "age":31,
-    "position":"LB",
-    "nationality":"Austria"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 14.5,47.5 ]
-    },
-    "properties": {
-    "name":"Kevin Wimmer",
-    "club":"Tottenham",
-    "age":24,
-    "position":"CB",
-    "nationality":"Austria"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 14.5,47.5 ]
-    },
-    "properties": {
-    "name":"Sebastian Prodl",
-    "club":"Watford",
-    "age":30,
-    "position":"CB",
-    "nationality":"Austria"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 4.4,50.5 ]
-    },
-    "properties": {
-    "name":"Steven Defour",
+    "player":"Ashley Barnes",
+    "position":"Forward",
     "club":"Burnley",
-    "age":29,
-    "position":"CM",
-    "nationality":"Belgium"
+    "nationality":"Austria"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 4.4,50.5 ]
+       "coordinates":  [ 14.5,47.5 ]
     },
     "properties": {
-    "name":"Eden Hazard",
-    "club":"Chelsea",
-    "age":26,
-    "position":"LW",
-    "nationality":"Belgium"
+    "player":"Christian Fuchs",
+    "position":"Defender",
+    "club":"Leicester City",
+    "nationality":"Austria"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 4.4,50.5 ]
+       "coordinates":  [ 14.5,47.5 ]
     },
     "properties": {
-    "name":"Thibaut Courtois",
-    "club":"Chelsea",
-    "age":25,
-    "position":"GK",
-    "nationality":"Belgium"
+    "player":"Aleksandar Dragovic",
+    "position":"Defender",
+    "club":"Leicester City",
+    "nationality":"Austria"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 4.4,50.5 ]
+       "coordinates":  [ 14.5,47.5 ]
     },
     "properties": {
-    "name":"Michy Batshuayi",
-    "club":"Chelsea",
-    "age":23,
-    "position":"CF",
-    "nationality":"Belgium"
+    "player":"Kevin Wimmer",
+    "position":"Defender",
+    "club":"Stoke City",
+    "nationality":"Austria"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 4.4,50.5 ]
+       "coordinates":  [ 14.5,47.5 ]
     },
     "properties": {
-    "name":"Christian Benteke",
-    "club":"Crystal Palace",
-    "age":26,
-    "position":"CF",
-    "nationality":"Belgium"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 4.4,50.5 ]
-    },
-    "properties": {
-    "name":"Kevin Mirallas",
-    "club":"Everton",
-    "age":29,
-    "position":"RW",
-    "nationality":"Belgium"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 4.4,50.5 ]
-    },
-    "properties": {
-    "name":"Laurent Depoitre",
-    "club":"Huddersfield",
-    "age":28,
-    "position":"CF",
-    "nationality":"Belgium"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 4.4,50.5 ]
-    },
-    "properties": {
-    "name":"Simon Mignolet",
-    "club":"Liverpool",
-    "age":29,
-    "position":"GK",
-    "nationality":"Belgium"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 4.4,50.5 ]
-    },
-    "properties": {
-    "name":"Divock Origi",
-    "club":"Liverpool",
-    "age":22,
-    "position":"CF",
-    "nationality":"Belgium"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 4.4,50.5 ]
-    },
-    "properties": {
-    "name":"Kevin De Bruyne",
-    "club":"Manchester City",
-    "age":26,
-    "position":"AM",
-    "nationality":"Belgium"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 4.4,50.5 ]
-    },
-    "properties": {
-    "name":"Vincent Kompany",
-    "club":"Manchester City",
-    "age":31,
-    "position":"CB",
-    "nationality":"Belgium"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 4.4,50.5 ]
-    },
-    "properties": {
-    "name":"Romelu Lukaku",
-    "club":"Manchester United",
-    "age":24,
-    "position":"CF",
-    "nationality":"Belgium"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 4.4,50.5 ]
-    },
-    "properties": {
-    "name":"Marouane Fellaini",
-    "club":"Manchester United",
-    "age":29,
-    "position":"CM",
-    "nationality":"Belgium"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 4.4,50.5 ]
-    },
-    "properties": {
-    "name":"Jan Vertonghen",
-    "club":"Tottenham",
-    "age":30,
-    "position":"CB",
-    "nationality":"Belgium"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 4.4,50.5 ]
-    },
-    "properties": {
-    "name":"Toby Alderweireld",
-    "club":"Tottenham",
-    "age":28,
-    "position":"CB",
-    "nationality":"Belgium"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 4.4,50.5 ]
-    },
-    "properties": {
-    "name":"Mousa Dembele",
-    "club":"Tottenham",
-    "age":30,
-    "position":"CM",
-    "nationality":"Belgium"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 4.4,50.5 ]
-    },
-    "properties": {
-    "name":"Kabasele",
+    "player":"Daniel Bachmann",
+    "position":"Goalkeeper",
     "club":"Watford",
-    "age":26,
-    "position":"CB",
+    "nationality":"Austria"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.5,47.5 ]
+    },
+    "properties": {
+    "player":"Sebastian Prodl",
+    "position":"Defender",
+    "club":"Watford",
+    "nationality":"Austria"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 14.5,47.5 ]
+    },
+    "properties": {
+    "player":"Marko Arnautovic",
+    "position":"Forward",
+    "club":"West Ham United",
+    "nationality":"Austria"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4,50.5 ]
+    },
+    "properties": {
+    "player":"Steven Defour",
+    "position":"Midfielder",
+    "club":"Burnley",
     "nationality":"Belgium"
     }
   },
@@ -653,10 +412,243 @@ eqfeed_callback(
        "coordinates":  [ 4.4,50.5 ]
     },
     "properties": {
-    "name":"Nacer Chadli",
-    "club":"West Brom",
-    "age":27,
-    "position":"LW",
+    "player":"Thibaut Courtois",
+    "position":"Goalkeeper",
+    "club":"Chelsea",
+    "nationality":"Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4,50.5 ]
+    },
+    "properties": {
+    "player":"Eden Hazard",
+    "position":"Midfielder",
+    "club":"Chelsea",
+    "nationality":"Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4,50.5 ]
+    },
+    "properties": {
+    "player":"Michy Batshuayi",
+    "position":"Forward",
+    "club":"Chelsea",
+    "nationality":"Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4,50.5 ]
+    },
+    "properties": {
+    "player":"Charly Musonda",
+    "position":"Midfielder",
+    "club":"Chelsea",
+    "nationality":"Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4,50.5 ]
+    },
+    "properties": {
+    "player":"Christian Benteke",
+    "position":"Forward",
+    "club":"Crystal Palace",
+    "nationality":"Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4,50.5 ]
+    },
+    "properties": {
+    "player":"Kevin Mirallas",
+    "position":"Midfielder",
+    "club":"Everton",
+    "nationality":"Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4,50.5 ]
+    },
+    "properties": {
+    "player":"Laurent Depoitre",
+    "position":"Forward",
+    "club":"Huddersfield Town",
+    "nationality":"Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4,50.5 ]
+    },
+    "properties": {
+    "player":"Simon Mignolet",
+    "position":"Goalkeeper",
+    "club":"Liverpool",
+    "nationality":"Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4,50.5 ]
+    },
+    "properties": {
+    "player":"Vincent Kompany",
+    "position":"Defender",
+    "club":"Manchester City",
+    "nationality":"Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4,50.5 ]
+    },
+    "properties": {
+    "player":"Kevin De Bruyne",
+    "position":"Midfielder",
+    "club":"Manchester City",
+    "nationality":"Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4,50.5 ]
+    },
+    "properties": {
+    "player":"Marouane Fellaini",
+    "position":"Midfielder",
+    "club":"Manchester United",
+    "nationality":"Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4,50.5 ]
+    },
+    "properties": {
+    "player":"Romelu Lukaku",
+    "position":"Forward",
+    "club":"Manchester United",
+    "nationality":"Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4,50.5 ]
+    },
+    "properties": {
+    "player":"Julien Ngoy",
+    "position":"Forward",
+    "club":"Stoke City",
+    "nationality":"Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4,50.5 ]
+    },
+    "properties": {
+    "player":"Thibaud Verlinden",
+    "position":"Forward",
+    "club":"Stoke City",
+    "nationality":"Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4,50.5 ]
+    },
+    "properties": {
+    "player":"Toby Alderweireld",
+    "position":"Defender",
+    "club":"Tottenham Hotspur",
+    "nationality":"Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4,50.5 ]
+    },
+    "properties": {
+    "player":"Jan Vertonghen",
+    "position":"Defender",
+    "club":"Tottenham Hotspur",
+    "nationality":"Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4,50.5 ]
+    },
+    "properties": {
+    "player":"Mousa Dembele",
+    "position":"Midfielder",
+    "club":"Tottenham Hotspur",
+    "nationality":"Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4,50.5 ]
+    },
+    "properties": {
+    "player":"Christian Kabasele",
+    "position":"Defender",
+    "club":"Watford",
+    "nationality":"Belgium"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 4.4,50.5 ]
+    },
+    "properties": {
+    "player":"Nacer Chadli",
+    "position":"Midfielder",
+    "club":"West Bromwich Albion",
     "nationality":"Belgium"
     }
   },
@@ -667,10 +659,9 @@ eqfeed_callback(
        "coordinates":  [ 2.3,9.3 ]
     },
     "properties": {
-    "name":"Steve Mounie",
-    "club":"Huddersfield",
-    "age":22,
-    "position":"CF",
+    "player":"Steve Mounie",
+    "position":"Forward",
+    "club":"Huddersfield Town",
     "nationality":"Benin"
     }
   },
@@ -681,10 +672,9 @@ eqfeed_callback(
        "coordinates":  [ -64.7,32.3 ]
     },
     "properties": {
-    "name":"Nahki Wells",
-    "club":"Huddersfield",
-    "age":27,
-    "position":"CF",
+    "player":"Nahki Wells",
+    "position":"Forward",
+    "club":"Burnley",
     "nationality":"Bermuda"
     }
   },
@@ -695,11 +685,10 @@ eqfeed_callback(
        "coordinates":  [ 17.6,43.9 ]
     },
     "properties": {
-    "name":"Sead Kolasinac",
-    "club":"Arsenal",
-    "age":24,
-    "position":"LB",
-    "nationality":"Bosnia & Herzegovina"
+    "player":"Asmir Begovic",
+    "position":"Goalkeeper",
+    "club":"AFC Bournemouth",
+    "nationality":"Bosnia And Herzegovina"
     }
   },
   {
@@ -709,25 +698,23 @@ eqfeed_callback(
        "coordinates":  [ 17.6,43.9 ]
     },
     "properties": {
-    "name":"Asmir Begovic",
-    "club":"Bournemouth",
-    "age":30,
-    "position":"GK",
-    "nationality":"Bosnia & Herzegovina"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -51.9,-14.2 ]
-    },
-    "properties": {
-    "name":"Gabriel Paulista",
+    "player":"Sead Kolasinac",
+    "position":"Defender",
     "club":"Arsenal",
-    "age":26,
-    "position":"CB",
-    "nationality":"Brazil"
+    "nationality":"Bosnia And Herzegovina"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 17.6,43.9 ]
+    },
+    "properties": {
+    "player":"Muhamed Besic",
+    "position":"Midfielder",
+    "club":"Everton",
+    "nationality":"Bosnia And Herzegovina"
     }
   },
   {
@@ -737,10 +724,9 @@ eqfeed_callback(
        "coordinates":  [ -51.9,-14.2 ]
     },
     "properties": {
-    "name":"David Luiz",
+    "player":"David Luiz",
+    "position":"Defender",
     "club":"Chelsea",
-    "age":30,
-    "position":"CB",
     "nationality":"Brazil"
     }
   },
@@ -751,10 +737,9 @@ eqfeed_callback(
        "coordinates":  [ -51.9,-14.2 ]
     },
     "properties": {
-    "name":"Willian",
+    "player":"Willian",
+    "position":"Midfielder",
     "club":"Chelsea",
-    "age":28,
-    "position":"RW",
     "nationality":"Brazil"
     }
   },
@@ -765,10 +750,9 @@ eqfeed_callback(
        "coordinates":  [ -51.9,-14.2 ]
     },
     "properties": {
-    "name":"Kenedy",
+    "player":"Kenedy",
+    "position":"Midfielder",
     "club":"Chelsea",
-    "age":21,
-    "position":"LB",
     "nationality":"Brazil"
     }
   },
@@ -779,10 +763,9 @@ eqfeed_callback(
        "coordinates":  [ -51.9,-14.2 ]
     },
     "properties": {
-    "name":"Roberto Firmino",
+    "player":"Philippe Coutinho",
+    "position":"Midfielder",
     "club":"Liverpool",
-    "age":25,
-    "position":"SS",
     "nationality":"Brazil"
     }
   },
@@ -793,10 +776,9 @@ eqfeed_callback(
        "coordinates":  [ -51.9,-14.2 ]
     },
     "properties": {
-    "name":"Philippe Coutinho",
+    "player":"Roberto Firmino",
+    "position":"Forward",
     "club":"Liverpool",
-    "age":25,
-    "position":"AM",
     "nationality":"Brazil"
     }
   },
@@ -807,24 +789,9 @@ eqfeed_callback(
        "coordinates":  [ -51.9,-14.2 ]
     },
     "properties": {
-    "name":"Lucas Leiva",
-    "club":"Liverpool",
-    "age":30,
-    "position":"DM",
-    "nationality":"Brazil"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -51.9,-14.2 ]
-    },
-    "properties": {
-    "name":"Fernandinho",
+    "player":"Ederson",
+    "position":"Goalkeeper",
     "club":"Manchester City",
-    "age":32,
-    "position":"DM",
     "nationality":"Brazil"
     }
   },
@@ -835,10 +802,9 @@ eqfeed_callback(
        "coordinates":  [ -51.9,-14.2 ]
     },
     "properties": {
-    "name":"Gabriel Jesus",
+    "player":"Fernandinho",
+    "position":"Midfielder",
     "club":"Manchester City",
-    "age":20,
-    "position":"CF",
     "nationality":"Brazil"
     }
   },
@@ -849,10 +815,9 @@ eqfeed_callback(
        "coordinates":  [ -51.9,-14.2 ]
     },
     "properties": {
-    "name":"Fernando",
+    "player":"Gabriel Jesus",
+    "position":"Forward",
     "club":"Manchester City",
-    "age":32,
-    "position":"DM",
     "nationality":"Brazil"
     }
   },
@@ -863,10 +828,9 @@ eqfeed_callback(
        "coordinates":  [ -51.9,-14.2 ]
     },
     "properties": {
-    "name":"Ederson Moraes",
+    "player":"Danilo",
+    "position":"Defender",
     "club":"Manchester City",
-    "age":23,
-    "position":"GK",
     "nationality":"Brazil"
     }
   },
@@ -877,10 +841,22 @@ eqfeed_callback(
        "coordinates":  [ -51.9,-14.2 ]
     },
     "properties": {
-    "name":"Heurelho Gomes",
+    "player":"Heurelho Gomes",
+    "position":"Goalkeeper",
     "club":"Watford",
-    "age":36,
-    "position":"GK",
+    "nationality":"Brazil"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -51.9,-14.2 ]
+    },
+    "properties": {
+    "player":"Richarlison",
+    "position":"Forward",
+    "club":"Watford",
     "nationality":"Brazil"
     }
   },
@@ -891,10 +867,9 @@ eqfeed_callback(
        "coordinates":  [ 12.3,7.3 ]
     },
     "properties": {
-    "name":"Gaetan Bong",
-    "club":"Brighton",
-    "age":29,
-    "position":"LB",
+    "player":"Gaetan Bong",
+    "position":"Defender",
+    "club":"Brighton & Hove Albion",
     "nationality":"Cameroon"
     }
   },
@@ -905,10 +880,9 @@ eqfeed_callback(
        "coordinates":  [ 12.3,7.3 ]
     },
     "properties": {
-    "name":"Joel Matip",
+    "player":"Joel Matip",
+    "position":"Defender",
     "club":"Liverpool",
-    "age":25,
-    "position":"CB",
     "nationality":"Cameroon"
     }
   },
@@ -919,10 +893,9 @@ eqfeed_callback(
        "coordinates":  [ 12.3,7.3 ]
     },
     "properties": {
-    "name":"Allan Nyom",
-    "club":"West Brom",
-    "age":29,
-    "position":"RB",
+    "player":"Eric Maxim Choupo-Moting",
+    "position":"Midfielder",
+    "club":"Stoke City",
     "nationality":"Cameroon"
     }
   },
@@ -933,10 +906,22 @@ eqfeed_callback(
        "coordinates":  [ 12.3,7.3 ]
     },
     "properties": {
-    "name":"Scott Arfield",
+    "player":"Allan Nyom",
+    "position":"Defender",
+    "club":"West Bromwich Albion",
+    "nationality":"Cameroon"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.3,7.3 ]
+    },
+    "properties": {
+    "player":"Scott Arfield",
+    "position":"Midfielder",
     "club":"Burnley",
-    "age":28,
-    "position":"LM",
     "nationality":"Canada"
     }
   },
@@ -947,10 +932,9 @@ eqfeed_callback(
        "coordinates":  [ -71.5,-35.6 ]
     },
     "properties": {
-    "name":"Alexis Sanchez",
+    "player":"Alexis Sanchez",
+    "position":"Forward",
     "club":"Arsenal",
-    "age":28,
-    "position":"LW",
     "nationality":"Chile"
     }
   },
@@ -961,10 +945,9 @@ eqfeed_callback(
        "coordinates":  [ -71.5,-35.6 ]
     },
     "properties": {
-    "name":"Claudio Bravo",
+    "player":"Claudio Bravo",
+    "position":"Goalkeeper",
     "club":"Manchester City",
-    "age":34,
-    "position":"GK",
     "nationality":"Chile"
     }
   },
@@ -975,10 +958,35 @@ eqfeed_callback(
        "coordinates":  [ -74.2,4.5 ]
     },
     "properties": {
-    "name":"David Ospina",
+    "player":"David Ospina",
+    "position":"Goalkeeper",
     "club":"Arsenal",
-    "age":28,
-    "position":"GK",
+    "nationality":"Colombia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.2,4.5 ]
+    },
+    "properties": {
+    "player":"Jose Izquierdo",
+    "position":"Forward",
+    "club":"Brighton & Hove Albion",
+    "nationality":"Colombia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.2,4.5 ]
+    },
+    "properties": {
+    "player":"Davinson Sanchez",
+    "position":"Defender",
+    "club":"Tottenham Hotspur",
     "nationality":"Colombia"
     }
   },
@@ -989,11 +997,10 @@ eqfeed_callback(
        "coordinates":  [ 21.7,-4 ]
     },
     "properties": {
-    "name":"Benik Afobe",
-    "club":"Bournemouth",
-    "age":24,
-    "position":"CF",
-    "nationality":"Congo DR"
+    "player":"Benik Afobe",
+    "position":"Forward",
+    "club":"AFC Bournemouth",
+    "nationality":"Congo"
     }
   },
   {
@@ -1003,67 +1010,62 @@ eqfeed_callback(
        "coordinates":  [ 21.7,-4 ]
     },
     "properties": {
-    "name":"Yannick Bolasie",
-    "club":"Everton",
-    "age":28,
-    "position":"LW",
-    "nationality":"Congo DR"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 21.7,-4 ]
-    },
-    "properties": {
-    "name":"Elias Kachunga",
-    "club":"Huddersfield",
-    "age":25,
-    "position":"RW",
-    "nationality":"Congo DR"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 21.7,-4 ]
-    },
-    "properties": {
-    "name":"Arthur Masuaku",
-    "club":"West Ham",
-    "age":23,
-    "position":"LB",
-    "nationality":"Congo DR"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -5.5,7.5 ]
-    },
-    "properties": {
-    "name":"Max Gradel",
-    "club":"Bournemouth",
-    "age":29,
-    "position":"LW",
-    "nationality":"Cote d'Ivoire"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -5.5,7.5 ]
-    },
-    "properties": {
-    "name":"Wilfried Zaha",
+    "player":"Jason Eyenga Lokilo",
+    "position":"Midfielder",
     "club":"Crystal Palace",
-    "age":24,
-    "position":"RW",
-    "nationality":"Cote d'Ivoire"
+    "nationality":"Congo"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 21.7,-4 ]
+    },
+    "properties": {
+    "player":"Yannick Bolasie",
+    "position":"Forward",
+    "club":"Everton",
+    "nationality":"Congo"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 21.7,-4 ]
+    },
+    "properties": {
+    "player":"Elias Kachunga",
+    "position":"Forward",
+    "club":"Huddersfield Town",
+    "nationality":"Congo"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 21.7,-4 ]
+    },
+    "properties": {
+    "player":"Chancel Mbemba",
+    "position":"Defender",
+    "club":"Newcastle United",
+    "nationality":"Congo"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 21.7,-4 ]
+    },
+    "properties": {
+    "player":"Arthur Masuaku",
+    "position":"Defender",
+    "club":"West Ham United",
+    "nationality":"Congo"
     }
   },
   {
@@ -1073,11 +1075,23 @@ eqfeed_callback(
        "coordinates":  [ -5.5,7.5 ]
     },
     "properties": {
-    "name":"Yaya Toure",
+    "player":"Wilfried Zaha",
+    "position":"Midfielder",
+    "club":"Crystal Palace",
+    "nationality":"Cote D'Ivoire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.5,7.5 ]
+    },
+    "properties": {
+    "player":"Yaya Toure",
+    "position":"Midfielder",
     "club":"Manchester City",
-    "age":34,
-    "position":"CM",
-    "nationality":"Cote d'Ivoire"
+    "nationality":"Cote D'Ivoire"
     }
   },
   {
@@ -1087,11 +1101,49 @@ eqfeed_callback(
        "coordinates":  [ -5.5,7.5 ]
     },
     "properties": {
-    "name":"Eric Bailly",
+    "player":"Eric Bailly",
+    "position":"Defender",
     "club":"Manchester United",
-    "age":23,
-    "position":"CB",
-    "nationality":"Cote d'Ivoire"
+    "nationality":"Cote D'Ivoire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.5,7.5 ]
+    },
+    "properties": {
+    "player":"Wilfried Bony",
+    "position":"Forward",
+    "club":"Swansea City",
+    "nationality":"Cote D'Ivoire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.5,7.5 ]
+    },
+    "properties": {
+    "player":"Serge Aurier",
+    "position":"Defender",
+    "club":"Tottenham Hotspur",
+    "nationality":"Cote D'Ivoire"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -5.5,7.5 ]
+    },
+    "properties": {
+    "player":"Brice Dja Djedje",
+    "position":"Defender",
+    "club":"Watford",
+    "nationality":"Cote D'Ivoire"
     }
   },
   {
@@ -1101,10 +1153,22 @@ eqfeed_callback(
        "coordinates":  [ 15.2,45.1 ]
     },
     "properties": {
-    "name":"Dejan Lovren",
+    "player":"Nikola Vlasic",
+    "position":"Forward",
+    "club":"Everton",
+    "nationality":"Croatia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 15.2,45.1 ]
+    },
+    "properties": {
+    "player":"Dejan Lovren",
+    "position":"Defender",
     "club":"Liverpool",
-    "age":28,
-    "position":"CB",
     "nationality":"Croatia"
     }
   },
@@ -1115,10 +1179,9 @@ eqfeed_callback(
        "coordinates":  [ -68.9,12.1 ]
     },
     "properties": {
-    "name":"Cuco Martina",
+    "player":"Cuco Martina",
+    "position":"Defender",
     "club":"Everton",
-    "age":27,
-    "position":"RB",
     "nationality":"Curacao"
     }
   },
@@ -1129,10 +1192,9 @@ eqfeed_callback(
        "coordinates":  [ 15.4,49.8 ]
     },
     "properties": {
-    "name":"Petr Cech",
+    "player":"Petr Cech",
+    "position":"Goalkeeper",
     "club":"Arsenal",
-    "age":35,
-    "position":"GK",
     "nationality":"Czech Republic"
     }
   },
@@ -1143,10 +1205,9 @@ eqfeed_callback(
        "coordinates":  [ 15.4,49.8 ]
     },
     "properties": {
-    "name":"Jiri Skalak",
-    "club":"Brighton",
-    "age":25,
-    "position":"LW",
+    "player":"Jiri Skalak",
+    "position":"Midfielder",
+    "club":"Brighton & Hove Albion",
     "nationality":"Czech Republic"
     }
   },
@@ -1157,10 +1218,9 @@ eqfeed_callback(
        "coordinates":  [ 9.5,56.2 ]
     },
     "properties": {
-    "name":"Jonas Lossl",
-    "club":"Huddersfield",
-    "age":28,
-    "position":"GK",
+    "player":"Anders Lindegaard",
+    "position":"Goalkeeper",
+    "club":"Burnley",
     "nationality":"Denmark"
     }
   },
@@ -1171,1186 +1231,178 @@ eqfeed_callback(
        "coordinates":  [ 9.5,56.2 ]
     },
     "properties": {
-    "name":"Mathias Jorgensen",
-    "club":"Huddersfield",
-    "age":27,
-    "position":"CB",
-    "nationality":"Denmark"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 9.5,56.2 ]
-    },
-    "properties": {
-    "name":"Philip Billing",
-    "club":"Huddersfield",
-    "age":21,
-    "position":"CM",
-    "nationality":"Denmark"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 9.5,56.2 ]
-    },
-    "properties": {
-    "name":"Kasper Schmeichel",
-    "club":"Leicester City",
-    "age":30,
-    "position":"GK",
-    "nationality":"Denmark"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 9.5,56.2 ]
-    },
-    "properties": {
-    "name":"Pierre-Emile Hojbjerg",
-    "club":"Southampton",
-    "age":21,
-    "position":"CM",
-    "nationality":"Denmark"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 9.5,56.2 ]
-    },
-    "properties": {
-    "name":"Christian Eriksen",
-    "club":"Tottenham",
-    "age":25,
-    "position":"AM",
-    "nationality":"Denmark"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -78.1,-1.8 ]
-    },
-    "properties": {
-    "name":"Antonio Valencia",
-    "club":"Manchester United",
-    "age":31,
-    "position":"RB",
-    "nationality":"Ecuador"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -78.1,-1.8 ]
-    },
-    "properties": {
-    "name":"Jefferson Montero",
-    "club":"Swansea",
-    "age":27,
-    "position":"LW",
-    "nationality":"Ecuador"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 30.8,26.8 ]
-    },
-    "properties": {
-    "name":"Mohamed Elneny",
-    "club":"Arsenal",
-    "age":25,
-    "position":"DM",
-    "nationality":"Egypt"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 30.8,26.8 ]
-    },
-    "properties": {
-    "name":"Mohamed Salah",
-    "club":"Liverpool",
-    "age":25,
-    "position":"RW",
-    "nationality":"Egypt"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 30.8,26.8 ]
-    },
-    "properties": {
-    "name":"Ramadan Sobhi",
-    "club":"Stoke City",
-    "age":20,
-    "position":"LW",
-    "nationality":"Egypt"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 30.8,26.8 ]
-    },
-    "properties": {
-    "name":"Ahmed Hegazy",
-    "club":"West Brom",
-    "age":26,
-    "position":"CB",
-    "nationality":"Egypt"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Theo Walcott",
-    "club":"Arsenal",
-    "age":28,
-    "position":"RW",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Alex Oxlade-Chamberlain",
-    "club":"Arsenal",
-    "age":23,
-    "position":"RM",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Jack Wilshere",
-    "club":"Arsenal",
-    "age":25,
-    "position":"CM",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Kieran Gibbs",
-    "club":"Arsenal",
-    "age":27,
-    "position":"LB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Danny Welbeck",
-    "club":"Arsenal",
-    "age":26,
-    "position":"CF",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Rob Holding",
-    "club":"Arsenal",
-    "age":21,
-    "position":"CB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Carl Jenkinson",
-    "club":"Arsenal",
-    "age":25,
-    "position":"RB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Jermain Defoe",
-    "club":"Bournemouth",
-    "age":34,
-    "position":"CF",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Charlie Daniels",
-    "club":"Bournemouth",
-    "age":30,
-    "position":"LB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Steve Cook",
-    "club":"Bournemouth",
-    "age":26,
-    "position":"CB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Junior Stanislas",
-    "club":"Bournemouth",
-    "age":27,
-    "position":"LW",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Adam Smith",
-    "club":"Bournemouth",
-    "age":26,
-    "position":"RB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Simon Francis",
-    "club":"Bournemouth",
-    "age":32,
-    "position":"RB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Marc Pugh",
-    "club":"Bournemouth",
-    "age":30,
-    "position":"LW",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Callum Wilson",
-    "club":"Bournemouth",
-    "age":25,
-    "position":"CF",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Dan Gosling",
-    "club":"Bournemouth",
-    "age":27,
-    "position":"CM",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Andrew Surman",
-    "club":"Bournemouth",
-    "age":30,
-    "position":"CM",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Jordon Ibe",
-    "club":"Bournemouth",
-    "age":21,
-    "position":"RW",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Lewis Cook",
-    "club":"Bournemouth",
-    "age":20,
-    "position":"CM",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Tyrone Mings",
-    "club":"Bournemouth",
-    "age":24,
-    "position":"CB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Lewis Dunk",
-    "club":"Brighton",
-    "age":25,
-    "position":"CB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Liam Rosenior",
-    "club":"Brighton",
-    "age":33,
-    "position":"RB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Connor Goldson",
-    "club":"Brighton",
-    "age":24,
-    "position":"CB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Dale Stephens",
-    "club":"Brighton",
-    "age":27,
-    "position":"CM",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Steve Sidwell",
-    "club":"Brighton",
-    "age":34,
-    "position":"CM",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Solly March",
-    "club":"Brighton",
-    "age":23,
-    "position":"RM",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Glenn Murray",
-    "club":"Brighton",
-    "age":33,
-    "position":"CF",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Sam Baldock",
-    "club":"Brighton",
-    "age":28,
-    "position":"CF",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Tom Heaton",
-    "club":"Burnley",
-    "age":31,
-    "position":"GK",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Andre Gray",
-    "club":"Burnley",
-    "age":26,
-    "position":"CF",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Ben Mee",
-    "club":"Burnley",
-    "age":27,
-    "position":"CB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Matthew Lowton",
-    "club":"Burnley",
-    "age":28,
-    "position":"RB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Ashley Barnes",
-    "club":"Burnley",
-    "age":27,
-    "position":"CF",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Dean Marney",
-    "club":"Burnley",
-    "age":33,
-    "position":"CM",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Jack Cork",
-    "club":"Burnley",
-    "age":28,
-    "position":"DM",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"James Tarkowski",
-    "club":"Burnley",
-    "age":24,
-    "position":"CB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Ashley Westwood",
-    "club":"Burnley",
-    "age":27,
-    "position":"DM",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Matthew Taylor",
-    "club":"Burnley",
-    "age":35,
-    "position":"LM",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Gary Cahill",
+    "player":"Andreas Christensen",
+    "position":"Defender",
     "club":"Chelsea",
-    "age":31,
-    "position":"CB",
-    "nationality":"England"
+    "nationality":"Denmark"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
+       "coordinates":  [ 9.5,56.2 ]
     },
     "properties": {
-    "name":"Andros Townsend",
-    "club":"Crystal Palace",
-    "age":26,
-    "position":"RW",
-    "nationality":"England"
+    "player":"Jonas Lossl",
+    "position":"Goalkeeper",
+    "club":"Huddersfield Town",
+    "nationality":"Denmark"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
+       "coordinates":  [ 9.5,56.2 ]
     },
     "properties": {
-    "name":"Jason Puncheon",
-    "club":"Crystal Palace",
-    "age":31,
-    "position":"AM",
-    "nationality":"England"
+    "player":"Philip Billing",
+    "position":"Midfielder",
+    "club":"Huddersfield Town",
+    "nationality":"Denmark"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
+       "coordinates":  [ 9.5,56.2 ]
     },
     "properties": {
-    "name":"Joel Ward",
-    "club":"Crystal Palace",
-    "age":27,
-    "position":"RB",
-    "nationality":"England"
+    "player":"Zanka",
+    "position":"Defender",
+    "club":"Huddersfield Town",
+    "nationality":"Denmark"
     }
   },
   {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
+       "coordinates":  [ 9.5,56.2 ]
     },
     "properties": {
-    "name":"James Tomkins",
-    "club":"Crystal Palace",
-    "age":28,
-    "position":"CB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Scott Dann",
-    "club":"Crystal Palace",
-    "age":30,
-    "position":"CB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Martin Kelly",
-    "club":"Crystal Palace",
-    "age":27,
-    "position":"RB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Connor Wickham",
-    "club":"Crystal Palace",
-    "age":24,
-    "position":"CF",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Ruben Loftus-Cheek",
-    "club":"Crystal Palace",
-    "age":21,
-    "position":"CM",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Ross Barkley",
-    "club":"Everton",
-    "age":23,
-    "position":"AM",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Leighton Baines",
-    "club":"Everton",
-    "age":32,
-    "position":"LB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Michael Keane",
-    "club":"Everton",
-    "age":24,
-    "position":"CB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Phil Jagielka",
-    "club":"Everton",
-    "age":34,
-    "position":"CB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Jordan Pickford",
-    "club":"Everton",
-    "age":23,
-    "position":"GK",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Wayne Rooney",
-    "club":"Everton",
-    "age":31,
-    "position":"SS",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Gareth Barry",
-    "club":"Everton",
-    "age":36,
-    "position":"DM",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Tom Davies",
-    "club":"Everton",
-    "age":19,
-    "position":"CM",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Mason Holgate",
-    "club":"Everton",
-    "age":20,
-    "position":"CB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Aaron Lennon",
-    "club":"Everton",
-    "age":30,
-    "position":"RW",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Dominic Calvert-Lewin",
-    "club":"Everton",
-    "age":20,
-    "position":"SS",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Ademola Lookman",
-    "club":"Everton",
-    "age":19,
-    "position":"LW",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Matthew Pennington",
-    "club":"Everton",
-    "age":22,
-    "position":"CB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Jonjoe Kenny",
-    "club":"Everton",
-    "age":20,
-    "position":"RB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Joel Coleman",
-    "club":"Huddersfield",
-    "age":21,
-    "position":"GK",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Tommy Smith",
-    "club":"Huddersfield",
-    "age":25,
-    "position":"RB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Martin Cranie",
-    "club":"Huddersfield",
-    "age":30,
-    "position":"CB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Mark Hudson",
-    "club":"Huddersfield",
-    "age":35,
-    "position":"CB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Scott Malone",
-    "club":"Huddersfield",
-    "age":26,
-    "position":"LB",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Jonathan Hogg",
-    "club":"Huddersfield",
-    "age":28,
-    "position":"CM",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Joe Lolley",
-    "club":"Huddersfield",
-    "age":24,
-    "position":"RW",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Jack Payne",
-    "club":"Huddersfield",
-    "age":25,
-    "position":"CM",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Dean Whitehead",
-    "club":"Huddersfield",
-    "age":35,
-    "position":"CM",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Harry Bunn",
-    "club":"Huddersfield",
-    "age":24,
-    "position":"LW",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Tom Ince",
-    "club":"Huddersfield",
-    "age":25,
-    "position":"RW",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Kasey Palmer",
-    "club":"Huddersfield",
-    "age":20,
-    "position":"AM",
-    "nationality":"England"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -1.1,52.6 ]
-    },
-    "properties": {
-    "name":"Jamie Vardy",
+    "player":"Kasper Schmeichel",
+    "position":"Goalkeeper",
     "club":"Leicester City",
-    "age":30,
-    "position":"CF",
+    "nationality":"Denmark"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.5,56.2 ]
+    },
+    "properties": {
+    "player":"Pierre-Emile Hojbjerg",
+    "position":"Midfielder",
+    "club":"Southampton",
+    "nationality":"Denmark"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.5,56.2 ]
+    },
+    "properties": {
+    "player":"Jakob Haugaard",
+    "position":"Goalkeeper",
+    "club":"Stoke City",
+    "nationality":"Denmark"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 9.5,56.2 ]
+    },
+    "properties": {
+    "player":"Christian Eriksen",
+    "position":"Midfielder",
+    "club":"Tottenham Hotspur",
+    "nationality":"Denmark"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.1,-1.8 ]
+    },
+    "properties": {
+    "player":"Antonio Valencia",
+    "position":"Defender",
+    "club":"Manchester United",
+    "nationality":"Ecuador"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 30.8,26.8 ]
+    },
+    "properties": {
+    "player":"Mohamed El Neny",
+    "position":"Midfielder",
+    "club":"Arsenal",
+    "nationality":"Egypt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 30.8,26.8 ]
+    },
+    "properties": {
+    "player":"Mohamed Salah",
+    "position":"Forward",
+    "club":"Liverpool",
+    "nationality":"Egypt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 30.8,26.8 ]
+    },
+    "properties": {
+    "player":"Ramadan Sobhi",
+    "position":"Midfielder",
+    "club":"Stoke City",
+    "nationality":"Egypt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 30.8,26.8 ]
+    },
+    "properties": {
+    "player":"Ahmed Hegazi",
+    "position":"Defender",
+    "club":"West Bromwich Albion",
+    "nationality":"Egypt"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Jermain Defoe",
+    "position":"Forward",
+    "club":"AFC Bournemouth",
     "nationality":"England"
     }
   },
@@ -2361,10 +1413,1231 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Marc Albrighton",
+    "player":"Aaron Ramsdale",
+    "position":"Goalkeeper",
+    "club":"AFC Bournemouth",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Simon Francis",
+    "position":"Defender",
+    "club":"AFC Bournemouth",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Steve Cook",
+    "position":"Defender",
+    "club":"AFC Bournemouth",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Charlie Daniels",
+    "position":"Defender",
+    "club":"AFC Bournemouth",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Adam Smith",
+    "position":"Defender",
+    "club":"AFC Bournemouth",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Tyrone Mings",
+    "position":"Defender",
+    "club":"AFC Bournemouth",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Dan Gosling",
+    "position":"Midfielder",
+    "club":"AFC Bournemouth",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Andrew Surman",
+    "position":"Midfielder",
+    "club":"AFC Bournemouth",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Marc Pugh",
+    "position":"Midfielder",
+    "club":"AFC Bournemouth",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Lewis Cook",
+    "position":"Midfielder",
+    "club":"AFC Bournemouth",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Junior Stanislas",
+    "position":"Midfielder",
+    "club":"AFC Bournemouth",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Jordon Ibe",
+    "position":"Midfielder",
+    "club":"AFC Bournemouth",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Callum Wilson",
+    "position":"Forward",
+    "club":"AFC Bournemouth",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Jack Simpson",
+    "position":"Defender",
+    "club":"AFC Bournemouth",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Connor Mahoney",
+    "position":"Midfielder",
+    "club":"AFC Bournemouth",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Matt Butcher",
+    "position":"Forward",
+    "club":"AFC Bournemouth",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Rob Holding",
+    "position":"Defender",
+    "club":"Arsenal",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Calum Chambers",
+    "position":"Defender",
+    "club":"Arsenal",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Jack Wilshere",
+    "position":"Midfielder",
+    "club":"Arsenal",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Ainsley Maitland-Niles",
+    "position":"Midfielder",
+    "club":"Arsenal",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Theo Walcott",
+    "position":"Forward",
+    "club":"Arsenal",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Danny Welbeck",
+    "position":"Forward",
+    "club":"Arsenal",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Joe Willock",
+    "position":"Midfielder",
+    "club":"Arsenal",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Reiss Nelson",
+    "position":"Forward",
+    "club":"Arsenal",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Eddie Nketiah",
+    "position":"Forward",
+    "club":"Arsenal",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Matt Macey",
+    "position":"Goalkeeper",
+    "club":"Arsenal",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Chuba Akpom",
+    "position":"Forward",
+    "club":"Arsenal",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Eddie Nketiah",
+    "position":"Forward",
+    "club":"Arsenal",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Marcus McGuane",
+    "position":"Midfielder",
+    "club":"Arsenal",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Josh Da Silva",
+    "position":"Forward",
+    "club":"Arsenal",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Jordi Osei-Tutu",
+    "position":"Defender",
+    "club":"Arsenal",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Ben Sheaf",
+    "position":"Midfielder",
+    "club":"Arsenal",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Lewis Dunk",
+    "position":"Defender",
+    "club":"Brighton & Hove Albion",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Connor Goldson",
+    "position":"Defender",
+    "club":"Brighton & Hove Albion",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Liam Rosenior",
+    "position":"Defender",
+    "club":"Brighton & Hove Albion",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Dale Stephens",
+    "position":"Midfielder",
+    "club":"Brighton & Hove Albion",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Steve Sidwell",
+    "position":"Midfielder",
+    "club":"Brighton & Hove Albion",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Solly March",
+    "position":"Midfielder",
+    "club":"Brighton & Hove Albion",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Sam Baldock",
+    "position":"Forward",
+    "club":"Brighton & Hove Albion",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Glenn Murray",
+    "position":"Forward",
+    "club":"Brighton & Hove Albion",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Isaiah Brown",
+    "position":"Forward",
+    "club":"Brighton & Hove Albion",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"James Tilley",
+    "position":"Forward",
+    "club":"Brighton & Hove Albion",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Tom Heaton",
+    "position":"Goalkeeper",
+    "club":"Burnley",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Nick Pope",
+    "position":"Goalkeeper",
+    "club":"Burnley",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Matthew Lowton",
+    "position":"Defender",
+    "club":"Burnley",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Ben Mee",
+    "position":"Defender",
+    "club":"Burnley",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"James Tarkowski",
+    "position":"Defender",
+    "club":"Burnley",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Dean Marney",
+    "position":"Midfielder",
+    "club":"Burnley",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Ashley Westwood",
+    "position":"Midfielder",
+    "club":"Burnley",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Charlie Taylor",
+    "position":"Defender",
+    "club":"Burnley",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Jack Cork",
+    "position":"Midfielder",
+    "club":"Burnley",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Adam Legzdins",
+    "position":"Goalkeeper",
+    "club":"Burnley",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Gary Cahill",
+    "position":"Defender",
+    "club":"Chelsea",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Daniel Drinkwater",
+    "position":"Midfielder",
+    "club":"Chelsea",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Dujon Sterling",
+    "position":"Midfielder",
+    "club":"Chelsea",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Jake Clarke-Salter",
+    "position":"Defender",
+    "club":"Chelsea",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Joel Ward",
+    "position":"Defender",
+    "club":"Crystal Palace",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"James Tomkins",
+    "position":"Defender",
+    "club":"Crystal Palace",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Scott Dann",
+    "position":"Defender",
+    "club":"Crystal Palace",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Martin Kelly",
+    "position":"Defender",
+    "club":"Crystal Palace",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Andros Townsend",
+    "position":"Midfielder",
+    "club":"Crystal Palace",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Sullay Kaikai",
+    "position":"Midfielder",
+    "club":"Crystal Palace",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Jason Puncheon",
+    "position":"Midfielder",
+    "club":"Crystal Palace",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Connor Wickham",
+    "position":"Forward",
+    "club":"Crystal Palace",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Jordon Mutch",
+    "position":"Midfielder",
+    "club":"Crystal Palace",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Ruben Loftus-Cheek",
+    "position":"Midfielder",
+    "club":"Crystal Palace",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Freddie Ladapo",
+    "position":"Forward",
+    "club":"Crystal Palace",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Levi Lumeka",
+    "position":"Forward",
+    "club":"Crystal Palace",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Dion Henry",
+    "position":"Goalkeeper",
+    "club":"Crystal Palace",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Michael Phillips",
+    "position":"Defender",
+    "club":"Crystal Palace",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Leighton Baines",
+    "position":"Defender",
+    "club":"Everton",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Phil Jagielka",
+    "position":"Defender",
+    "club":"Everton",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Jonjoe Kenny",
+    "position":"Defender",
+    "club":"Everton",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Ross Barkley",
+    "position":"Midfielder",
+    "club":"Everton",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Tom Davies",
+    "position":"Midfielder",
+    "club":"Everton",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Dominic Calvert-Lewin",
+    "position":"Forward",
+    "club":"Everton",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Ademola Lookman",
+    "position":"Forward",
+    "club":"Everton",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Michael Keane",
+    "position":"Defender",
+    "club":"Everton",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Wayne Rooney",
+    "position":"Forward",
+    "club":"Everton",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Aaron Lennon",
+    "position":"Midfielder",
+    "club":"Everton",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Jordan Pickford",
+    "position":"Goalkeeper",
+    "club":"Everton",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Mason Holgate",
+    "position":"Defender",
+    "club":"Everton",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Beni Baningime",
+    "position":"Midfielder",
+    "club":"Everton",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Morgan Feeney",
+    "position":"Defender",
+    "club":"Everton",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Joel Coleman",
+    "position":"Goalkeeper",
+    "club":"Huddersfield Town",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Tommy Smith",
+    "position":"Defender",
+    "club":"Huddersfield Town",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Martin Cranie",
+    "position":"Defender",
+    "club":"Huddersfield Town",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Dean Whitehead",
+    "position":"Midfielder",
+    "club":"Huddersfield Town",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Jonathan Hogg",
+    "position":"Midfielder",
+    "club":"Huddersfield Town",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Joe Lolley",
+    "position":"Forward",
+    "club":"Huddersfield Town",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Tom Ince",
+    "position":"Midfielder",
+    "club":"Huddersfield Town",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Kasey Palmer",
+    "position":"Midfielder",
+    "club":"Huddersfield Town",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Scott Malone",
+    "position":"Defender",
+    "club":"Huddersfield Town",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Robert Green",
+    "position":"Goalkeeper",
+    "club":"Huddersfield Town",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Harry Maguire",
+    "position":"Defender",
     "club":"Leicester City",
-    "age":27,
-    "position":"LM",
     "nationality":"England"
     }
   },
@@ -2375,10 +2648,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Danny Simpson",
+    "player":"Ben Hamer",
+    "position":"Goalkeeper",
     "club":"Leicester City",
-    "age":30,
-    "position":"RB",
     "nationality":"England"
     }
   },
@@ -2389,10 +2661,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Harry Maguire",
+    "player":"Ben Chilwell",
+    "position":"Defender",
     "club":"Leicester City",
-    "age":24,
-    "position":"CB",
     "nationality":"England"
     }
   },
@@ -2403,10 +2674,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Danny Drinkwater",
+    "player":"Danny Simpson",
+    "position":"Defender",
     "club":"Leicester City",
-    "age":27,
-    "position":"CM",
     "nationality":"England"
     }
   },
@@ -2417,10 +2687,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Demarai Gray",
+    "player":"Matty James",
+    "position":"Midfielder",
     "club":"Leicester City",
-    "age":21,
-    "position":"LW",
     "nationality":"England"
     }
   },
@@ -2431,10 +2700,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Ben Chilwell",
+    "player":"Marc Albrighton",
+    "position":"Midfielder",
     "club":"Leicester City",
-    "age":20,
-    "position":"LB",
     "nationality":"England"
     }
   },
@@ -2445,10 +2713,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Ben Hamer",
+    "player":"Demarai Gray",
+    "position":"Midfielder",
     "club":"Leicester City",
-    "age":29,
-    "position":"GK",
     "nationality":"England"
     }
   },
@@ -2459,10 +2726,48 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"James Milner",
+    "player":"Jamie Vardy",
+    "position":"Forward",
+    "club":"Leicester City",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Josh Knight",
+    "position":"Defender",
+    "club":"Leicester City",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Hamza Choudhury",
+    "position":"Midfielder",
+    "club":"Leicester City",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Dominic Solanke",
+    "position":"Forward",
     "club":"Liverpool",
-    "age":31,
-    "position":"CM",
     "nationality":"England"
     }
   },
@@ -2473,10 +2778,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Adam Lallana",
+    "player":"Nathaniel Clyne",
+    "position":"Defender",
     "club":"Liverpool",
-    "age":29,
-    "position":"AM",
     "nationality":"England"
     }
   },
@@ -2487,10 +2791,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Nathaniel Clyne",
+    "player":"James Milner",
+    "position":"Defender",
     "club":"Liverpool",
-    "age":26,
-    "position":"RB",
     "nationality":"England"
     }
   },
@@ -2501,10 +2804,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Jordan Henderson",
+    "player":"Joseph Gomez",
+    "position":"Defender",
     "club":"Liverpool",
-    "age":27,
-    "position":"CM",
     "nationality":"England"
     }
   },
@@ -2515,10 +2817,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Daniel Sturridge",
+    "player":"Jon Flanagan",
+    "position":"Defender",
     "club":"Liverpool",
-    "age":27,
-    "position":"CF",
     "nationality":"England"
     }
   },
@@ -2529,10 +2830,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Trent Alexander-Arnold",
+    "player":"Trent Alexander-Arnold",
+    "position":"Defender",
     "club":"Liverpool",
-    "age":18,
-    "position":"RB",
     "nationality":"England"
     }
   },
@@ -2543,10 +2843,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Joe Gomez",
+    "player":"Jordan Henderson",
+    "position":"Midfielder",
     "club":"Liverpool",
-    "age":20,
-    "position":"CB",
     "nationality":"England"
     }
   },
@@ -2557,10 +2856,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Sheyi Ojo",
+    "player":"Adam Lallana",
+    "position":"Midfielder",
     "club":"Liverpool",
-    "age":20,
-    "position":"LW",
     "nationality":"England"
     }
   },
@@ -2571,10 +2869,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Danny Ings",
+    "player":"Ovie Ejaria",
+    "position":"Midfielder",
     "club":"Liverpool",
-    "age":24,
-    "position":"CF",
     "nationality":"England"
     }
   },
@@ -2585,10 +2882,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Dominic Solanke",
+    "player":"Daniel Sturridge",
+    "position":"Forward",
     "club":"Liverpool",
-    "age":19,
-    "position":"CF",
     "nationality":"England"
     }
   },
@@ -2599,10 +2895,61 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Raheem Sterling",
+    "player":"Danny Ings",
+    "position":"Forward",
+    "club":"Liverpool",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Rhian Brewster",
+    "position":"Forward",
+    "club":"Liverpool",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Cameron Brannagan",
+    "position":"Midfielder",
+    "club":"Liverpool",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Alex Oxlade-Chamberlain",
+    "position":"Midfielder",
+    "club":"Liverpool",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"John Stones",
+    "position":"Defender",
     "club":"Manchester City",
-    "age":22,
-    "position":"LW",
     "nationality":"England"
     }
   },
@@ -2613,10 +2960,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Kyle Walker",
+    "player":"Tosin Adarabioyo",
+    "position":"Defender",
     "club":"Manchester City",
-    "age":27,
-    "position":"RB",
     "nationality":"England"
     }
   },
@@ -2627,10 +2973,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"John Stones",
+    "player":"Fabian Delph",
+    "position":"Midfielder",
     "club":"Manchester City",
-    "age":23,
-    "position":"CB",
     "nationality":"England"
     }
   },
@@ -2641,10 +2986,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Fabian Delph",
+    "player":"Raheem Sterling",
+    "position":"Forward",
     "club":"Manchester City",
-    "age":27,
-    "position":"CM",
     "nationality":"England"
     }
   },
@@ -2655,10 +2999,61 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Marcus Rashford",
+    "player":"Phil Foden",
+    "position":"Forward",
+    "club":"Manchester City",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Kyle Walker",
+    "position":"Defender",
+    "club":"Manchester City",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Daniel Grimshaw",
+    "position":"Goalkeeper",
+    "club":"Manchester City",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Lukas Nmecha",
+    "position":"Forward",
+    "club":"Manchester City",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Phil Jones",
+    "position":"Defender",
     "club":"Manchester United",
-    "age":19,
-    "position":"CF",
     "nationality":"England"
     }
   },
@@ -2669,10 +3064,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Jesse Lingard",
+    "player":"Chris Smalling",
+    "position":"Defender",
     "club":"Manchester United",
-    "age":24,
-    "position":"LW",
     "nationality":"England"
     }
   },
@@ -2683,10 +3077,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Phil Jones",
+    "player":"Luke Shaw",
+    "position":"Defender",
     "club":"Manchester United",
-    "age":25,
-    "position":"CB",
     "nationality":"England"
     }
   },
@@ -2697,10 +3090,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Chris Smalling",
+    "player":"Demetri Mitchell",
+    "position":"Defender",
     "club":"Manchester United",
-    "age":27,
-    "position":"CB",
     "nationality":"England"
     }
   },
@@ -2711,10 +3103,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Luke Shaw",
+    "player":"Jesse Lingard",
+    "position":"Midfielder",
     "club":"Manchester United",
-    "age":22,
-    "position":"LB",
     "nationality":"England"
     }
   },
@@ -2725,10 +3116,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Michael Carrick",
+    "player":"Michael Carrick",
+    "position":"Midfielder",
     "club":"Manchester United",
-    "age":35,
-    "position":"DM",
     "nationality":"England"
     }
   },
@@ -2739,10 +3129,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Ashley Young",
+    "player":"Ashley Young",
+    "position":"Midfielder",
     "club":"Manchester United",
-    "age":32,
-    "position":"LM",
     "nationality":"England"
     }
   },
@@ -2753,10 +3142,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Axel Tuanzebe",
+    "player":"Marcus Rashford",
+    "position":"Forward",
     "club":"Manchester United",
-    "age":19,
-    "position":"CB",
     "nationality":"England"
     }
   },
@@ -2767,10 +3155,35 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Karl Darlow",
+    "player":"Scott McTominay",
+    "position":"Midfielder",
+    "club":"Manchester United",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Axel Tuanzebe",
+    "position":"Defender",
+    "club":"Manchester United",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Karl Darlow",
+    "position":"Goalkeeper",
     "club":"Newcastle United",
-    "age":26,
-    "position":"GK",
     "nationality":"England"
     }
   },
@@ -2781,10 +3194,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Lascelles",
+    "player":"Jamaal Lascelles",
+    "position":"Defender",
     "club":"Newcastle United",
-    "age":27,
-    "position":"CB",
     "nationality":"England"
     }
   },
@@ -2795,10 +3207,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Jonjo Shelvey",
+    "player":"Jack Colback",
+    "position":"Midfielder",
     "club":"Newcastle United",
-    "age":25,
-    "position":"CM",
     "nationality":"England"
     }
   },
@@ -2809,10 +3220,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Jack Colback",
+    "player":"Jonjo Shelvey",
+    "position":"Midfielder",
     "club":"Newcastle United",
-    "age":27,
-    "position":"DM",
     "nationality":"England"
     }
   },
@@ -2823,10 +3233,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Rolando Aarons",
+    "player":"Isaac Hayden",
+    "position":"Midfielder",
     "club":"Newcastle United",
-    "age":21,
-    "position":"LW",
     "nationality":"England"
     }
   },
@@ -2837,10 +3246,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Dwight Gayle",
+    "player":"Rolando Aarons",
+    "position":"Midfielder",
     "club":"Newcastle United",
-    "age":26,
-    "position":"CF",
     "nationality":"England"
     }
   },
@@ -2851,10 +3259,74 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Fraser Forster",
+    "player":"Dwight Gayle",
+    "position":"Forward",
+    "club":"Newcastle United",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Jacob Murphy",
+    "position":"Midfielder",
+    "club":"Newcastle United",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Freddie Woodman",
+    "position":"Goalkeeper",
+    "club":"Newcastle United",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Jamie Sterry",
+    "position":"Defender",
+    "club":"Newcastle United",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Daniel Barlaser",
+    "position":"Midfielder",
+    "club":"Newcastle United",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Fraser Forster",
+    "position":"Goalkeeper",
     "club":"Southampton",
-    "age":29,
-    "position":"GK",
     "nationality":"England"
     }
   },
@@ -2865,10 +3337,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Nathan Redmond",
+    "player":"Alex McCarthy",
+    "position":"Goalkeeper",
     "club":"Southampton",
-    "age":23,
-    "position":"RW",
     "nationality":"England"
     }
   },
@@ -2879,10 +3350,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Ryan Bertrand",
+    "player":"Stuart Taylor",
+    "position":"Goalkeeper",
     "club":"Southampton",
-    "age":27,
-    "position":"LB",
     "nationality":"England"
     }
   },
@@ -2893,10 +3363,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"James Ward-Prowse",
+    "player":"Jack Stephens",
+    "position":"Defender",
     "club":"Southampton",
-    "age":22,
-    "position":"CM",
     "nationality":"England"
     }
   },
@@ -2907,10 +3376,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Charlie Austin",
+    "player":"Matt Targett",
+    "position":"Defender",
     "club":"Southampton",
-    "age":28,
-    "position":"CF",
     "nationality":"England"
     }
   },
@@ -2921,10 +3389,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Jack Stephens",
+    "player":"Sam McQueen",
+    "position":"Defender",
     "club":"Southampton",
-    "age":23,
-    "position":"CB",
     "nationality":"England"
     }
   },
@@ -2935,10 +3402,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Sam McQueen",
+    "player":"James Ward-Prowse",
+    "position":"Midfielder",
     "club":"Southampton",
-    "age":22,
-    "position":"LM",
     "nationality":"England"
     }
   },
@@ -2949,10 +3415,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Matt Targett",
+    "player":"Nathan Redmond",
+    "position":"Midfielder",
     "club":"Southampton",
-    "age":21,
-    "position":"LB",
     "nationality":"England"
     }
   },
@@ -2963,10 +3428,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Josh Sims",
+    "player":"Jake Hesketh",
+    "position":"Midfielder",
     "club":"Southampton",
-    "age":20,
-    "position":"RW",
     "nationality":"England"
     }
   },
@@ -2977,10 +3441,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Jason McCarthy",
+    "player":"Charlie Austin",
+    "position":"Forward",
     "club":"Southampton",
-    "age":21,
-    "position":"CB",
     "nationality":"England"
     }
   },
@@ -2991,10 +3454,35 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Marko Arnautovic",
+    "player":"Ryan Bertrand",
+    "position":"Defender",
+    "club":"Southampton",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Josh Sims",
+    "position":"Midfielder",
+    "club":"Southampton",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Jack Butland",
+    "position":"Goalkeeper",
     "club":"Stoke City",
-    "age":28,
-    "position":"LW",
     "nationality":"England"
     }
   },
@@ -3005,10 +3493,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Lee Grant",
+    "player":"Lee Grant",
+    "position":"Goalkeeper",
     "club":"Stoke City",
-    "age":34,
-    "position":"GK",
     "nationality":"England"
     }
   },
@@ -3019,10 +3506,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Ryan Shawcross",
+    "player":"Glen Johnson",
+    "position":"Defender",
     "club":"Stoke City",
-    "age":29,
-    "position":"CB",
     "nationality":"England"
     }
   },
@@ -3033,10 +3519,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Peter Crouch",
+    "player":"Ryan Shawcross",
+    "position":"Defender",
     "club":"Stoke City",
-    "age":36,
-    "position":"CF",
     "nationality":"England"
     }
   },
@@ -3047,10 +3532,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Glen Johnson",
+    "player":"Thomas Edwards",
+    "position":"Defender",
     "club":"Stoke City",
-    "age":32,
-    "position":"RB",
     "nationality":"England"
     }
   },
@@ -3061,10 +3545,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Saido Berahino",
+    "player":"Saido Berahino",
+    "position":"Forward",
     "club":"Stoke City",
-    "age":23,
-    "position":"CF",
     "nationality":"England"
     }
   },
@@ -3075,10 +3558,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Jack Butland",
+    "player":"Peter Crouch",
+    "position":"Forward",
     "club":"Stoke City",
-    "age":24,
-    "position":"GK",
     "nationality":"England"
     }
   },
@@ -3089,10 +3571,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Josh Tymon",
+    "player":"Josh Tymon",
+    "position":"Defender",
     "club":"Stoke City",
-    "age":18,
-    "position":"LB",
     "nationality":"England"
     }
   },
@@ -3103,10 +3584,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Alfie Mawson",
-    "club":"Swansea",
-    "age":23,
-    "position":"CB",
+    "player":"Oliver Shenton",
+    "position":"Midfielder",
+    "club":"Stoke City",
     "nationality":"England"
     }
   },
@@ -3117,10 +3597,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Kyle Naughton",
-    "club":"Swansea",
-    "age":28,
-    "position":"RB",
+    "player":"Alfie Mawson",
+    "position":"Defender",
+    "club":"Swansea City",
     "nationality":"England"
     }
   },
@@ -3131,10 +3610,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Wayne Routledge",
-    "club":"Swansea",
-    "age":32,
-    "position":"LW",
+    "player":"Kyle Naughton",
+    "position":"Defender",
+    "club":"Swansea City",
     "nationality":"England"
     }
   },
@@ -3145,10 +3623,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Tom Carroll",
-    "club":"Swansea",
-    "age":25,
-    "position":"CM",
+    "player":"Kyle Bartley",
+    "position":"Defender",
+    "club":"Swansea City",
     "nationality":"England"
     }
   },
@@ -3159,10 +3636,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Leon Britton",
-    "club":"Swansea",
-    "age":34,
-    "position":"CM",
+    "player":"Leon Britton",
+    "position":"Midfielder",
+    "club":"Swansea City",
     "nationality":"England"
     }
   },
@@ -3173,10 +3649,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Nathan Dyer",
-    "club":"Swansea",
-    "age":29,
-    "position":"RW",
+    "player":"Nathan Dyer",
+    "position":"Midfielder",
+    "club":"Swansea City",
     "nationality":"England"
     }
   },
@@ -3187,10 +3662,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Tammy Abraham",
-    "club":"Swansea",
-    "age":19,
-    "position":"CF",
+    "player":"Wayne Routledge",
+    "position":"Midfielder",
+    "club":"Swansea City",
     "nationality":"England"
     }
   },
@@ -3201,10 +3675,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Dele Alli",
-    "club":"Tottenham",
-    "age":21,
-    "position":"CM",
+    "player":"Tom Carroll",
+    "position":"Midfielder",
+    "club":"Swansea City",
     "nationality":"England"
     }
   },
@@ -3215,10 +3688,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Harry Kane",
-    "club":"Tottenham",
-    "age":23,
-    "position":"CF",
+    "player":"Tammy Abraham",
+    "position":"Forward",
+    "club":"Swansea City",
     "nationality":"England"
     }
   },
@@ -3229,10 +3701,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Eric Dier",
-    "club":"Tottenham",
-    "age":23,
-    "position":"DM",
+    "player":"Sam Clucas",
+    "position":"Midfielder",
+    "club":"Swansea City",
     "nationality":"England"
     }
   },
@@ -3243,10 +3714,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Danny Rose",
-    "club":"Tottenham",
-    "age":27,
-    "position":"LB",
+    "player":"Courtney Baker-Richardson",
+    "position":"Forward",
+    "club":"Swansea City",
     "nationality":"England"
     }
   },
@@ -3257,10 +3727,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Kieran Trippier",
-    "club":"Tottenham",
-    "age":26,
-    "position":"RB",
+    "player":"Danny Rose",
+    "position":"Defender",
+    "club":"Tottenham Hotspur",
     "nationality":"England"
     }
   },
@@ -3271,10 +3740,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Harry Winks",
-    "club":"Tottenham",
-    "age":21,
-    "position":"CM",
+    "player":"Kieran Trippier",
+    "position":"Defender",
+    "club":"Tottenham Hotspur",
     "nationality":"England"
     }
   },
@@ -3285,10 +3753,113 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Troy Deeney",
+    "player":"Kyle Walker-Peters",
+    "position":"Defender",
+    "club":"Tottenham Hotspur",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Eric Dier",
+    "position":"Midfielder",
+    "club":"Tottenham Hotspur",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Dele Alli",
+    "position":"Midfielder",
+    "club":"Tottenham Hotspur",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Harry Winks",
+    "position":"Midfielder",
+    "club":"Tottenham Hotspur",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Harry Kane",
+    "position":"Forward",
+    "club":"Tottenham Hotspur",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Anthony Georgiou",
+    "position":"Midfielder",
+    "club":"Tottenham Hotspur",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Tashan Oakley-Boothe",
+    "position":"Midfielder",
+    "club":"Tottenham Hotspur",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Alfie Whiteman",
+    "position":"Goalkeeper",
+    "club":"Tottenham Hotspur",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Tom Cleverley",
+    "position":"Midfielder",
     "club":"Watford",
-    "age":29,
-    "position":"CF",
     "nationality":"England"
     }
   },
@@ -3299,10 +3870,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Tom Cleverley",
+    "player":"Will Hughes",
+    "position":"Midfielder",
     "club":"Watford",
-    "age":27,
-    "position":"CM",
     "nationality":"England"
     }
   },
@@ -3313,10 +3883,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Nathaniel Chalobah",
+    "player":"Brandon Mason",
+    "position":"Defender",
     "club":"Watford",
-    "age":22,
-    "position":"DM",
     "nationality":"England"
     }
   },
@@ -3327,10 +3896,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Will Hughes",
+    "player":"Ben Watson",
+    "position":"Midfielder",
     "club":"Watford",
-    "age":22,
-    "position":"CM",
     "nationality":"England"
     }
   },
@@ -3341,10 +3909,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Ben Foster",
-    "club":"West Brom",
-    "age":34,
-    "position":"GK",
+    "player":"Troy Deeney",
+    "position":"Forward",
+    "club":"Watford",
     "nationality":"England"
     }
   },
@@ -3355,10 +3922,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Craig Dawson",
-    "club":"West Brom",
-    "age":27,
-    "position":"RB",
+    "player":"Jerome Sinclair",
+    "position":"Forward",
+    "club":"Watford",
     "nationality":"England"
     }
   },
@@ -3369,10 +3935,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Jake Livermore",
-    "club":"West Brom",
-    "age":27,
-    "position":"DM",
+    "player":"Nathaniel Chalobah",
+    "position":"Midfielder",
+    "club":"Watford",
     "nationality":"England"
     }
   },
@@ -3383,10 +3948,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Jay Rodriguez",
-    "club":"West Brom",
-    "age":27,
-    "position":"CF",
+    "player":"Andre Gray",
+    "position":"Forward",
+    "club":"Watford",
     "nationality":"England"
     }
   },
@@ -3397,10 +3961,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Jonathan Leko",
-    "club":"West Brom",
-    "age":18,
-    "position":"RW",
+    "player":"Jay Rodriguez",
+    "position":"Forward",
+    "club":"West Bromwich Albion",
     "nationality":"England"
     }
   },
@@ -3411,10 +3974,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Sam Field",
-    "club":"West Brom",
-    "age":19,
-    "position":"CM",
+    "player":"Ben Foster",
+    "position":"Goalkeeper",
+    "club":"West Bromwich Albion",
     "nationality":"England"
     }
   },
@@ -3425,10 +3987,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Michail Antonio",
-    "club":"West Ham",
-    "age":27,
-    "position":"RW",
+    "player":"Alex Palmer",
+    "position":"Goalkeeper",
+    "club":"West Bromwich Albion",
     "nationality":"England"
     }
   },
@@ -3439,10 +4000,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Mark Noble",
-    "club":"West Ham",
-    "age":30,
-    "position":"CM",
+    "player":"Craig Dawson",
+    "position":"Defender",
+    "club":"West Bromwich Albion",
     "nationality":"England"
     }
   },
@@ -3453,10 +4013,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Andy Carroll",
-    "club":"West Ham",
-    "age":28,
-    "position":"CF",
+    "player":"Jake Livermore",
+    "position":"Midfielder",
+    "club":"West Bromwich Albion",
     "nationality":"England"
     }
   },
@@ -3467,10 +4026,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Aaron Cresswell",
-    "club":"West Ham",
-    "age":27,
-    "position":"LB",
+    "player":"Max Melbourne",
+    "position":"Defender",
+    "club":"West Bromwich Albion",
     "nationality":"England"
     }
   },
@@ -3481,10 +4039,9 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Sam Byram",
-    "club":"West Ham",
-    "age":23,
-    "position":"RB",
+    "player":"Gareth Barry",
+    "position":"Midfielder",
+    "club":"West Bromwich Albion",
     "nationality":"England"
     }
   },
@@ -3495,10 +4052,126 @@ eqfeed_callback(
        "coordinates":  [ -1.1,52.6 ]
     },
     "properties": {
-    "name":"Ashley Fletcher",
-    "club":"West Ham",
-    "age":21,
-    "position":"CF",
+    "player":"Kieran Gibbs",
+    "position":"Defender",
+    "club":"West Bromwich Albion",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Sam Field",
+    "position":"Midfielder",
+    "club":"West Bromwich Albion",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Aaron Cresswell",
+    "position":"Defender",
+    "club":"West Ham United",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Sam Byram",
+    "position":"Defender",
+    "club":"West Ham United",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Mark Noble",
+    "position":"Midfielder",
+    "club":"West Ham United",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Michail Antonio",
+    "position":"Midfielder",
+    "club":"West Ham United",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Andy Carroll",
+    "position":"Forward",
+    "club":"West Ham United",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Joe Hart",
+    "position":"Goalkeeper",
+    "club":"West Ham United",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Nathan Trott",
+    "position":"Goalkeeper",
+    "club":"West Ham United",
+    "nationality":"England"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.1,52.6 ]
+    },
+    "properties": {
+    "player":"Nathan Holland",
+    "position":"Midfielder",
+    "club":"West Ham United",
     "nationality":"England"
     }
   },
@@ -3509,10 +4182,9 @@ eqfeed_callback(
        "coordinates":  [ 25,58.5 ]
     },
     "properties": {
-    "name":"Ragnar Klavan",
+    "player":"Ragnar Klavan",
+    "position":"Defender",
     "club":"Liverpool",
-    "age":31,
-    "position":"CB",
     "nationality":"Estonia"
     }
   },
@@ -3523,10 +4195,9 @@ eqfeed_callback(
        "coordinates":  [ 25.7,61.9 ]
     },
     "properties": {
-    "name":"Niki Maenpaa",
-    "club":"Brighton",
-    "age":32,
-    "position":"GK",
+    "player":"Niki Maenpaa",
+    "position":"Goalkeeper",
+    "club":"Brighton & Hove Albion",
     "nationality":"Finland"
     }
   },
@@ -3537,10 +4208,22 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Laurent Koscielny",
+    "player":"Lys Mousset",
+    "position":"Forward",
+    "club":"AFC Bournemouth",
+    "nationality":"France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2,46.2 ]
+    },
+    "properties": {
+    "player":"Mathieu Debuchy",
+    "position":"Defender",
     "club":"Arsenal",
-    "age":31,
-    "position":"CB",
     "nationality":"France"
     }
   },
@@ -3551,10 +4234,9 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Olivier Giroud",
+    "player":"Laurent Koscielny",
+    "position":"Defender",
     "club":"Arsenal",
-    "age":30,
-    "position":"CF",
     "nationality":"France"
     }
   },
@@ -3565,10 +4247,9 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Francis Coquelin",
+    "player":"Francis Coquelin",
+    "position":"Midfielder",
     "club":"Arsenal",
-    "age":26,
-    "position":"DM",
     "nationality":"France"
     }
   },
@@ -3579,10 +4260,9 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Alexandre Lacazette",
+    "player":"Olivier Giroud",
+    "position":"Forward",
     "club":"Arsenal",
-    "age":26,
-    "position":"CF",
     "nationality":"France"
     }
   },
@@ -3593,10 +4273,9 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Lys Mousset",
-    "club":"Bournemouth",
-    "age":21,
-    "position":"CF",
+    "player":"Alexandre Lacazette",
+    "position":"Forward",
+    "club":"Arsenal",
     "nationality":"France"
     }
   },
@@ -3607,10 +4286,9 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Anthony Knockaert",
-    "club":"Brighton",
-    "age":25,
-    "position":"RW",
+    "player":"Jeff Reine-Adelaide",
+    "position":"Midfielder",
+    "club":"Arsenal",
     "nationality":"France"
     }
   },
@@ -3621,10 +4299,22 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"N%27Golo Kante",
+    "player":"Anthony Knockaert",
+    "position":"Midfielder",
+    "club":"Brighton & Hove Albion",
+    "nationality":"France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2,46.2 ]
+    },
+    "properties": {
+    "player":"N'Golo Kante",
+    "position":"Midfielder",
     "club":"Chelsea",
-    "age":26,
-    "position":"DM",
     "nationality":"France"
     }
   },
@@ -3635,10 +4325,9 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Kurt Zouma",
+    "player":"Tiemoue Bakayoko",
+    "position":"Midfielder",
     "club":"Chelsea",
-    "age":22,
-    "position":"CB",
     "nationality":"France"
     }
   },
@@ -3649,24 +4338,9 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Tiemoue Bakayoko",
-    "club":"Chelsea",
-    "age":22,
-    "position":"DM",
-    "nationality":"France"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 2.2,46.2 ]
-    },
-    "properties": {
-    "name":"Yohan Cabaye",
+    "player":"Yohan Cabaye",
+    "position":"Midfielder",
     "club":"Crystal Palace",
-    "age":31,
-    "position":"CM",
     "nationality":"France"
     }
   },
@@ -3677,10 +4351,22 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Morgan Schneiderlin",
+    "player":"Mamadou Sakho",
+    "position":"Defender",
+    "club":"Crystal Palace",
+    "nationality":"France"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.2,46.2 ]
+    },
+    "properties": {
+    "player":"Morgan Schneiderlin",
+    "position":"Midfielder",
     "club":"Everton",
-    "age":27,
-    "position":"DM",
     "nationality":"France"
     }
   },
@@ -3691,10 +4377,9 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Nampalys Mendy",
-    "club":"Leicester City",
-    "age":25,
-    "position":"DM",
+    "player":"Eliaquim Mangala",
+    "position":"Defender",
+    "club":"Manchester City",
     "nationality":"France"
     }
   },
@@ -3705,10 +4390,9 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Mamadou Sakho",
-    "club":"Liverpool",
-    "age":27,
-    "position":"CB",
+    "player":"Benjamin Mendy",
+    "position":"Defender",
+    "club":"Manchester City",
     "nationality":"France"
     }
   },
@@ -3719,10 +4403,9 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Paul Pogba",
+    "player":"Paul Pogba",
+    "position":"Midfielder",
     "club":"Manchester United",
-    "age":24,
-    "position":"CM",
     "nationality":"France"
     }
   },
@@ -3733,10 +4416,9 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Anthony Martial",
+    "player":"Anthony Martial",
+    "position":"Forward",
     "club":"Manchester United",
-    "age":21,
-    "position":"CF",
     "nationality":"France"
     }
   },
@@ -3747,10 +4429,9 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Florian Lejeune",
+    "player":"Massadio Haidara",
+    "position":"Defender",
     "club":"Newcastle United",
-    "age":26,
-    "position":"CB",
     "nationality":"France"
     }
   },
@@ -3761,10 +4442,9 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Massadio Haidara",
+    "player":"Florian Lejeune",
+    "position":"Defender",
     "club":"Newcastle United",
-    "age":24,
-    "position":"LB",
     "nationality":"France"
     }
   },
@@ -3775,10 +4455,9 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Jeremy Pied",
+    "player":"Jeremy Pied",
+    "position":"Defender",
     "club":"Southampton",
-    "age":28,
-    "position":"RM",
     "nationality":"France"
     }
   },
@@ -3789,10 +4468,9 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Giannelli Imbula",
+    "player":"Kurt Zouma",
+    "position":"Defender",
     "club":"Stoke City",
-    "age":24,
-    "position":"DM",
     "nationality":"France"
     }
   },
@@ -3803,10 +4481,9 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Hugo Lloris",
-    "club":"Tottenham",
-    "age":30,
-    "position":"GK",
+    "player":"Hugo Lloris",
+    "position":"Goalkeeper",
+    "club":"Tottenham Hotspur",
     "nationality":"France"
     }
   },
@@ -3817,10 +4494,9 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Moussa Sissokho",
-    "club":"Tottenham",
-    "age":27,
-    "position":"CM",
+    "player":"Georges-Kevin Nkoudou",
+    "position":"Midfielder",
+    "club":"Tottenham Hotspur",
     "nationality":"France"
     }
   },
@@ -3831,10 +4507,9 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Georges-Kevin N'koudou",
-    "club":"Tottenham",
-    "age":22,
-    "position":"LW",
+    "player":"Moussa Sissoko",
+    "position":"Midfielder",
+    "club":"Tottenham Hotspur",
     "nationality":"France"
     }
   },
@@ -3845,10 +4520,9 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Etienne Capoue",
+    "player":"Younes Kaboul",
+    "position":"Defender",
     "club":"Watford",
-    "age":29,
-    "position":"DM",
     "nationality":"France"
     }
   },
@@ -3859,10 +4533,9 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Younes Kaboul",
+    "player":"Abdoulaye Doucoure",
+    "position":"Midfielder",
     "club":"Watford",
-    "age":31,
-    "position":"CB",
     "nationality":"France"
     }
   },
@@ -3873,10 +4546,9 @@ eqfeed_callback(
        "coordinates":  [ 2.2,46.2 ]
     },
     "properties": {
-    "name":"Abdoulaye Doucoure",
+    "player":"Etienne Capoue",
+    "position":"Midfielder",
     "club":"Watford",
-    "age":24,
-    "position":"CM",
     "nationality":"France"
     }
   },
@@ -3884,13 +4556,25 @@ eqfeed_callback(
     "type": "Feature",
     "geometry": {
        "type": "Point",
+       "coordinates":  [ 11.6,-0.8 ]
+    },
+    "properties": {
+    "player":"Mario Lemina",
+    "position":"Midfielder",
+    "club":"Southampton",
+    "nationality":"Gabon"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
        "coordinates":  [ 10.4,51.1 ]
     },
     "properties": {
-    "name":"Mesut Ozil",
+    "player":"Per Mertesacker",
+    "position":"Defender",
     "club":"Arsenal",
-    "age":28,
-    "position":"AM",
     "nationality":"Germany"
     }
   },
@@ -3901,10 +4585,9 @@ eqfeed_callback(
        "coordinates":  [ 10.4,51.1 ]
     },
     "properties": {
-    "name":"Shkodran Mustafi",
+    "player":"Shkodran Mustafi",
+    "position":"Defender",
     "club":"Arsenal",
-    "age":25,
-    "position":"CB",
     "nationality":"Germany"
     }
   },
@@ -3915,10 +4598,9 @@ eqfeed_callback(
        "coordinates":  [ 10.4,51.1 ]
     },
     "properties": {
-    "name":"Per Mertesacker",
+    "player":"Mesut ozil",
+    "position":"Midfielder",
     "club":"Arsenal",
-    "age":32,
-    "position":"CB",
     "nationality":"Germany"
     }
   },
@@ -3929,10 +4611,9 @@ eqfeed_callback(
        "coordinates":  [ 10.4,51.1 ]
     },
     "properties": {
-    "name":"Uwe Hunemeier",
-    "club":"Brighton",
-    "age":31,
-    "position":"CB",
+    "player":"Uwe Hunemeier",
+    "position":"Defender",
+    "club":"Brighton & Hove Albion",
     "nationality":"Germany"
     }
   },
@@ -3943,10 +4624,9 @@ eqfeed_callback(
        "coordinates":  [ 10.4,51.1 ]
     },
     "properties": {
-    "name":"Pascal Gross",
-    "club":"Brighton",
-    "age":26,
-    "position":"CM",
+    "player":"Pascal Gross",
+    "position":"Midfielder",
+    "club":"Brighton & Hove Albion",
     "nationality":"Germany"
     }
   },
@@ -3957,10 +4637,9 @@ eqfeed_callback(
        "coordinates":  [ 10.4,51.1 ]
     },
     "properties": {
-    "name":"Antonio Rudiger",
+    "player":"Antonio Rudiger",
+    "position":"Defender",
     "club":"Chelsea",
-    "age":24,
-    "position":"CB",
     "nationality":"Germany"
     }
   },
@@ -3971,10 +4650,9 @@ eqfeed_callback(
        "coordinates":  [ 10.4,51.1 ]
     },
     "properties": {
-    "name":"Muhamed Besic",
-    "club":"Everton",
-    "age":24,
-    "position":"DM",
+    "player":"Chris Lowe",
+    "position":"Defender",
+    "club":"Huddersfield Town",
     "nationality":"Germany"
     }
   },
@@ -3985,10 +4663,9 @@ eqfeed_callback(
        "coordinates":  [ 10.4,51.1 ]
     },
     "properties": {
-    "name":"Christopher Schindler",
-    "club":"Huddersfield",
-    "age":27,
-    "position":"CB",
+    "player":"Christopher Schindler",
+    "position":"Defender",
+    "club":"Huddersfield Town",
     "nationality":"Germany"
     }
   },
@@ -3999,10 +4676,9 @@ eqfeed_callback(
        "coordinates":  [ 10.4,51.1 ]
     },
     "properties": {
-    "name":"Chris Lowe",
-    "club":"Huddersfield",
-    "age":28,
-    "position":"LB",
+    "player":"Michael Hefele",
+    "position":"Defender",
+    "club":"Huddersfield Town",
     "nationality":"Germany"
     }
   },
@@ -4013,10 +4689,9 @@ eqfeed_callback(
        "coordinates":  [ 10.4,51.1 ]
     },
     "properties": {
-    "name":"Michael Hefele",
-    "club":"Huddersfield",
-    "age":26,
-    "position":"CB",
+    "player":"Collin Quaner",
+    "position":"Forward",
+    "club":"Huddersfield Town",
     "nationality":"Germany"
     }
   },
@@ -4027,24 +4702,9 @@ eqfeed_callback(
        "coordinates":  [ 10.4,51.1 ]
     },
     "properties": {
-    "name":"Collin Quaner",
-    "club":"Huddersfield",
-    "age":26,
-    "position":"CF",
-    "nationality":"Germany"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 10.4,51.1 ]
-    },
-    "properties": {
-    "name":"Robert Huth",
+    "player":"Robert Huth",
+    "position":"Defender",
     "club":"Leicester City",
-    "age":32,
-    "position":"CB",
     "nationality":"Germany"
     }
   },
@@ -4055,10 +4715,9 @@ eqfeed_callback(
        "coordinates":  [ 10.4,51.1 ]
     },
     "properties": {
-    "name":"Emre Can",
+    "player":"Loris Karius",
+    "position":"Goalkeeper",
     "club":"Liverpool",
-    "age":23,
-    "position":"DM",
     "nationality":"Germany"
     }
   },
@@ -4069,10 +4728,9 @@ eqfeed_callback(
        "coordinates":  [ 10.4,51.1 ]
     },
     "properties": {
-    "name":"Loris Karius",
+    "player":"Emre Can",
+    "position":"Midfielder",
     "club":"Liverpool",
-    "age":24,
-    "position":"GK",
     "nationality":"Germany"
     }
   },
@@ -4083,10 +4741,9 @@ eqfeed_callback(
        "coordinates":  [ 10.4,51.1 ]
     },
     "properties": {
-    "name":"Leroy Sane",
+    "player":"Ilkay Gundogan",
+    "position":"Midfielder",
     "club":"Manchester City",
-    "age":21,
-    "position":"LW",
     "nationality":"Germany"
     }
   },
@@ -4097,10 +4754,9 @@ eqfeed_callback(
        "coordinates":  [ 10.4,51.1 ]
     },
     "properties": {
-    "name":"Ilkay Gundogan",
+    "player":"Leroy Sane",
+    "position":"Midfielder",
     "club":"Manchester City",
-    "age":26,
-    "position":"CM",
     "nationality":"Germany"
     }
   },
@@ -4111,10 +4767,22 @@ eqfeed_callback(
        "coordinates":  [ -1,7.9 ]
     },
     "properties": {
-    "name":"Jeffrey Schlupp",
+    "player":"Abdul Rahman Baba",
+    "position":"Defender",
+    "club":"Chelsea",
+    "nationality":"Ghana"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1,7.9 ]
+    },
+    "properties": {
+    "player":"Jeffrey Schlupp",
+    "position":"Defender",
     "club":"Crystal Palace",
-    "age":24,
-    "position":"LB",
     "nationality":"Ghana"
     }
   },
@@ -4125,10 +4793,9 @@ eqfeed_callback(
        "coordinates":  [ -1,7.9 ]
     },
     "properties": {
-    "name":"Daniel Amartey",
+    "player":"Daniel Amartey",
+    "position":"Midfielder",
     "club":"Leicester City",
-    "age":22,
-    "position":"DM",
     "nationality":"Ghana"
     }
   },
@@ -4139,10 +4806,9 @@ eqfeed_callback(
        "coordinates":  [ -1,7.9 ]
     },
     "properties": {
-    "name":"Christian Atsu",
+    "player":"Christian Atsu",
+    "position":"Midfielder",
     "club":"Newcastle United",
-    "age":25,
-    "position":"RW",
     "nationality":"Ghana"
     }
   },
@@ -4153,10 +4819,9 @@ eqfeed_callback(
        "coordinates":  [ -1,7.9 ]
     },
     "properties": {
-    "name":"Jordan Ayew",
-    "club":"Swansea",
-    "age":25,
-    "position":"CF",
+    "player":"Jordan Ayew",
+    "position":"Forward",
+    "club":"Swansea City",
     "nationality":"Ghana"
     }
   },
@@ -4167,10 +4832,9 @@ eqfeed_callback(
        "coordinates":  [ -1,7.9 ]
     },
     "properties": {
-    "name":"Andre Ayew",
-    "club":"West Ham",
-    "age":27,
-    "position":"LW",
+    "player":"Andre Ayew",
+    "position":"Forward",
+    "club":"West Ham United",
     "nationality":"Ghana"
     }
   },
@@ -4181,10 +4845,9 @@ eqfeed_callback(
        "coordinates":  [ 21.8,39 ]
     },
     "properties": {
-    "name":"Jose Holebas",
+    "player":"Jose Holebas",
+    "position":"Defender",
     "club":"Watford",
-    "age":33,
-    "position":"LB",
     "nationality":"Greece"
     }
   },
@@ -4192,335 +4855,350 @@ eqfeed_callback(
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ -19,64.9 ]
+       "coordinates":  [ 21.8,39 ]
     },
     "properties": {
-    "name":"Johann Berg Gudmundsson",
-    "club":"Burnley",
-    "age":26,
-    "position":"RW",
-    "nationality":"Iceland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -19,64.9 ]
-    },
-    "properties": {
-    "name":"Gylfi Sigurdsson",
-    "club":"Swansea",
-    "age":27,
-    "position":"AM",
-    "nationality":"Iceland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -8.2,53.4 ]
-    },
-    "properties": {
-    "name":"Harry Arter",
-    "club":"Bournemouth",
-    "age":27,
-    "position":"CM",
-    "nationality":"Ireland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -8.2,53.4 ]
-    },
-    "properties": {
-    "name":"Shane Duffy",
-    "club":"Brighton",
-    "age":25,
-    "position":"CB",
-    "nationality":"Ireland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -8.2,53.4 ]
-    },
-    "properties": {
-    "name":"Stephen Ward",
-    "club":"Burnley",
-    "age":31,
-    "position":"LB",
-    "nationality":"Ireland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -8.2,53.4 ]
-    },
-    "properties": {
-    "name":"Jeff Hendrick",
-    "club":"Burnley",
-    "age":25,
-    "position":"CM",
-    "nationality":"Ireland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -8.2,53.4 ]
-    },
-    "properties": {
-    "name":"Robbie Brady",
-    "club":"Burnley",
-    "age":25,
-    "position":"LM",
-    "nationality":"Ireland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -8.2,53.4 ]
-    },
-    "properties": {
-    "name":"Kevin Long",
-    "club":"Burnley",
-    "age":26,
-    "position":"CB",
-    "nationality":"Ireland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -8.2,53.4 ]
-    },
-    "properties": {
-    "name":"Damien Delaney",
-    "club":"Crystal Palace",
-    "age":36,
-    "position":"CB",
-    "nationality":"Ireland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -8.2,53.4 ]
-    },
-    "properties": {
-    "name":"Seamus Coleman",
-    "club":"Everton",
-    "age":28,
-    "position":"RB",
-    "nationality":"Ireland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -8.2,53.4 ]
-    },
-    "properties": {
-    "name":"James McCarthy",
-    "club":"Everton",
-    "age":26,
-    "position":"CM",
-    "nationality":"Ireland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -8.2,53.4 ]
-    },
-    "properties": {
-    "name":"Sean Scannell",
-    "club":"Huddersfield",
-    "age":26,
-    "position":"RW",
-    "nationality":"Ireland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -8.2,53.4 ]
-    },
-    "properties": {
-    "name":"Rob Elliot",
-    "club":"Newcastle United",
-    "age":31,
-    "position":"GK",
-    "nationality":"Ireland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -8.2,53.4 ]
-    },
-    "properties": {
-    "name":"Ciaran Clark",
-    "club":"Newcastle United",
-    "age":27,
-    "position":"CB",
-    "nationality":"Ireland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -8.2,53.4 ]
-    },
-    "properties": {
-    "name":"Daryl Murphy",
-    "club":"Newcastle United",
-    "age":34,
-    "position":"CF",
-    "nationality":"Ireland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -8.2,53.4 ]
-    },
-    "properties": {
-    "name":"Shane Long",
-    "club":"Southampton",
-    "age":30,
-    "position":"CF",
-    "nationality":"Ireland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -8.2,53.4 ]
-    },
-    "properties": {
-    "name":"Glenn Whelan",
-    "club":"Stoke City",
-    "age":33,
-    "position":"DM",
-    "nationality":"Ireland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -8.2,53.4 ]
-    },
-    "properties": {
-    "name":"James McClean",
-    "club":"West Brom",
-    "age":28,
-    "position":"LW",
-    "nationality":"Ireland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -8.2,53.4 ]
-    },
-    "properties": {
-    "name":"Darren Randolph",
-    "club":"West Ham",
-    "age":30,
-    "position":"GK",
-    "nationality":"Ireland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 34.8,31 ]
-    },
-    "properties": {
-    "name":"Beram Kayal",
-    "club":"Brighton",
-    "age":29,
-    "position":"CM",
-    "nationality":"Israel"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 34.8,31 ]
-    },
-    "properties": {
-    "name":"Tomer Hemed",
-    "club":"Brighton",
-    "age":30,
-    "position":"CF",
-    "nationality":"Israel"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 12.5,41.8 ]
-    },
-    "properties": {
-    "name":"Matteo Darmian",
-    "club":"Manchester United",
-    "age":27,
-    "position":"RB",
-    "nationality":"Italy"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 12.5,41.8 ]
-    },
-    "properties": {
-    "name":"Manolo Gabbiadini",
-    "club":"Southampton",
-    "age":25,
-    "position":"CF",
-    "nationality":"Italy"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 12.5,41.8 ]
-    },
-    "properties": {
-    "name":"Stefano Okaka",
+    "player":"Orestis Karnezis",
+    "position":"Goalkeeper",
     "club":"Watford",
-    "age":27,
-    "position":"CF",
+    "nationality":"Greece"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.5,47.1 ]
+    },
+    "properties": {
+    "player":"Adam Bogdan",
+    "position":"Goalkeeper",
+    "club":"Liverpool",
+    "nationality":"Hungary"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -19,64.9 ]
+    },
+    "properties": {
+    "player":"Johann Berg Gudmundsson",
+    "position":"Midfielder",
+    "club":"Burnley",
+    "nationality":"Iceland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -19,64.9 ]
+    },
+    "properties": {
+    "player":"Gylfi Sigurdsson",
+    "position":"Midfielder",
+    "club":"Everton",
+    "nationality":"Iceland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,53.4 ]
+    },
+    "properties": {
+    "player":"Harry Arter",
+    "position":"Midfielder",
+    "club":"AFC Bournemouth",
+    "nationality":"Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,53.4 ]
+    },
+    "properties": {
+    "player":"Shane Duffy",
+    "position":"Defender",
+    "club":"Brighton & Hove Albion",
+    "nationality":"Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,53.4 ]
+    },
+    "properties": {
+    "player":"Jayson Molumby",
+    "position":"Midfielder",
+    "club":"Brighton & Hove Albion",
+    "nationality":"Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,53.4 ]
+    },
+    "properties": {
+    "player":"Aaron Connolly",
+    "position":"Forward",
+    "club":"Brighton & Hove Albion",
+    "nationality":"Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,53.4 ]
+    },
+    "properties": {
+    "player":"Des Hutchinson",
+    "position":"Midfielder",
+    "club":"Brighton & Hove Albion",
+    "nationality":"Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,53.4 ]
+    },
+    "properties": {
+    "player":"Stephen Ward",
+    "position":"Defender",
+    "club":"Burnley",
+    "nationality":"Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,53.4 ]
+    },
+    "properties": {
+    "player":"Kevin Long",
+    "position":"Defender",
+    "club":"Burnley",
+    "nationality":"Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,53.4 ]
+    },
+    "properties": {
+    "player":"Robbie Brady",
+    "position":"Midfielder",
+    "club":"Burnley",
+    "nationality":"Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,53.4 ]
+    },
+    "properties": {
+    "player":"Jeff Hendrick",
+    "position":"Midfielder",
+    "club":"Burnley",
+    "nationality":"Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,53.4 ]
+    },
+    "properties": {
+    "player":"Jonathan Walters",
+    "position":"Forward",
+    "club":"Burnley",
+    "nationality":"Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,53.4 ]
+    },
+    "properties": {
+    "player":"Damien Delaney",
+    "position":"Defender",
+    "club":"Crystal Palace",
+    "nationality":"Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,53.4 ]
+    },
+    "properties": {
+    "player":"Seamus Coleman",
+    "position":"Defender",
+    "club":"Everton",
+    "nationality":"Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,53.4 ]
+    },
+    "properties": {
+    "player":"James McCarthy",
+    "position":"Midfielder",
+    "club":"Everton",
+    "nationality":"Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,53.4 ]
+    },
+    "properties": {
+    "player":"Robert Elliot",
+    "position":"Goalkeeper",
+    "club":"Newcastle United",
+    "nationality":"Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,53.4 ]
+    },
+    "properties": {
+    "player":"Ciaran Clark",
+    "position":"Defender",
+    "club":"Newcastle United",
+    "nationality":"Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,53.4 ]
+    },
+    "properties": {
+    "player":"Shane Long",
+    "position":"Forward",
+    "club":"Southampton",
+    "nationality":"Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,53.4 ]
+    },
+    "properties": {
+    "player":"Stephen Ireland",
+    "position":"Midfielder",
+    "club":"Stoke City",
+    "nationality":"Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,53.4 ]
+    },
+    "properties": {
+    "player":"Tommie Hoban",
+    "position":"Defender",
+    "club":"Watford",
+    "nationality":"Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,53.4 ]
+    },
+    "properties": {
+    "player":"James McClean",
+    "position":"Midfielder",
+    "club":"West Bromwich Albion",
+    "nationality":"Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,53.4 ]
+    },
+    "properties": {
+    "player":"Declan Rice",
+    "position":"Midfielder",
+    "club":"West Ham United",
+    "nationality":"Ireland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8,31 ]
+    },
+    "properties": {
+    "player":"Beram Kayal",
+    "position":"Midfielder",
+    "club":"Brighton & Hove Albion",
+    "nationality":"Israel"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 34.8,31 ]
+    },
+    "properties": {
+    "player":"Tomer Hemed",
+    "position":"Forward",
+    "club":"Brighton & Hove Albion",
+    "nationality":"Israel"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.5,41.8 ]
+    },
+    "properties": {
+    "player":"Ezequiel Schelotto",
+    "position":"Defender",
+    "club":"Brighton & Hove Albion",
     "nationality":"Italy"
     }
   },
@@ -4531,10 +5209,61 @@ eqfeed_callback(
        "coordinates":  [ 12.5,41.8 ]
     },
     "properties": {
-    "name":"Angelo Ogbonna",
-    "club":"West Ham",
-    "age":29,
-    "position":"CB",
+    "player":"Davide Zappacosta",
+    "position":"Defender",
+    "club":"Chelsea",
+    "nationality":"Italy"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.5,41.8 ]
+    },
+    "properties": {
+    "player":"Matteo Darmian",
+    "position":"Defender",
+    "club":"Manchester United",
+    "nationality":"Italy"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.5,41.8 ]
+    },
+    "properties": {
+    "player":"Manolo Gabbiadini",
+    "position":"Forward",
+    "club":"Southampton",
+    "nationality":"Italy"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.5,41.8 ]
+    },
+    "properties": {
+    "player":"Stefano Okaka",
+    "position":"Forward",
+    "club":"Watford",
+    "nationality":"Italy"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 12.5,41.8 ]
+    },
+    "properties": {
+    "player":"Angelo Ogbonna",
+    "position":"Defender",
+    "club":"West Ham United",
     "nationality":"Italy"
     }
   },
@@ -4545,10 +5274,9 @@ eqfeed_callback(
        "coordinates":  [ -77.2,18.1 ]
     },
     "properties": {
-    "name":"Wes Morgan",
+    "player":"Wes Morgan",
+    "position":"Defender",
     "club":"Leicester City",
-    "age":33,
-    "position":"CB",
     "nationality":"Jamaica"
     }
   },
@@ -4559,10 +5287,9 @@ eqfeed_callback(
        "coordinates":  [ -77.2,18.1 ]
     },
     "properties": {
-    "name":"Adrian Mariappa",
+    "player":"Adrian Mariappa",
+    "position":"Defender",
     "club":"Watford",
-    "age":30,
-    "position":"CB",
     "nationality":"Jamaica"
     }
   },
@@ -4573,10 +5300,9 @@ eqfeed_callback(
        "coordinates":  [ 138.2,36.2 ]
     },
     "properties": {
-    "name":"Shinji Okazaki",
+    "player":"Shinji Okazaki",
+    "position":"Forward",
     "club":"Leicester City",
-    "age":31,
-    "position":"CF",
     "nationality":"Japan"
     }
   },
@@ -4587,10 +5313,9 @@ eqfeed_callback(
        "coordinates":  [ 138.2,36.2 ]
     },
     "properties": {
-    "name":"Maya Yoshida",
+    "player":"Maya Yoshida",
+    "position":"Defender",
     "club":"Southampton",
-    "age":28,
-    "position":"CB",
     "nationality":"Japan"
     }
   },
@@ -4601,10 +5326,9 @@ eqfeed_callback(
        "coordinates":  [ 37.9,0 ]
     },
     "properties": {
-    "name":"Victor Wanyama",
-    "club":"Tottenham",
-    "age":26,
-    "position":"DM",
+    "player":"Victor Wanyama",
+    "position":"Midfielder",
+    "club":"Tottenham Hotspur",
     "nationality":"Kenya"
     }
   },
@@ -4612,13 +5336,25 @@ eqfeed_callback(
     "type": "Feature",
     "geometry": {
        "type": "Point",
+       "coordinates":  [ 21.7,41.6 ]
+    },
+    "properties": {
+    "player":"Dejan Iliev",
+    "position":"Goalkeeper",
+    "club":"Arsenal",
+    "nationality":"Macedonia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
        "coordinates":  [ -3.9,17.5 ]
     },
     "properties": {
-    "name":"Bakary Sako",
+    "player":"Bakary Sako",
+    "position":"Midfielder",
     "club":"Crystal Palace",
-    "age":29,
-    "position":"LW",
     "nationality":"Mali"
     }
   },
@@ -4629,38 +5365,61 @@ eqfeed_callback(
        "coordinates":  [ -3.9,17.5 ]
     },
     "properties": {
-    "name":"Molla Wague",
-    "club":"Leicester City",
-    "age":26,
-    "position":"CB",
-    "nationality":"Mali"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -7,31.7 ]
-    },
-    "properties": {
-    "name":"Sofiane Boufal",
-    "club":"Southampton",
-    "age":23,
-    "position":"AM",
-    "nationality":"Morocco"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -7,31.7 ]
-    },
-    "properties": {
-    "name":"Nordin Amrabat",
+    "player":"Molla Wague",
+    "position":"Defender",
     "club":"Watford",
-    "age":30,
-    "position":"LW",
+    "nationality":"Mali"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -102.5,23.6 ]
+    },
+    "properties": {
+    "player":"Chicharito",
+    "position":"Forward",
+    "club":"West Ham United",
+    "nationality":"Mexico"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.3,42.7 ]
+    },
+    "properties": {
+    "player":"Sead Haksabanovic",
+    "position":"Midfielder",
+    "club":"West Ham United",
+    "nationality":"Montenegro"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7,31.7 ]
+    },
+    "properties": {
+    "player":"Abdelhamid Sabiri",
+    "position":"Midfielder",
+    "club":"Huddersfield Town",
+    "nationality":"Morocco"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -7,31.7 ]
+    },
+    "properties": {
+    "player":"Sofiane Boufal",
+    "position":"Midfielder",
+    "club":"Southampton",
     "nationality":"Morocco"
     }
   },
@@ -4671,10 +5430,9 @@ eqfeed_callback(
        "coordinates":  [ 5.2,52.1 ]
     },
     "properties": {
-    "name":"Nathan Ake",
-    "club":"Bournemouth",
-    "age":22,
-    "position":"CB",
+    "player":"Nathan Ake",
+    "position":"Defender",
+    "club":"AFC Bournemouth",
     "nationality":"Netherlands"
     }
   },
@@ -4685,10 +5443,48 @@ eqfeed_callback(
        "coordinates":  [ 5.2,52.1 ]
     },
     "properties": {
-    "name":"Patrick van Aanholt",
+    "player":"Davy Propper",
+    "position":"Midfielder",
+    "club":"Brighton & Hove Albion",
+    "nationality":"Netherlands"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.2,52.1 ]
+    },
+    "properties": {
+    "player":"Soufyan Ahannach",
+    "position":"Midfielder",
+    "club":"Brighton & Hove Albion",
+    "nationality":"Netherlands"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.2,52.1 ]
+    },
+    "properties": {
+    "player":"Tim Krul",
+    "position":"Goalkeeper",
+    "club":"Brighton & Hove Albion",
+    "nationality":"Netherlands"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.2,52.1 ]
+    },
+    "properties": {
+    "player":"Patrick van Aanholt",
+    "position":"Defender",
     "club":"Crystal Palace",
-    "age":26,
-    "position":"LB",
     "nationality":"Netherlands"
     }
   },
@@ -4699,10 +5495,35 @@ eqfeed_callback(
        "coordinates":  [ 5.2,52.1 ]
     },
     "properties": {
-    "name":"Maarten Stekelenburg",
+    "player":"Jairo Riedewald",
+    "position":"Defender",
+    "club":"Crystal Palace",
+    "nationality":"Netherlands"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.2,52.1 ]
+    },
+    "properties": {
+    "player":"Timothy Fosu-Mensah",
+    "position":"Defender",
+    "club":"Crystal Palace",
+    "nationality":"Netherlands"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.2,52.1 ]
+    },
+    "properties": {
+    "player":"Davy Klaassen",
+    "position":"Midfielder",
     "club":"Everton",
-    "age":34,
-    "position":"GK",
     "nationality":"Netherlands"
     }
   },
@@ -4713,10 +5534,9 @@ eqfeed_callback(
        "coordinates":  [ 5.2,52.1 ]
     },
     "properties": {
-    "name":"Davy Klaassen",
+    "player":"Maarten Stekelenburg",
+    "position":"Goalkeeper",
     "club":"Everton",
-    "age":24,
-    "position":"AM",
     "nationality":"Netherlands"
     }
   },
@@ -4727,10 +5547,9 @@ eqfeed_callback(
        "coordinates":  [ 5.2,52.1 ]
     },
     "properties": {
-    "name":"Rajiv van La Parra",
-    "club":"Huddersfield",
-    "age":26,
-    "position":"LW",
+    "player":"Rajiv van La Parra",
+    "position":"Midfielder",
+    "club":"Huddersfield Town",
     "nationality":"Netherlands"
     }
   },
@@ -4741,10 +5560,9 @@ eqfeed_callback(
        "coordinates":  [ 5.2,52.1 ]
     },
     "properties": {
-    "name":"Georginio Wijnaldum",
+    "player":"Georginio Wijnaldum",
+    "position":"Midfielder",
     "club":"Liverpool",
-    "age":26,
-    "position":"CM",
     "nationality":"Netherlands"
     }
   },
@@ -4755,10 +5573,9 @@ eqfeed_callback(
        "coordinates":  [ 5.2,52.1 ]
     },
     "properties": {
-    "name":"Daley Blind",
+    "player":"Daley Blind",
+    "position":"Defender",
     "club":"Manchester United",
-    "age":27,
-    "position":"LB",
     "nationality":"Netherlands"
     }
   },
@@ -4769,38 +5586,9 @@ eqfeed_callback(
        "coordinates":  [ 5.2,52.1 ]
     },
     "properties": {
-    "name":"Timothy Fosu-Mensah",
-    "club":"Manchester United",
-    "age":19,
-    "position":"DM",
-    "nationality":"Netherlands"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 5.2,52.1 ]
-    },
-    "properties": {
-    "name":"Siem de Jong",
-    "club":"Newcastle United",
-    "age":28,
-    "position":"AM",
-    "nationality":"Netherlands"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 5.2,52.1 ]
-    },
-    "properties": {
-    "name":"Virgil van Dijk",
+    "player":"Virgil van Dijk",
+    "position":"Defender",
     "club":"Southampton",
-    "age":26,
-    "position":"CB",
     "nationality":"Netherlands"
     }
   },
@@ -4811,10 +5599,9 @@ eqfeed_callback(
        "coordinates":  [ 5.2,52.1 ]
     },
     "properties": {
-    "name":"Jordy Clasie",
+    "player":"Wesley Hoedt",
+    "position":"Defender",
     "club":"Southampton",
-    "age":26,
-    "position":"DM",
     "nationality":"Netherlands"
     }
   },
@@ -4825,10 +5612,9 @@ eqfeed_callback(
        "coordinates":  [ 5.2,52.1 ]
     },
     "properties": {
-    "name":"Erik Pieters",
+    "player":"Erik Pieters",
+    "position":"Defender",
     "club":"Stoke City",
-    "age":28,
-    "position":"LB",
     "nationality":"Netherlands"
     }
   },
@@ -4839,10 +5625,9 @@ eqfeed_callback(
        "coordinates":  [ 5.2,52.1 ]
     },
     "properties": {
-    "name":"Ibrahim Afellay",
+    "player":"Ibrahim Afellay",
+    "position":"Midfielder",
     "club":"Stoke City",
-    "age":31,
-    "position":"LM",
     "nationality":"Netherlands"
     }
   },
@@ -4853,10 +5638,9 @@ eqfeed_callback(
        "coordinates":  [ 5.2,52.1 ]
     },
     "properties": {
-    "name":"Leroy Fer",
-    "club":"Swansea",
-    "age":27,
-    "position":"CM",
+    "player":"Bruno Martins Indi",
+    "position":"Defender",
+    "club":"Stoke City",
     "nationality":"Netherlands"
     }
   },
@@ -4867,10 +5651,9 @@ eqfeed_callback(
        "coordinates":  [ 5.2,52.1 ]
     },
     "properties": {
-    "name":"Luciano Narsingh",
-    "club":"Swansea",
-    "age":26,
-    "position":"RW",
+    "player":"Erwin Mulder",
+    "position":"Goalkeeper",
+    "club":"Swansea City",
     "nationality":"Netherlands"
     }
   },
@@ -4881,10 +5664,9 @@ eqfeed_callback(
        "coordinates":  [ 5.2,52.1 ]
     },
     "properties": {
-    "name":"Mike van der Hoorn",
-    "club":"Swansea",
-    "age":24,
-    "position":"CB",
+    "player":"Mike van der Hoorn",
+    "position":"Defender",
+    "club":"Swansea City",
     "nationality":"Netherlands"
     }
   },
@@ -4895,10 +5677,9 @@ eqfeed_callback(
        "coordinates":  [ 5.2,52.1 ]
     },
     "properties": {
-    "name":"Vincent Janssen",
-    "club":"Tottenham",
-    "age":23,
-    "position":"CF",
+    "player":"Leroy Fer",
+    "position":"Midfielder",
+    "club":"Swansea City",
     "nationality":"Netherlands"
     }
   },
@@ -4909,10 +5690,9 @@ eqfeed_callback(
        "coordinates":  [ 5.2,52.1 ]
     },
     "properties": {
-    "name":"Michel Vorm",
-    "club":"Tottenham",
-    "age":33,
-    "position":"GK",
+    "player":"Luciano Narsingh",
+    "position":"Midfielder",
+    "club":"Swansea City",
     "nationality":"Netherlands"
     }
   },
@@ -4923,10 +5703,22 @@ eqfeed_callback(
        "coordinates":  [ 5.2,52.1 ]
     },
     "properties": {
-    "name":"Daryl Janmaat",
+    "player":"Michel Vorm",
+    "position":"Goalkeeper",
+    "club":"Tottenham Hotspur",
+    "nationality":"Netherlands"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.2,52.1 ]
+    },
+    "properties": {
+    "player":"Daryl Janmaat",
+    "position":"Defender",
     "club":"Watford",
-    "age":27,
-    "position":"RB",
     "nationality":"Netherlands"
     }
   },
@@ -4937,10 +5729,9 @@ eqfeed_callback(
        "coordinates":  [ 5.2,52.1 ]
     },
     "properties": {
-    "name":"Steven Berghuis",
+    "player":"Marvin Zeegelaar",
+    "position":"Defender",
     "club":"Watford",
-    "age":25,
-    "position":"RW",
     "nationality":"Netherlands"
     }
   },
@@ -4948,13 +5739,25 @@ eqfeed_callback(
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 174.8,-40.9 ]
+       "coordinates":  [ 5.2,52.1 ]
     },
     "properties": {
-    "name":"Winston Reid",
-    "club":"West Ham",
-    "age":29,
-    "position":"CB",
+    "player":"Chris Wood",
+    "position":"Forward",
+    "club":"Burnley",
+    "nationality":"New Zealand"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.2,52.1 ]
+    },
+    "properties": {
+    "player":"Winston Reid",
+    "position":"Defender",
+    "club":"West Ham United",
     "nationality":"New Zealand"
     }
   },
@@ -4965,10 +5768,9 @@ eqfeed_callback(
        "coordinates":  [ 8.6,9 ]
     },
     "properties": {
-    "name":"Alex Iwobi",
+    "player":"Alex Iwobi",
+    "position":"Midfielder",
     "club":"Arsenal",
-    "age":21,
-    "position":"LW",
     "nationality":"Nigeria"
     }
   },
@@ -4979,10 +5781,9 @@ eqfeed_callback(
        "coordinates":  [ 8.6,9 ]
     },
     "properties": {
-    "name":"Victor Moses",
+    "player":"Victor Moses",
+    "position":"Midfielder",
     "club":"Chelsea",
-    "age":26,
-    "position":"RM",
     "nationality":"Nigeria"
     }
   },
@@ -4993,10 +5794,9 @@ eqfeed_callback(
        "coordinates":  [ 8.6,9 ]
     },
     "properties": {
-    "name":"Wilfred Ndidi",
+    "player":"Wilfred Ndidi",
+    "position":"Midfielder",
     "club":"Leicester City",
-    "age":20,
-    "position":"DM",
     "nationality":"Nigeria"
     }
   },
@@ -5007,10 +5807,9 @@ eqfeed_callback(
        "coordinates":  [ 8.6,9 ]
     },
     "properties": {
-    "name":"Ahmed Musa",
+    "player":"Ahmed Musa",
+    "position":"Forward",
     "club":"Leicester City",
-    "age":24,
-    "position":"CF",
     "nationality":"Nigeria"
     }
   },
@@ -5021,10 +5820,9 @@ eqfeed_callback(
        "coordinates":  [ 8.6,9 ]
     },
     "properties": {
-    "name":"Kelechi Iheanacho",
-    "club":"Manchester City",
-    "age":20,
-    "position":"CF",
+    "player":"Kelechi Iheanacho",
+    "position":"Forward",
+    "club":"Leicester City",
     "nationality":"Nigeria"
     }
   },
@@ -5035,10 +5833,9 @@ eqfeed_callback(
        "coordinates":  [ 8.6,9 ]
     },
     "properties": {
-    "name":"Isaac Success",
+    "player":"Isaac Success",
+    "position":"Forward",
     "club":"Watford",
-    "age":21,
-    "position":"LW",
     "nationality":"Nigeria"
     }
   },
@@ -5049,24 +5846,9 @@ eqfeed_callback(
        "coordinates":  [ -6.6,54.7 ]
     },
     "properties": {
-    "name":"Oliver Norwood",
-    "club":"Brighton",
-    "age":26,
-    "position":"CM",
-    "nationality":"Northern Ireland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -6.6,54.7 ]
-    },
-    "properties": {
-    "name":"Steven Davis",
+    "player":"Steven Davis",
+    "position":"Midfielder",
     "club":"Southampton",
-    "age":32,
-    "position":"CM",
     "nationality":"Northern Ireland"
     }
   },
@@ -5077,10 +5859,9 @@ eqfeed_callback(
        "coordinates":  [ -6.6,54.7 ]
     },
     "properties": {
-    "name":"Craig Cathcart",
+    "player":"Craig Cathcart",
+    "position":"Defender",
     "club":"Watford",
-    "age":28,
-    "position":"CB",
     "nationality":"Northern Ireland"
     }
   },
@@ -5091,10 +5872,9 @@ eqfeed_callback(
        "coordinates":  [ -6.6,54.7 ]
     },
     "properties": {
-    "name":"Gareth McAuley",
-    "club":"West Brom",
-    "age":37,
-    "position":"CB",
+    "player":"Jonny Evans",
+    "position":"Defender",
+    "club":"West Bromwich Albion",
     "nationality":"Northern Ireland"
     }
   },
@@ -5105,10 +5885,9 @@ eqfeed_callback(
        "coordinates":  [ -6.6,54.7 ]
     },
     "properties": {
-    "name":"Chris Brunt",
-    "club":"West Brom",
-    "age":32,
-    "position":"LM",
+    "player":"Gareth McAuley",
+    "position":"Defender",
+    "club":"West Bromwich Albion",
     "nationality":"Northern Ireland"
     }
   },
@@ -5119,10 +5898,9 @@ eqfeed_callback(
        "coordinates":  [ -6.6,54.7 ]
     },
     "properties": {
-    "name":"Jonny Evans",
-    "club":"West Brom",
-    "age":29,
-    "position":"CB",
+    "player":"Chris Brunt",
+    "position":"Midfielder",
+    "club":"West Bromwich Albion",
     "nationality":"Northern Ireland"
     }
   },
@@ -5133,10 +5911,9 @@ eqfeed_callback(
        "coordinates":  [ 8.4,60.4 ]
     },
     "properties": {
-    "name":"Joshua King",
-    "club":"Bournemouth",
-    "age":25,
-    "position":"SS",
+    "player":"Joshua King",
+    "position":"Forward",
+    "club":"AFC Bournemouth",
     "nationality":"Norway"
     }
   },
@@ -5144,13 +5921,51 @@ eqfeed_callback(
     "type": "Feature",
     "geometry": {
        "type": "Point",
+       "coordinates":  [ 8.4,60.4 ]
+    },
+    "properties": {
+    "player":"Henrik Rorvik Bjordal",
+    "position":"Midfielder",
+    "club":"Brighton & Hove Albion",
+    "nationality":"Norway"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.4,60.4 ]
+    },
+    "properties": {
+    "player":"Fredrik Ulvestad",
+    "position":"Midfielder",
+    "club":"Burnley",
+    "nationality":"Norway"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75,-9.1 ]
+    },
+    "properties": {
+    "player":"Andre Carrillo",
+    "position":"Midfielder",
+    "club":"Watford",
+    "nationality":"Peru"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
        "coordinates":  [ 19.1,51.9 ]
     },
     "properties": {
-    "name":"Artur Boruc",
-    "club":"Bournemouth",
-    "age":37,
-    "position":"GK",
+    "player":"Artur Boruc",
+    "position":"Goalkeeper",
+    "club":"AFC Bournemouth",
     "nationality":"Poland"
     }
   },
@@ -5161,10 +5976,9 @@ eqfeed_callback(
        "coordinates":  [ 19.1,51.9 ]
     },
     "properties": {
-    "name":"Jan Bednarek",
+    "player":"Jan Bednarek",
+    "position":"Defender",
     "club":"Southampton",
-    "age":21,
-    "position":"CB",
     "nationality":"Poland"
     }
   },
@@ -5175,10 +5989,22 @@ eqfeed_callback(
        "coordinates":  [ 19.1,51.9 ]
     },
     "properties": {
-    "name":"Lucas Fabianski",
-    "club":"Swansea",
-    "age":32,
-    "position":"GK",
+    "player":"Lukasz Fabianski",
+    "position":"Goalkeeper",
+    "club":"Swansea City",
+    "nationality":"Poland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 19.1,51.9 ]
+    },
+    "properties": {
+    "player":"Grzegorz Krychowiak",
+    "position":"Midfielder",
+    "club":"West Bromwich Albion",
     "nationality":"Poland"
     }
   },
@@ -5189,10 +6015,9 @@ eqfeed_callback(
        "coordinates":  [ -8.2,39.3 ]
     },
     "properties": {
-    "name":"Eduardo Carvalho",
+    "player":"Eduardo",
+    "position":"Goalkeeper",
     "club":"Chelsea",
-    "age":34,
-    "position":"LW",
     "nationality":"Portugal"
     }
   },
@@ -5203,10 +6028,22 @@ eqfeed_callback(
        "coordinates":  [ -8.2,39.3 ]
     },
     "properties": {
-    "name":"Bernardo Silva",
+    "player":"Paulinho",
+    "position":"Midfielder",
+    "club":"Liverpool",
+    "nationality":"Portugal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,39.3 ]
+    },
+    "properties": {
+    "player":"Bernardo Silva",
+    "position":"Midfielder",
     "club":"Manchester City",
-    "age":22,
-    "position":"RW",
     "nationality":"Portugal"
     }
   },
@@ -5217,10 +6054,9 @@ eqfeed_callback(
        "coordinates":  [ -8.2,39.3 ]
     },
     "properties": {
-    "name":"Joel Castro Pereira",
+    "player":"Joel Pereira",
+    "position":"Goalkeeper",
     "club":"Manchester United",
-    "age":21,
-    "position":"GK",
     "nationality":"Portugal"
     }
   },
@@ -5231,10 +6067,9 @@ eqfeed_callback(
        "coordinates":  [ -8.2,39.3 ]
     },
     "properties": {
-    "name":"Dusan Tadic",
+    "player":"Cedric Soares",
+    "position":"Defender",
     "club":"Southampton",
-    "age":28,
-    "position":"LW",
     "nationality":"Portugal"
     }
   },
@@ -5245,10 +6080,9 @@ eqfeed_callback(
        "coordinates":  [ -8.2,39.3 ]
     },
     "properties": {
-    "name":"Cedric Soares",
-    "club":"Southampton",
-    "age":25,
-    "position":"RB",
+    "player":"Renato Sanches",
+    "position":"Midfielder",
+    "club":"Swansea City",
     "nationality":"Portugal"
     }
   },
@@ -5259,10 +6093,22 @@ eqfeed_callback(
        "coordinates":  [ -8.2,39.3 ]
     },
     "properties": {
-    "name":"Jose Fonte",
-    "club":"West Ham",
-    "age":33,
-    "position":"CB",
+    "player":"Jose Fonte",
+    "position":"Defender",
+    "club":"West Ham United",
+    "nationality":"Portugal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -8.2,39.3 ]
+    },
+    "properties": {
+    "player":"Domingos Quina",
+    "position":"Midfielder",
+    "club":"West Ham United",
     "nationality":"Portugal"
     }
   },
@@ -5273,10 +6119,22 @@ eqfeed_callback(
        "coordinates":  [ 24.9,45.9 ]
     },
     "properties": {
-    "name":"Costel Pantilimon",
-    "club":"Watford",
-    "age":30,
-    "position":"GK",
+    "player":"Vlad Dragomir",
+    "position":"Midfielder",
+    "club":"Arsenal",
+    "nationality":"Romania"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 24.9,45.9 ]
+    },
+    "properties": {
+    "player":"Florin Gardos",
+    "position":"Defender",
+    "club":"Southampton",
     "nationality":"Romania"
     }
   },
@@ -5287,10 +6145,9 @@ eqfeed_callback(
        "coordinates":  [ -3.8,57.1 ]
     },
     "properties": {
-    "name":"Ryan Fraser",
-    "club":"Bournemouth",
-    "age":23,
-    "position":"LW",
+    "player":"Ryan Fraser",
+    "position":"Midfielder",
+    "club":"AFC Bournemouth",
     "nationality":"Scotland"
     }
   },
@@ -5301,10 +6158,9 @@ eqfeed_callback(
        "coordinates":  [ -3.8,57.1 ]
     },
     "properties": {
-    "name":"Jamie Murphy",
-    "club":"Brighton",
-    "age":27,
-    "position":"LW",
+    "player":"Charlie Gilmour",
+    "position":"Midfielder",
+    "club":"Arsenal",
     "nationality":"Scotland"
     }
   },
@@ -5315,10 +6171,35 @@ eqfeed_callback(
        "coordinates":  [ -3.8,57.1 ]
     },
     "properties": {
-    "name":"James McArthur",
+    "player":"Jamie Murphy",
+    "position":"Midfielder",
+    "club":"Brighton & Hove Albion",
+    "nationality":"Scotland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.8,57.1 ]
+    },
+    "properties": {
+    "player":"Phil Bardsley",
+    "position":"Defender",
+    "club":"Burnley",
+    "nationality":"Scotland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.8,57.1 ]
+    },
+    "properties": {
+    "player":"James McArthur",
+    "position":"Midfielder",
     "club":"Crystal Palace",
-    "age":29,
-    "position":"CM",
     "nationality":"Scotland"
     }
   },
@@ -5329,10 +6210,22 @@ eqfeed_callback(
        "coordinates":  [ -3.8,57.1 ]
     },
     "properties": {
-    "name":"Grant Hanley",
+    "player":"Andrew Robertson",
+    "position":"Defender",
+    "club":"Liverpool",
+    "nationality":"Scotland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.8,57.1 ]
+    },
+    "properties": {
+    "player":"Matt Ritchie",
+    "position":"Midfielder",
     "club":"Newcastle United",
-    "age":25,
-    "position":"CB",
     "nationality":"Scotland"
     }
   },
@@ -5343,24 +6236,9 @@ eqfeed_callback(
        "coordinates":  [ -3.8,57.1 ]
     },
     "properties": {
-    "name":"Matt Ritchie",
-    "club":"Newcastle United",
-    "age":27,
-    "position":"RM",
-    "nationality":"Scotland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -3.8,57.1 ]
-    },
-    "properties": {
-    "name":"Steven Fletcher",
+    "player":"Darren Fletcher",
+    "position":"Midfielder",
     "club":"Stoke City",
-    "age":30,
-    "position":"CF",
     "nationality":"Scotland"
     }
   },
@@ -5371,10 +6249,9 @@ eqfeed_callback(
        "coordinates":  [ -3.8,57.1 ]
     },
     "properties": {
-    "name":"Charlie Adam",
+    "player":"Charlie Adam",
+    "position":"Midfielder",
     "club":"Stoke City",
-    "age":31,
-    "position":"CM",
     "nationality":"Scotland"
     }
   },
@@ -5385,10 +6262,9 @@ eqfeed_callback(
        "coordinates":  [ -3.8,57.1 ]
     },
     "properties": {
-    "name":"Phil Bardsley",
+    "player":"Harry Souttar",
+    "position":"Defender",
     "club":"Stoke City",
-    "age":32,
-    "position":"RB",
     "nationality":"Scotland"
     }
   },
@@ -5399,10 +6275,9 @@ eqfeed_callback(
        "coordinates":  [ -3.8,57.1 ]
     },
     "properties": {
-    "name":"Stephen Kingsley",
-    "club":"Swansea",
-    "age":22,
-    "position":"LB",
+    "player":"Harry Souttar",
+    "position":"Defender",
+    "club":"Stoke City",
     "nationality":"Scotland"
     }
   },
@@ -5413,10 +6288,9 @@ eqfeed_callback(
        "coordinates":  [ -3.8,57.1 ]
     },
     "properties": {
-    "name":"Jay Fulton",
-    "club":"Swansea",
-    "age":23,
-    "position":"CM",
+    "player":"Jay Fulton",
+    "position":"Midfielder",
+    "club":"Swansea City",
     "nationality":"Scotland"
     }
   },
@@ -5427,10 +6301,9 @@ eqfeed_callback(
        "coordinates":  [ -3.8,57.1 ]
     },
     "properties": {
-    "name":"Oliver McBurnie",
-    "club":"Swansea",
-    "age":21,
-    "position":"CF",
+    "player":"Adam King",
+    "position":"Midfielder",
+    "club":"Swansea City",
     "nationality":"Scotland"
     }
   },
@@ -5441,10 +6314,9 @@ eqfeed_callback(
        "coordinates":  [ -3.8,57.1 ]
     },
     "properties": {
-    "name":"Matt Phillips",
-    "club":"West Brom",
-    "age":26,
-    "position":"RW",
+    "player":"Oliver McBurnie",
+    "position":"Forward",
+    "club":"Swansea City",
     "nationality":"Scotland"
     }
   },
@@ -5455,10 +6327,9 @@ eqfeed_callback(
        "coordinates":  [ -3.8,57.1 ]
     },
     "properties": {
-    "name":"James Morrison",
-    "club":"West Brom",
-    "age":31,
-    "position":"CM",
+    "player":"James Morrison",
+    "position":"Midfielder",
+    "club":"West Bromwich Albion",
     "nationality":"Scotland"
     }
   },
@@ -5469,10 +6340,22 @@ eqfeed_callback(
        "coordinates":  [ -3.8,57.1 ]
     },
     "properties": {
-    "name":"Robert Snodgrass",
-    "club":"West Ham",
-    "age":29,
-    "position":"RW",
+    "player":"Matt Phillips",
+    "position":"Midfielder",
+    "club":"West Bromwich Albion",
+    "nationality":"Scotland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.8,57.1 ]
+    },
+    "properties": {
+    "player":"Oliver Burke",
+    "position":"Midfielder",
+    "club":"West Bromwich Albion",
     "nationality":"Scotland"
     }
   },
@@ -5483,10 +6366,9 @@ eqfeed_callback(
        "coordinates":  [ -14.4,14.4 ]
     },
     "properties": {
-    "name":"Pape Souare",
+    "player":"Pape Souare",
+    "position":"Defender",
     "club":"Crystal Palace",
-    "age":27,
-    "position":"LB",
     "nationality":"Senegal"
     }
   },
@@ -5497,10 +6379,9 @@ eqfeed_callback(
        "coordinates":  [ -14.4,14.4 ]
     },
     "properties": {
-    "name":"Idrissa Gueye",
+    "player":"Idrissa Gueye",
+    "position":"Midfielder",
     "club":"Everton",
-    "age":27,
-    "position":"CM",
     "nationality":"Senegal"
     }
   },
@@ -5511,10 +6392,22 @@ eqfeed_callback(
        "coordinates":  [ -14.4,14.4 ]
     },
     "properties": {
-    "name":"Sadio Mane",
+    "player":"Oumar Niasse",
+    "position":"Forward",
+    "club":"Everton",
+    "nationality":"Senegal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -14.4,14.4 ]
+    },
+    "properties": {
+    "player":"Sadio Mane",
+    "position":"Midfielder",
     "club":"Liverpool",
-    "age":25,
-    "position":"LW",
     "nationality":"Senegal"
     }
   },
@@ -5525,10 +6418,9 @@ eqfeed_callback(
        "coordinates":  [ -14.4,14.4 ]
     },
     "properties": {
-    "name":"Mohamed Diame",
+    "player":"Mohamed Diame",
+    "position":"Midfielder",
     "club":"Newcastle United",
-    "age":30,
-    "position":"CM",
     "nationality":"Senegal"
     }
   },
@@ -5539,10 +6431,22 @@ eqfeed_callback(
        "coordinates":  [ -14.4,14.4 ]
     },
     "properties": {
-    "name":"Mame Biram Diouf",
+    "player":"Henri Saivet",
+    "position":"Midfielder",
+    "club":"Newcastle United",
+    "nationality":"Senegal"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -14.4,14.4 ]
+    },
+    "properties": {
+    "player":"Mame Biram Diouf",
+    "position":"Midfielder",
     "club":"Stoke City",
-    "age":29,
-    "position":"CF",
     "nationality":"Senegal"
     }
   },
@@ -5553,10 +6457,9 @@ eqfeed_callback(
        "coordinates":  [ -14.4,14.4 ]
     },
     "properties": {
-    "name":"Cheikhou Kouyate",
-    "club":"West Ham",
-    "age":27,
-    "position":"DM",
+    "player":"Cheikhou Kouyate",
+    "position":"Midfielder",
+    "club":"West Ham United",
     "nationality":"Senegal"
     }
   },
@@ -5567,10 +6470,9 @@ eqfeed_callback(
        "coordinates":  [ -14.4,14.4 ]
     },
     "properties": {
-    "name":"Diafra Sakho",
-    "club":"West Ham",
-    "age":27,
-    "position":"CF",
+    "player":"Diafra Sakho",
+    "position":"Forward",
+    "club":"West Ham United",
     "nationality":"Senegal"
     }
   },
@@ -5581,24 +6483,9 @@ eqfeed_callback(
        "coordinates":  [ 21,44 ]
     },
     "properties": {
-    "name":"Nemanja Matic",
-    "club":"Chelsea",
-    "age":28,
-    "position":"DM",
-    "nationality":"Serbia"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 21,44 ]
-    },
-    "properties": {
-    "name":"Luka Milivojevic",
+    "player":"Luka Milivojevic",
+    "position":"Midfielder",
     "club":"Crystal Palace",
-    "age":26,
-    "position":"DM",
     "nationality":"Serbia"
     }
   },
@@ -5609,10 +6496,9 @@ eqfeed_callback(
        "coordinates":  [ 21,44 ]
     },
     "properties": {
-    "name":"Marko Grujic",
+    "player":"Marko Grujic",
+    "position":"Midfielder",
     "club":"Liverpool",
-    "age":21,
-    "position":"CM",
     "nationality":"Serbia"
     }
   },
@@ -5623,10 +6509,9 @@ eqfeed_callback(
        "coordinates":  [ 21,44 ]
     },
     "properties": {
-    "name":"Aleksandar Kolarov",
-    "club":"Manchester City",
-    "age":31,
-    "position":"LB",
+    "player":"Lazar Markovic",
+    "position":"Midfielder",
+    "club":"Liverpool",
     "nationality":"Serbia"
     }
   },
@@ -5637,10 +6522,35 @@ eqfeed_callback(
        "coordinates":  [ 21,44 ]
     },
     "properties": {
-    "name":"Aleksandar Mitrovic",
+    "player":"Nemanja Matic",
+    "position":"Midfielder",
+    "club":"Manchester United",
+    "nationality":"Serbia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 21,44 ]
+    },
+    "properties": {
+    "player":"Aleksandar Mitrovic",
+    "position":"Forward",
     "club":"Newcastle United",
-    "age":22,
-    "position":"CF",
+    "nationality":"Serbia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 21,44 ]
+    },
+    "properties": {
+    "player":"Dusan Tadic",
+    "position":"Midfielder",
+    "club":"Southampton",
     "nationality":"Serbia"
     }
   },
@@ -5651,10 +6561,9 @@ eqfeed_callback(
        "coordinates":  [ 14.9,46.1 ]
     },
     "properties": {
-    "name":"Jon Gorenc Stankovic",
-    "club":"Huddersfield",
-    "age":21,
-    "position":"CB",
+    "player":"Jon Gorenc Stankovic",
+    "position":"Defender",
+    "club":"Huddersfield Town",
     "nationality":"Slovenia"
     }
   },
@@ -5665,10 +6574,9 @@ eqfeed_callback(
        "coordinates":  [ 127.7,35.9 ]
     },
     "properties": {
-    "name":"Lee Chung-yong",
+    "player":"Lee Chung-yong",
+    "position":"Midfielder",
     "club":"Crystal Palace",
-    "age":29,
-    "position":"RW",
     "nationality":"South Korea"
     }
   },
@@ -5679,10 +6587,9 @@ eqfeed_callback(
        "coordinates":  [ 127.7,35.9 ]
     },
     "properties": {
-    "name":"Ki Sung-yueng",
-    "club":"Swansea",
-    "age":28,
-    "position":"DM",
+    "player":"Ki Sung-yueng",
+    "position":"Midfielder",
+    "club":"Swansea City",
     "nationality":"South Korea"
     }
   },
@@ -5693,10 +6600,9 @@ eqfeed_callback(
        "coordinates":  [ 127.7,35.9 ]
     },
     "properties": {
-    "name":"Son Heung-min",
-    "club":"Tottenham",
-    "age":25,
-    "position":"LW",
+    "player":"Son Heung-Min",
+    "position":"Midfielder",
+    "club":"Tottenham Hotspur",
     "nationality":"South Korea"
     }
   },
@@ -5707,10 +6613,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Hector Bellerin",
+    "player":"Nacho Monreal",
+    "position":"Defender",
     "club":"Arsenal",
-    "age":22,
-    "position":"RB",
     "nationality":"Spain"
     }
   },
@@ -5721,10 +6626,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Nacho Monreal",
+    "player":"Hector Bellerin",
+    "position":"Defender",
     "club":"Arsenal",
-    "age":31,
-    "position":"LB",
     "nationality":"Spain"
     }
   },
@@ -5735,10 +6639,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Santi Cazorla",
+    "player":"Santiago Cazorla",
+    "position":"Midfielder",
     "club":"Arsenal",
-    "age":32,
-    "position":"CM",
     "nationality":"Spain"
     }
   },
@@ -5749,10 +6652,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Lucas Perez",
-    "club":"Arsenal",
-    "age":28,
-    "position":"CF",
+    "player":"Bruno",
+    "position":"Defender",
+    "club":"Brighton & Hove Albion",
     "nationality":"Spain"
     }
   },
@@ -5763,10 +6665,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Diego Costa",
+    "player":"Marcos Alonso",
+    "position":"Defender",
     "club":"Chelsea",
-    "age":28,
-    "position":"CF",
     "nationality":"Spain"
     }
   },
@@ -5777,10 +6678,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Marcos Alonso Mendoza",
+    "player":"Cesar Azpilicueta",
+    "position":"Defender",
     "club":"Chelsea",
-    "age":26,
-    "position":"LB",
     "nationality":"Spain"
     }
   },
@@ -5791,10 +6691,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Cesar Azpilicueta",
+    "player":"Cesc Fabregas",
+    "position":"Midfielder",
     "club":"Chelsea",
-    "age":27,
-    "position":"RB",
     "nationality":"Spain"
     }
   },
@@ -5805,10 +6704,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Pedro",
+    "player":"Pedro",
+    "position":"Forward",
     "club":"Chelsea",
-    "age":29,
-    "position":"RW",
     "nationality":"Spain"
     }
   },
@@ -5819,10 +6717,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Cesc Fabregas",
+    "player":"alvaro Morata",
+    "position":"Forward",
     "club":"Chelsea",
-    "age":30,
-    "position":"CM",
     "nationality":"Spain"
     }
   },
@@ -5833,10 +6730,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Joel Robles",
+    "player":"Joel Robles",
+    "position":"Goalkeeper",
     "club":"Everton",
-    "age":27,
-    "position":"GK",
     "nationality":"Spain"
     }
   },
@@ -5847,10 +6743,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Sandro Ramirez",
+    "player":"Sandro Ramirez",
+    "position":"Forward",
     "club":"Everton",
-    "age":22,
-    "position":"CF",
     "nationality":"Spain"
     }
   },
@@ -5861,10 +6756,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Vicente Iborra",
+    "player":"Vicente Iborra",
+    "position":"Midfielder",
     "club":"Leicester City",
-    "age":29,
-    "position":"DM",
     "nationality":"Spain"
     }
   },
@@ -5875,10 +6769,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Alberto Moreno",
+    "player":"Alberto Moreno",
+    "position":"Defender",
     "club":"Liverpool",
-    "age":25,
-    "position":"LB",
     "nationality":"Spain"
     }
   },
@@ -5889,10 +6782,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"David Silva",
+    "player":"David Silva",
+    "position":"Midfielder",
     "club":"Manchester City",
-    "age":31,
-    "position":"AM",
     "nationality":"Spain"
     }
   },
@@ -5903,10 +6795,22 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"David de Gea",
+    "player":"Brahim Diaz",
+    "position":"Midfielder",
+    "club":"Manchester City",
+    "nationality":"Spain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.7,40.4 ]
+    },
+    "properties": {
+    "player":"David de Gea",
+    "position":"Goalkeeper",
     "club":"Manchester United",
-    "age":26,
-    "position":"GK",
     "nationality":"Spain"
     }
   },
@@ -5917,10 +6821,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Juan Mata",
+    "player":"Juan Mata",
+    "position":"Midfielder",
     "club":"Manchester United",
-    "age":29,
-    "position":"AM",
     "nationality":"Spain"
     }
   },
@@ -5931,10 +6834,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Ander Herrera",
+    "player":"Ander Herrera",
+    "position":"Midfielder",
     "club":"Manchester United",
-    "age":27,
-    "position":"CM",
     "nationality":"Spain"
     }
   },
@@ -5945,10 +6847,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Jesus Gamez",
+    "player":"Jesus Gamez",
+    "position":"Defender",
     "club":"Newcastle United",
-    "age":32,
-    "position":"RB",
     "nationality":"Spain"
     }
   },
@@ -5959,10 +6860,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Ayoze Perez",
+    "player":"Ayoze Perez",
+    "position":"Forward",
     "club":"Newcastle United",
-    "age":23,
-    "position":"SS",
     "nationality":"Spain"
     }
   },
@@ -5973,10 +6873,48 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Oriol Romeu",
+    "player":"Javier Manquillo",
+    "position":"Defender",
+    "club":"Newcastle United",
+    "nationality":"Spain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.7,40.4 ]
+    },
+    "properties": {
+    "player":"Joselu",
+    "position":"Forward",
+    "club":"Newcastle United",
+    "nationality":"Spain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.7,40.4 ]
+    },
+    "properties": {
+    "player":"Mikel Merino",
+    "position":"Midfielder",
+    "club":"Newcastle United",
+    "nationality":"Spain"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.7,40.4 ]
+    },
+    "properties": {
+    "player":"Oriol Romeu",
+    "position":"Midfielder",
     "club":"Southampton",
-    "age":25,
-    "position":"DM",
     "nationality":"Spain"
     }
   },
@@ -5987,10 +6925,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Marc Muniesa",
+    "player":"Jese",
+    "position":"Forward",
     "club":"Stoke City",
-    "age":25,
-    "position":"CB",
     "nationality":"Spain"
     }
   },
@@ -6001,10 +6938,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Bojan Krkic",
-    "club":"Stoke City",
-    "age":26,
-    "position":"SS",
+    "player":"Angel Rangel",
+    "position":"Defender",
+    "club":"Swansea City",
     "nationality":"Spain"
     }
   },
@@ -6015,10 +6951,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Fernando Llorente",
-    "club":"Swansea",
-    "age":32,
-    "position":"CF",
+    "player":"Roque Mesa",
+    "position":"Midfielder",
+    "club":"Swansea City",
     "nationality":"Spain"
     }
   },
@@ -6029,10 +6964,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Angel Rangel",
-    "club":"Swansea",
-    "age":34,
-    "position":"RB",
+    "player":"Fernando Llorente",
+    "position":"Forward",
+    "club":"Tottenham Hotspur",
     "nationality":"Spain"
     }
   },
@@ -6043,24 +6977,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Roque Mesa",
-    "club":"Swansea",
-    "age":28,
-    "position":"CM",
-    "nationality":"Spain"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -3.7,40.4 ]
-    },
-    "properties": {
-    "name":"Kiko Femenia",
+    "player":"Kiko Femenia",
+    "position":"Defender",
     "club":"Watford",
-    "age":26,
-    "position":"RB",
     "nationality":"Spain"
     }
   },
@@ -6071,10 +6990,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Adrian",
-    "club":"West Ham",
-    "age":30,
-    "position":"GK",
+    "player":"Adrian",
+    "position":"Goalkeeper",
+    "club":"West Ham United",
     "nationality":"Spain"
     }
   },
@@ -6085,10 +7003,9 @@ eqfeed_callback(
        "coordinates":  [ -3.7,40.4 ]
     },
     "properties": {
-    "name":"Pedro Obiang",
-    "club":"West Ham",
-    "age":25,
-    "position":"CM",
+    "player":"Pedro Obiang",
+    "position":"Midfielder",
+    "club":"West Ham United",
     "nationality":"Spain"
     }
   },
@@ -6099,10 +7016,9 @@ eqfeed_callback(
        "coordinates":  [ 18.6,60.1 ]
     },
     "properties": {
-    "name":"Victor Lindelof",
+    "player":"Victor Lindelof",
+    "position":"Defender",
     "club":"Manchester United",
-    "age":23,
-    "position":"CB",
     "nationality":"Sweden"
     }
   },
@@ -6113,10 +7029,9 @@ eqfeed_callback(
        "coordinates":  [ 18.6,60.1 ]
     },
     "properties": {
-    "name":"Martin Olsson",
-    "club":"Swansea",
-    "age":29,
-    "position":"LB",
+    "player":"Zlatan Ibrahimovic",
+    "position":"Forward",
+    "club":"Manchester United",
     "nationality":"Sweden"
     }
   },
@@ -6127,10 +7042,22 @@ eqfeed_callback(
        "coordinates":  [ 18.6,60.1 ]
     },
     "properties": {
-    "name":"Kristoffer Nordfeldt",
-    "club":"Swansea",
-    "age":28,
-    "position":"GK",
+    "player":"Kristoffer Nordfeldt",
+    "position":"Goalkeeper",
+    "club":"Swansea City",
+    "nationality":"Sweden"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 18.6,60.1 ]
+    },
+    "properties": {
+    "player":"Martin Olsson",
+    "position":"Defender",
+    "club":"Swansea City",
     "nationality":"Sweden"
     }
   },
@@ -6141,10 +7068,9 @@ eqfeed_callback(
        "coordinates":  [ 8.2,46.8 ]
     },
     "properties": {
-    "name":"Granit Xhaka",
+    "player":"Granit Xhaka",
+    "position":"Midfielder",
     "club":"Arsenal",
-    "age":24,
-    "position":"DM",
     "nationality":"Switzerland"
     }
   },
@@ -6155,10 +7081,35 @@ eqfeed_callback(
        "coordinates":  [ 8.2,46.8 ]
     },
     "properties": {
-    "name":"Xherdan Shaqiri",
+    "player":"Florent Hadergjonaj",
+    "position":"Defender",
+    "club":"Huddersfield Town",
+    "nationality":"Switzerland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.2,46.8 ]
+    },
+    "properties": {
+    "player":"Eldin Jakupovic",
+    "position":"Goalkeeper",
+    "club":"Leicester City",
+    "nationality":"Switzerland"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 8.2,46.8 ]
+    },
+    "properties": {
+    "player":"Xherdan Shaqiri",
+    "position":"Midfielder",
     "club":"Stoke City",
-    "age":25,
-    "position":"RW",
     "nationality":"Switzerland"
     }
   },
@@ -6169,53 +7120,10 @@ eqfeed_callback(
        "coordinates":  [ 8.2,46.8 ]
     },
     "properties": {
-    "name":"Valon Behrami",
-    "club":"Watford",
-    "age":32,
-    "position":"DM",
+    "player":"Edimilson Fernandes",
+    "position":"Midfielder",
+    "club":"West Ham United",
     "nationality":"Switzerland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ 8.2,46.8 ]
-    },
-    "properties": {
-    "name":"Edimilson Fernandes",
-    "club":"West Ham",
-    "age":21,
-    "position":"CM",
-    "nationality":"Switzerland"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -15.3,13.4 ]
-    },
-    "properties": {
-    "name":"Modou Barrow",
-    "club":"Swansea",
-    "age":24,
-    "position":"RW",
-    "nationality":"The Gambia"
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
-       "coordinates":  [ -61.2,10.6 ]
-    },
-    "properties": {
-    "name":"Andy Williams",
-    "club":"Huddersfield",
-    "age":26,
-    "position":"CB",
-    "nationality":"Trinidad and Tobago"
     }
   },
   {
@@ -6225,11 +7133,23 @@ eqfeed_callback(
        "coordinates":  [ 9.5,33.8 ]
     },
     "properties": {
-    "name":"Yohan Benalouane",
+    "player":"Yohan Benalouane",
+    "position":"Defender",
     "club":"Leicester City",
-    "age":30,
-    "position":"CB",
     "nationality":"Tunisia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 31.1,48.3 ]
+    },
+    "properties": {
+    "player":"Oleksandr Zinchenko",
+    "position":"Midfielder",
+    "club":"Manchester City",
+    "nationality":"Ukraine"
     }
   },
   {
@@ -6239,10 +7159,9 @@ eqfeed_callback(
        "coordinates":  [ -95.7,37 ]
     },
     "properties": {
-    "name":"DeAndre Yedlin",
-    "club":"Newcastle United",
-    "age":24,
-    "position":"RB",
+    "player":"Emerson Hyndman",
+    "position":"Midfielder",
+    "club":"AFC Bournemouth",
     "nationality":"United States"
     }
   },
@@ -6253,10 +7172,48 @@ eqfeed_callback(
        "coordinates":  [ -95.7,37 ]
     },
     "properties": {
-    "name":"Geoff Cameron",
+    "player":"Kyle Scott",
+    "position":"Midfielder",
+    "club":"Chelsea",
+    "nationality":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.7,37 ]
+    },
+    "properties": {
+    "player":"Danny Williams",
+    "position":"Midfielder",
+    "club":"Huddersfield Town",
+    "nationality":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.7,37 ]
+    },
+    "properties": {
+    "player":"DeAndre Yedlin",
+    "position":"Defender",
+    "club":"Newcastle United",
+    "nationality":"United States"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.7,37 ]
+    },
+    "properties": {
+    "player":"Geoff Cameron",
+    "position":"Defender",
     "club":"Stoke City",
-    "age":32,
-    "position":"CB",
     "nationality":"United States"
     }
   },
@@ -6267,10 +7224,9 @@ eqfeed_callback(
        "coordinates":  [ -55.7,-32.5 ]
     },
     "properties": {
-    "name":"Miguel Britos",
+    "player":"Miguel Britos",
+    "position":"Defender",
     "club":"Watford",
-    "age":32,
-    "position":"CB",
     "nationality":"Uruguay"
     }
   },
@@ -6281,10 +7237,22 @@ eqfeed_callback(
        "coordinates":  [ -66.5,6.4 ]
     },
     "properties": {
-    "name":"Salomon Rondon",
-    "club":"West Brom",
-    "age":27,
-    "position":"CF",
+    "player":"Adalberto Penaranda",
+    "position":"Forward",
+    "club":"Watford",
+    "nationality":"Venezuela"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -66.5,6.4 ]
+    },
+    "properties": {
+    "player":"Salomon Rondon",
+    "position":"Forward",
+    "club":"West Bromwich Albion",
     "nationality":"Venezuela"
     }
   },
@@ -6295,10 +7263,9 @@ eqfeed_callback(
        "coordinates":  [ -3.6,52.1 ]
     },
     "properties": {
-    "name":"Aaron Ramsey",
+    "player":"Aaron Ramsey",
+    "position":"Midfielder",
     "club":"Arsenal",
-    "age":26,
-    "position":"CM",
     "nationality":"Wales"
     }
   },
@@ -6309,10 +7276,9 @@ eqfeed_callback(
        "coordinates":  [ -3.6,52.1 ]
     },
     "properties": {
-    "name":"Sam Vokes",
+    "player":"Sam Vokes",
+    "position":"Forward",
     "club":"Burnley",
-    "age":27,
-    "position":"CF",
     "nationality":"Wales"
     }
   },
@@ -6323,10 +7289,22 @@ eqfeed_callback(
        "coordinates":  [ -3.6,52.1 ]
     },
     "properties": {
-    "name":"Wayne Hennessey",
+    "player":"Ethan Ampadu",
+    "position":"Midfielder",
+    "club":"Chelsea",
+    "nationality":"Wales"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.6,52.1 ]
+    },
+    "properties": {
+    "player":"Wayne Hennessey",
+    "position":"Goalkeeper",
     "club":"Crystal Palace",
-    "age":30,
-    "position":"GK",
     "nationality":"Wales"
     }
   },
@@ -6337,10 +7315,9 @@ eqfeed_callback(
        "coordinates":  [ -3.6,52.1 ]
     },
     "properties": {
-    "name":"Ashley Williams",
+    "player":"Ashley Williams",
+    "position":"Defender",
     "club":"Everton",
-    "age":32,
-    "position":"CB",
     "nationality":"Wales"
     }
   },
@@ -6351,10 +7328,9 @@ eqfeed_callback(
        "coordinates":  [ -3.6,52.1 ]
     },
     "properties": {
-    "name":"Andy King",
+    "player":"Andy King",
+    "position":"Midfielder",
     "club":"Leicester City",
-    "age":28,
-    "position":"CM",
     "nationality":"Wales"
     }
   },
@@ -6365,10 +7341,9 @@ eqfeed_callback(
        "coordinates":  [ -3.6,52.1 ]
     },
     "properties": {
-    "name":"Ben Woodburn",
+    "player":"Danny Ward",
+    "position":"Goalkeeper",
     "club":"Liverpool",
-    "age":17,
-    "position":"LW",
     "nationality":"Wales"
     }
   },
@@ -6379,10 +7354,35 @@ eqfeed_callback(
        "coordinates":  [ -3.6,52.1 ]
     },
     "properties": {
-    "name":"Paul Dummett",
+    "player":"Ben Woodburn",
+    "position":"Midfielder",
+    "club":"Liverpool",
+    "nationality":"Wales"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.6,52.1 ]
+    },
+    "properties": {
+    "player":"Harry Wilson",
+    "position":"Midfielder",
+    "club":"Liverpool",
+    "nationality":"Wales"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.6,52.1 ]
+    },
+    "properties": {
+    "player":"Paul Dummett",
+    "position":"Defender",
     "club":"Newcastle United",
-    "age":25,
-    "position":"LB",
     "nationality":"Wales"
     }
   },
@@ -6393,10 +7393,9 @@ eqfeed_callback(
        "coordinates":  [ -3.6,52.1 ]
     },
     "properties": {
-    "name":"Joe Allen",
+    "player":"Joe Allen",
+    "position":"Midfielder",
     "club":"Stoke City",
-    "age":27,
-    "position":"CM",
     "nationality":"Wales"
     }
   },
@@ -6407,10 +7406,9 @@ eqfeed_callback(
        "coordinates":  [ -3.6,52.1 ]
     },
     "properties": {
-    "name":"Ben Davies",
-    "club":"Tottenham",
-    "age":24,
-    "position":"LB",
+    "player":"Joe Rodon",
+    "position":"Defender",
+    "club":"Swansea City",
     "nationality":"Wales"
     }
   },
@@ -6421,10 +7419,9 @@ eqfeed_callback(
        "coordinates":  [ -3.6,52.1 ]
     },
     "properties": {
-    "name":"Hal Robson-Kanu",
-    "club":"West Brom",
-    "age":28,
-    "position":"LW",
+    "player":"Brandon Cooper",
+    "position":"Defender",
+    "club":"Swansea City",
     "nationality":"Wales"
     }
   },
@@ -6435,10 +7432,9 @@ eqfeed_callback(
        "coordinates":  [ -3.6,52.1 ]
     },
     "properties": {
-    "name":"Boaz Myhill",
-    "club":"West Brom",
-    "age":34,
-    "position":"GK",
+    "player":"Ben Davies",
+    "position":"Defender",
+    "club":"Tottenham Hotspur",
     "nationality":"Wales"
     }
   },
@@ -6449,10 +7445,35 @@ eqfeed_callback(
        "coordinates":  [ -3.6,52.1 ]
     },
     "properties": {
-    "name":"James Collins",
-    "club":"West Ham",
-    "age":33,
-    "position":"CB",
+    "player":"Boaz Myhill",
+    "position":"Goalkeeper",
+    "club":"West Bromwich Albion",
+    "nationality":"Wales"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.6,52.1 ]
+    },
+    "properties": {
+    "player":"Hal Robson-Kanu",
+    "position":"Forward",
+    "club":"West Bromwich Albion",
+    "nationality":"Wales"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -3.6,52.1 ]
+    },
+    "properties": {
+    "player":"James Collins",
+    "position":"Defender",
+    "club":"West Ham United",
     "nationality":"Wales"
     }
   }
