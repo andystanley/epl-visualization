@@ -1,4 +1,4 @@
-eqfeed_callback(
+eqfeed_callback (
 {
    "type": "FeatureCollection",
    "features": [
@@ -688,7 +688,7 @@ eqfeed_callback(
     "player":"Asmir Begovic",
     "position":"Goalkeeper",
     "club":"AFC Bournemouth",
-    "nationality":"Bosnia And Herzegovina"
+    "nationality":"Bosnia & Herzegovina"
     }
   },
   {
@@ -701,7 +701,7 @@ eqfeed_callback(
     "player":"Sead Kolasinac",
     "position":"Defender",
     "club":"Arsenal",
-    "nationality":"Bosnia And Herzegovina"
+    "nationality":"Bosnia & Herzegovina"
     }
   },
   {
@@ -714,7 +714,7 @@ eqfeed_callback(
     "player":"Muhamed Besic",
     "position":"Midfielder",
     "club":"Everton",
-    "nationality":"Bosnia And Herzegovina"
+    "nationality":"Bosnia & Herzegovina"
     }
   },
   {
@@ -916,7 +916,7 @@ eqfeed_callback(
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 12.3,7.3 ]
+       "coordinates":  [ -106.3,56.1 ]
     },
     "properties": {
     "player":"Scott Arfield",
@@ -1000,7 +1000,7 @@ eqfeed_callback(
     "player":"Benik Afobe",
     "position":"Forward",
     "club":"AFC Bournemouth",
-    "nationality":"Congo"
+    "nationality":"DR Congo"
     }
   },
   {
@@ -1013,7 +1013,7 @@ eqfeed_callback(
     "player":"Jason Eyenga Lokilo",
     "position":"Midfielder",
     "club":"Crystal Palace",
-    "nationality":"Congo"
+    "nationality":"DR Congo"
     }
   },
   {
@@ -1026,7 +1026,7 @@ eqfeed_callback(
     "player":"Yannick Bolasie",
     "position":"Forward",
     "club":"Everton",
-    "nationality":"Congo"
+    "nationality":"DR Congo"
     }
   },
   {
@@ -1039,7 +1039,7 @@ eqfeed_callback(
     "player":"Elias Kachunga",
     "position":"Forward",
     "club":"Huddersfield Town",
-    "nationality":"Congo"
+    "nationality":"DR Congo"
     }
   },
   {
@@ -1052,7 +1052,7 @@ eqfeed_callback(
     "player":"Chancel Mbemba",
     "position":"Defender",
     "club":"Newcastle United",
-    "nationality":"Congo"
+    "nationality":"DR Congo"
     }
   },
   {
@@ -1065,7 +1065,7 @@ eqfeed_callback(
     "player":"Arthur Masuaku",
     "position":"Defender",
     "club":"West Ham United",
-    "nationality":"Congo"
+    "nationality":"DR Congo"
     }
   },
   {
