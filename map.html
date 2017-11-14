@@ -16,6 +16,7 @@
             width: 15%;
             height: 100%;
             overflow-y: auto;
+            text-align: center;
         }
         #collapse {
             position: absolute;
@@ -36,8 +37,8 @@
 
         #player {
             left: 0;
-            height: 40px;
-            width: 40px;
+            height: 60px;
+            width: 60px;
         }
         #github {
             position: absolute;
@@ -204,24 +205,31 @@
                         	var marker = allMarkers[i];
                             if (marker.nationality === nat) {
                             	if (marker.club === selectedClub || selectedClub.length === 0) {
-
                                     var img = document.createElement('img');
                                     img.id = 'player';
                                     img.src = 'players/' + marker.club + '/' + marker.name + '.png';
+
+                                    // Check if the image exists
+                                    imageExists(img);
+
                                     panel.appendChild(img);
+
+                                    var linebreak = document.createElement('br');
+                                    panel.appendChild(linebreak);
 
                                     var name = document.createElement('a');
                                     name.setAttribute('href', '#');
                                     name.appendChild(document.createTextNode(marker.name));
                                     panel.appendChild(name);
+
+                                    linebreak = document.createElement('br');
+                                    panel.appendChild(linebreak);
                                     
                                     var info = document.createElement('a');
-                                    info.appendChild(document.createTextNode(', ' +
-                                                       marker.role + ', ' +
-                                                       marker.nationality));
+                                    info.appendChild(document.createTextNode(marker.role + ', ' + marker.club));
                                     panel.appendChild(info);
 
-                                    var linebreak = document.createElement('br');
+                                    linebreak = document.createElement('br');
                                     panel.appendChild(linebreak);
 
 					                numOfPlayers += 1;
@@ -307,14 +315,19 @@
 
 			        // If the current markers club and the selected club match
 			        if (marker.club === selectedClub || selectedClub.length === 0) {
-			    		
 			    		// Set the player information in the panel only if a club is selected
 			    		if (selectedClub.length !== 0) {
                             var img = document.createElement('img');
                             img.id = 'player';
                             img.src = 'players/' + marker.club + '/' + marker.name + '.png';
 
+                            // Check if the image exists
+                            imageExists(img);
+
                             panel.appendChild(img);
+
+                            var linebreak = document.createElement('br');
+                            panel.appendChild(linebreak);
 
 			    			var name = document.createElement('a');
                             name.setAttribute('href', '#');
@@ -325,13 +338,16 @@
 								}, false);
 							panel.appendChild(name);
 
+                            linebreak = document.createElement('br');
+                            panel.appendChild(linebreak);
+
 							var info = document.createElement('a');
-							info.appendChild(document.createTextNode(', ' +
+							info.appendChild(document.createTextNode(
 											   marker.role + ', ' +
 											   marker.nationality));
 							panel.appendChild(info);
 
-							var linebreak = document.createElement('br');
+							linebreak = document.createElement('br');
 							panel.appendChild(linebreak);
 			    		}
 
@@ -406,8 +422,19 @@
                 	}
                 }
 			}
+
+            imageExists = function (img) {
+                img.onerror = function () {
+                    // Clear console of uneccesary ERR_FILE_NOT_FOUND errors
+                    console.clear();
+
+                    // Change the image source to the default
+                    img.src = 'players/no_picture.png';
+                }
+            }
         </script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIczLmrse3tNr3S7EP2Hwk8gdMTAvjL9s&callback=initMap">
+        <script 
+            async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIczLmrse3tNr3S7EP2Hwk8gdMTAvjL9s&callback=initMap">
         </script>
 </body>
 </html>
