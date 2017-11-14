@@ -15,14 +15,14 @@
             bottom: 0;
             width: 15%;
             height: 100%;
-            overflow-y: auto;
+            overflow-y: scroll;
             text-align: center;
         }
         #collapse {
             position: absolute;
-            width: 1.5%;
-            min-width: 25px;
-            left: 83.5%;
+            height: 40px;
+            width: 40px;
+            left: 82.5%;
             top: 50%;
             font-size: 125%;
             border-radius: 8px;
@@ -40,10 +40,14 @@
             height: 60px;
             width: 60px;
         }
+        #country {
+            height: 60px;
+            width: 102px;
+        }
         #github {
             position: absolute;
-            top: 90%;
-            left: 0.6%;
+            bottom: 25px;
+            left: 5px;
         }
         h3 {
             padding: 0px;
@@ -198,7 +202,18 @@
 
                         panel.innerHTML = '<h3>Player Viewer<h3><br>';
                         panel.innerHTML += '<i>Click on a club in a country to view all players from that country.<i><br><br>';
-                        panel.innerHTML += '<b>' + nat + ' Players' + '<b>' + '<br>';
+                        
+                        var flag = document.createElement('img');
+                        //img.id = 'country';
+                        flag.src = 'countries/' + nat + '.png';
+
+                        panel.append(flag);
+
+                        panel.innerHTML += '<br>' + '<b>' + nat + ' Players' + '<b>' + '<br>';
+
+                        flag.id = 'country';
+                        infoWindow.setContent(flag);
+                        infoWindow.open(map, marker);
 
                         // Print out the markers by nationality in the side panel
                         for (var i = 0; i < allMarkers.length; i++) {
@@ -220,6 +235,10 @@
                                     var name = document.createElement('a');
                                     name.setAttribute('href', '#');
                                     name.appendChild(document.createTextNode(marker.name));
+                                    name.addEventListener("click", 
+                                        function() {
+                                            playerClicked(this.innerHTML);
+                                    }, false);
                                     panel.appendChild(name);
 
                                     linebreak = document.createElement('br');
@@ -273,14 +292,14 @@
             collapsePanel = function () {
                 if (button.innerHTML === "-") {
                     button.innerHTML = "+";
-                    button.style.left = "96%";
+                    button.style.left = "95.5%";
                     panel.style.color = "white";
                     panel.style.overflow = "hidden";
                     panel.style.width = "2%";
                     mapStyle.width = "98%";
                 } else {
                     button.innerHTML = "-";
-                    button.style.left = "83.5%";
+                    button.style.left = "82.5%";
                     panel.style.color = "black";
                     panel.style.overflow = "initial";
                     panel.style.width = "15%";
@@ -302,10 +321,15 @@
 		   		// Set the panel text
 		   		panel.innerHTML = '<h3>Player Viewer<h3><br>';
              	panel.innerHTML += '<i>Click on a club in a country to view all players from that country.<i><br><br>';
-                
+
                 // If a club is selected, set the appropriate text
              	if (selectedClub.length !== 0) {
-             		panel.innerHTML += '<b>' + selectedClub + ' Players' + '<b>' + '<br>';
+                    var club = document.createElement('img');
+
+                    club.src = 'logos/' + selectedClub + '.png';
+                    panel.append(club);
+
+             		panel.innerHTML += '<br>' + '<b>' + selectedClub + ' Players' + '<b>' + '<br>';
              	}
 
 		   		// Loop through every marker
@@ -417,7 +441,16 @@
                 		map.panTo(position);
 
                         // Set the infoWindow content to the players name and place it at the markers position
-                		infoWindow.setContent(playerName);
+                		//infoWindow.setContent(playerName);
+
+                        var img = document.createElement('img');
+                        //img.id = 'player';
+                        img.src = 'players/' + marker.club + '/' + markerName + '.png';
+
+                        // Check if the image exists
+                        imageExists(img);
+
+                        infoWindow.setContent(img);
                 		infoWindow.open(map, marker);
                 	}
                 }
