@@ -15,14 +15,14 @@
             bottom: 0;
             width: 15%;
             height: 100%;
-            overflow-y: auto;
+            overflow-y: scroll;
             text-align: center;
         }
         #collapse {
             position: absolute;
-            width: 1.5%;
-            min-width: 25px;
-            left: 83.5%;
+            height: 40px;
+            width: 40px;
+            left: 82.5%;
             top: 50%;
             font-size: 125%;
             border-radius: 8px;
@@ -34,10 +34,20 @@
         	width: 10%;
         	min-width: 105px;
         }
-        img {
+
+        #player {
+            left: 0;
+            height: 60px;
+            width: 60px;
+        }
+        #country {
+            height: 60px;
+            width: 102px;
+        }
+        #github {
             position: absolute;
-            top: 90%;
-            left: 0.6%;
+            bottom: 25px;
+            left: 5px;
         }
         h3 {
             padding: 0px;
@@ -59,13 +69,13 @@
     <select id="filter" onchange="filterMarkers(this.value)">
 	    <option value="">Filter by Club</option>
 	    <option value="Arsenal">Arsenal</option>
-	    <option value="Bournemouth">Bournemouth</option>
-	    <option value="Brighton">Brighton</option>
+	    <option value="AFC Bournemouth">AFC Bournemouth</option>
+	    <option value="Brighton & Hove Albion">Brighton & Hove Albion</option>
 		<option value="Burnley">Burnley</option>
 		<option value="Chelsea">Chelsea</option>
 	    <option value="Crystal Palace">Crystal Palace</option>
 	    <option value="Everton">Everton</option>
-		<option value="Huddersfield">Huddersfield</option>
+		<option value="Huddersfield Town">Huddersfield Town</option>
 		<option value="Leicester City">Leicester City</option>
 	    <option value="Liverpool">Liverpool</option>
 	    <option value="Manchester City">Manchester City</option>
@@ -73,14 +83,14 @@
 		<option value="Newcastle United">Newcastle United</option>
 	    <option value="Southampton">Southampton</option>
 	    <option value="Stoke City">Stoke City</option>
-		<option value="Swansea">Swansea</option>
-		<option value="Tottenham">Tottenham</option>
+		<option value="Swansea City">Swansea City</option>
+		<option value="Tottenham Hotspur">Tottenham Hotspur</option>
 	    <option value="Watford">Watford</option>
-	    <option value="West Brom">West Brom</option>
-		<option value="West Ham">West Ham</option>
+	    <option value="West Bromwich Albion">West Bromwich Albion</option>
+		<option value="West Ham United">West Ham United</option>
 	</select>
     <a href="https://github.com/andystanley/EPL-Players-Nationality">
-    <img src="logos/github.png">
+    <img id="github" src="logos/github.png">
         <script>
             var map;
             var infoWindow;
@@ -117,10 +127,9 @@
             window.eqfeed_callback = function(results) {
                 for (var i = 0; i < results.features.length; i++) {
                     // Get the player properties
-                    var name = results.features[i].properties.name;
+                    var name = results.features[i].properties.player;
                     var club = results.features[i].properties.club;
                     var nationality = results.features[i].properties.nationality;
-                    var age = results.features[i].properties.age;
                     var role = results.features[i].properties.position;
                     var coords = results.features[i].geometry.coordinates;
 
@@ -151,7 +160,6 @@
                         name: name,
                         club: club,
                         nationality: nationality,
-                        age: age,
                         role: role
                     });
 
@@ -194,17 +202,55 @@
 
                         panel.innerHTML = '<h3>Player Viewer<h3><br>';
                         panel.innerHTML += '<i>Click on a club in a country to view all players from that country.<i><br><br>';
-                        panel.innerHTML += '<b>' + nat + ' Players' + '<b>' + '<br>';
+                        
+                        var flag = document.createElement('img');
+                        //img.id = 'country';
+                        flag.src = 'countries/' + nat + '.png';
+
+                        panel.append(flag);
+
+                        panel.innerHTML += '<br>' + '<b>' + nat + ' Players' + '<b>' + '<br>';
+
+                        flag.id = 'country';
+                        infoWindow.setContent(flag);
+                        infoWindow.open(map, marker);
 
                         // Print out the markers by nationality in the side panel
                         for (var i = 0; i < allMarkers.length; i++) {
                         	var marker = allMarkers[i];
                             if (marker.nationality === nat) {
                             	if (marker.club === selectedClub || selectedClub.length === 0) {
-                            		panel.innerHTML += marker.name + ', ' +
-					                                   marker.age + ', ' +
-					                                   marker.role + ', ' +
-					                                   marker.club + '<br>';
+                                    var img = document.createElement('img');
+                                    img.id = 'player';
+                                    img.src = 'players/' + marker.club + '/' + marker.name + '.png';
+
+                                    // Check if the image exists
+                                    imageExists(img);
+
+                                    panel.appendChild(img);
+
+                                    var linebreak = document.createElement('br');
+                                    panel.appendChild(linebreak);
+
+                                    var name = document.createElement('a');
+                                    name.setAttribute('href', '#');
+                                    name.appendChild(document.createTextNode(marker.name));
+                                    name.addEventListener("click", 
+                                        function() {
+                                            playerClicked(this.innerHTML);
+                                    }, false);
+                                    panel.appendChild(name);
+
+                                    linebreak = document.createElement('br');
+                                    panel.appendChild(linebreak);
+                                    
+                                    var info = document.createElement('a');
+                                    info.appendChild(document.createTextNode(marker.role + ', ' + marker.club));
+                                    panel.appendChild(info);
+
+                                    linebreak = document.createElement('br');
+                                    panel.appendChild(linebreak);
+
 					                numOfPlayers += 1;
                             	}
                             }
@@ -246,14 +292,14 @@
             collapsePanel = function () {
                 if (button.innerHTML === "-") {
                     button.innerHTML = "+";
-                    button.style.left = "96%";
+                    button.style.left = "95.5%";
                     panel.style.color = "white";
                     panel.style.overflow = "hidden";
                     panel.style.width = "2%";
                     mapStyle.width = "98%";
                 } else {
                     button.innerHTML = "-";
-                    button.style.left = "83.5%";
+                    button.style.left = "82.5%";
                     panel.style.color = "black";
                     panel.style.overflow = "initial";
                     panel.style.width = "15%";
@@ -275,10 +321,15 @@
 		   		// Set the panel text
 		   		panel.innerHTML = '<h3>Player Viewer<h3><br>';
              	panel.innerHTML += '<i>Click on a club in a country to view all players from that country.<i><br><br>';
-                
+
                 // If a club is selected, set the appropriate text
              	if (selectedClub.length !== 0) {
-             		panel.innerHTML += '<b>' + selectedClub + ' Players' + '<b>' + '<br>';
+                    var club = document.createElement('img');
+
+                    club.src = 'logos/' + selectedClub + '.png';
+                    panel.append(club);
+
+             		panel.innerHTML += '<br>' + '<b>' + selectedClub + ' Players' + '<b>' + '<br>';
              	}
 
 		   		// Loop through every marker
@@ -288,9 +339,20 @@
 
 			        // If the current markers club and the selected club match
 			        if (marker.club === selectedClub || selectedClub.length === 0) {
-			    		
 			    		// Set the player information in the panel only if a club is selected
 			    		if (selectedClub.length !== 0) {
+                            var img = document.createElement('img');
+                            img.id = 'player';
+                            img.src = 'players/' + marker.club + '/' + marker.name + '.png';
+
+                            // Check if the image exists
+                            imageExists(img);
+
+                            panel.appendChild(img);
+
+                            var linebreak = document.createElement('br');
+                            panel.appendChild(linebreak);
+
 			    			var name = document.createElement('a');
                             name.setAttribute('href', '#');
 							name.appendChild(document.createTextNode(marker.name));
@@ -299,13 +361,17 @@
 									playerClicked(this.innerHTML);
 								}, false);
 							panel.appendChild(name);
+
+                            linebreak = document.createElement('br');
+                            panel.appendChild(linebreak);
+
 							var info = document.createElement('a');
-							info.appendChild(document.createTextNode(', ' +
-											   marker.age + ', ' +
+							info.appendChild(document.createTextNode(
 											   marker.role + ', ' +
 											   marker.nationality));
 							panel.appendChild(info);
-							var linebreak = document.createElement('br');
+
+							linebreak = document.createElement('br');
 							panel.appendChild(linebreak);
 			    		}
 
@@ -375,13 +441,33 @@
                 		map.panTo(position);
 
                         // Set the infoWindow content to the players name and place it at the markers position
-                		infoWindow.setContent(playerName);
+                		//infoWindow.setContent(playerName);
+
+                        var img = document.createElement('img');
+                        //img.id = 'player';
+                        img.src = 'players/' + marker.club + '/' + markerName + '.png';
+
+                        // Check if the image exists
+                        imageExists(img);
+
+                        infoWindow.setContent(img);
                 		infoWindow.open(map, marker);
                 	}
                 }
 			}
+
+            imageExists = function (img) {
+                img.onerror = function () {
+                    // Clear console of uneccesary ERR_FILE_NOT_FOUND errors
+                    console.clear();
+
+                    // Change the image source to the default
+                    img.src = 'players/no_picture.png';
+                }
+            }
         </script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIczLmrse3tNr3S7EP2Hwk8gdMTAvjL9s&callback=initMap">
+        <script 
+            async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIczLmrse3tNr3S7EP2Hwk8gdMTAvjL9s&callback=initMap">
         </script>
 </body>
 </html>
