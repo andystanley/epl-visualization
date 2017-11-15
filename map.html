@@ -20,8 +20,8 @@
         }
         #collapse {
             position: absolute;
-            height: 40px;
-            width: 40px;
+            height: 35px;
+            width: 35px;
             left: 82.5%;
             top: 50%;
             font-size: 125%;
@@ -32,9 +32,10 @@
         	top: 2%;
         	left: 40%;
         	width: 10%;
-        	min-width: 105px;
+            height: 30px;
+        	min-width: 115px;
+            font-size: 15px;
         }
-
         #player {
             left: 0;
             height: 60px;
@@ -95,7 +96,8 @@
             var map;
             var infoWindow;
             var allMarkers = [];
-            var button = document.getElementById('collapse');
+
+            var collapseBtn = document.getElementById('collapse');
             var panel = document.getElementById('panel');
             var filter = document.getElementById('filter');
             var mapStyle = document.getElementById('map').style;
@@ -107,25 +109,22 @@
                 map = new google.maps.Map(document.getElementById('map'), {
                     zoom: 4,
                     minZoom: 3,
-                    maxZoom: 5,
                     center: new google.maps.LatLng(45.9, 24.9),
                     mapTypeId: 'roadmap'
                 });
 
                 infoWindow = new google.maps.InfoWindow();
 
-                // Create a <script> tag and set the USGS URL as the source.
+                // Create a script and set the source to the epl_data
                 var script = document.createElement('script');
-                // This example uses a local copy of the GeoJSON stored atepl.js
-                // http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp
                 script.src = 'epl_data.js';
                 document.getElementsByTagName('head')[0].appendChild(script);
             }
 
-            // Loop through the results array and place a marker for each
-            // set of coordinates.
+            // Loop through the results array and place a marker for each set of coordinates.
             window.eqfeed_callback = function(results) {
                 for (var i = 0; i < results.features.length; i++) {
+
                     // Get the player properties
                     var name = results.features[i].properties.player;
                     var club = results.features[i].properties.club;
@@ -133,25 +132,25 @@
                     var role = results.features[i].properties.position;
                     var coords = results.features[i].geometry.coordinates;
 
-                    // Set up the players location
+                    // Store the players coordinates in a variable
                     var latLng = new google.maps.LatLng(coords[1], coords[0]);
 
                     // Create the marker icon
                     var icon = {
-                        url: 'logos/' + club + '.png', // url
-                        scaledSize: new google.maps.Size(40, 40), // scaled size
-                        origin: new google.maps.Point(0, 0), // origin
+                        url: 'logos/' + club + '.png',
+                        scaledSize: new google.maps.Size(40, 40),
+                        origin: new google.maps.Point(0, 0),
                         anchor: new google.maps.Point(20, 20),
-                        labelOrigin: new google.maps.Point(20, 50) // anchor
+                        labelOrigin: new google.maps.Point(20, 50)
                     }
 
-                    // Create the marker label
+                    // Create the marker label with some default properties that will later be overridden
                     var label = {
                         fontSize: '0px',
-                        text: '.' // Hide the name from appearing as a label
+                        text: '.'
                     }
 
-                    // Create a marker
+                    // Create the marker
                     var marker = new google.maps.Marker({
                         position: latLng,
                         map: map,
@@ -163,77 +162,100 @@
                         role: role
                     });
 
-                    // Add the marker to the array of all the markers
+                    // Add the marker to the array of all markers
                     allMarkers.push(marker);
 
                     // Trigger when the map is fully loaded
                     google.maps.event.addListenerOnce(map, 'idle', function() {
-                        var n = 1;  // i + 1
-                        var players = 1;  // Counts the number of players in a country.  There must be a minimum of 1 player, so the variable is initialized to 1
+                        
+                        // j represents i + 1
+                        var j = 1; 
+
+                        // Counts the number of players in a country.  There must be a minimum of 1 player, so the variable is initialized to 1
+                        var players = 1;  
 
                         // Loop through all the markers
                         for (var i = 0; i < allMarkers.length; i++) {
+
                         	var marker = allMarkers[i];
-                        	var nextMarker = allMarkers[n];
-                        	var nation = results.features[i].properties.nationality;
+                            var nextMarker = allMarkers[j];
+
+                            var markerNation = results.features[i].properties.nationality;
+                            var nextMarkerNation = results.features[j].properties.nationality;
+
                         	// Compare the elements and if they do not match, set the label for the last element and reset the player count
-                        	if (nextMarker.nationality !== nation) {
+                        	if (nextMarkerNation !== markerNation) {
+
+                                // Set the marker label to the number of players
                         		marker.setLabel(players.toString());
+
+                                // Reset the player counter
                         	    players = 0;
                         	}
-                        	// If the end of the loop has been reached, print out the last element and exit
-                        	if ((n+1) === allMarkers.length) {  
+
+                        	// If the end of the loop has been reached, print out the last element and exit the loop
+                        	if ((j + 1) === allMarkers.length) {  
+
+                                // Set the marker label to the number of players + 1
                         		marker.setLabel((players + 1).toString());  
-								break;  // Exit the loop
+
+                                // Exit the loop
+								break; 
                         	}
+                            // Increment the following variables by 1
+                            j++;
                         	players++;
-                        	n++;
                         }
 					});
 
+                    // Trigger when a marker is clicked
                     marker.addListener('click', function() {
+
+                        // Get the club and nation of the marker
+                        var selectedNation = this.nationality;
                     	var selectedClub = document.getElementById("filter").value;
-                        var nat = this.nationality;
-                        var numOfPlayers = 0;
 
                         // Set the infoWindow content to the markers nationality and place it at the markers position
-                        infoWindow.setContent(nat);
+                        infoWindow.setContent(selectedNation);
                         infoWindow.open(map, this);
 
                         panel.innerHTML = '<h3>Player Viewer<h3><br>';
                         panel.innerHTML += '<i>Click on a club in a country to view all players from that country.<i><br><br>';
                         
+                        // Create a flag image and add it to the panel
                         var flag = document.createElement('img');
-                        //img.id = 'country';
-                        flag.src = 'countries/' + nat + '.png';
-
+                        flag.src = 'countries/' + selectedNation + '.png';
                         panel.append(flag);
 
-                        panel.innerHTML += '<br>' + '<b>' + nat + ' Players' + '<b>' + '<br>';
+                        panel.innerHTML += '<br>' + '<b>' + selectedNation + ' Players' + '<b>' + '<br>';
 
+                        // Open an infoWindow with the countries flag at the markers location
                         flag.id = 'country';
                         infoWindow.setContent(flag);
-                        infoWindow.open(map, marker);
+                        infoWindow.open(map, this);
 
-                        // Print out the markers by nationality in the side panel
+                        // Loop through all the markers
                         for (var i = 0; i < allMarkers.length; i++) {
+
                         	var marker = allMarkers[i];
-                            if (marker.nationality === nat) {
+
+                            if (marker.nationality === selectedNation) {
+
                             	if (marker.club === selectedClub || selectedClub.length === 0) {
+                                    
+                                    // Create the player information and append it to the panel
+
                                     var img = document.createElement('img');
                                     img.id = 'player';
                                     img.src = 'players/' + marker.club + '/' + marker.name + '.png';
-
-                                    // Check if the image exists
                                     imageExists(img);
-
                                     panel.appendChild(img);
 
                                     var linebreak = document.createElement('br');
                                     panel.appendChild(linebreak);
 
                                     var name = document.createElement('a');
-                                    name.setAttribute('href', '#');
+                                    name.href = '#';
                                     name.appendChild(document.createTextNode(marker.name));
                                     name.addEventListener("click", 
                                         function() {
@@ -250,17 +272,17 @@
 
                                     linebreak = document.createElement('br');
                                     panel.appendChild(linebreak);
-
-					                numOfPlayers += 1;
                             	}
                             }
                         }
                     });
 
-                    // Add a listener for when the zoom is changed
+                    // Triggered when the zoom is changed
                     map.addListener('zoom_changed', function() {
+
                         // For every marker, dynamically change the icon size based on the current zoom level
                         for (var i = 0; i < allMarkers.length; i++) {
+
                         	var marker = allMarkers[i];
                             var size = map.getZoom() * 10;
                             var pointX = 20;
@@ -281,34 +303,44 @@
 
                             // Set the label origin
                             marker.icon.labelOrigin = new google.maps.Point(pointX, pointY);
-
-                            // Set all the markers on the map
-                            marker.setMap(map);
                         }
                     });
                 }
             }
 
+            // Function that collapses the side panel
             collapsePanel = function () {
-                if (button.innerHTML === "-") {
-                    button.innerHTML = "+";
-                    button.style.left = "95.5%";
+
+                // If the side panel is expanded
+                if (collapseBtn.innerHTML === "-") {
+                    collapseBtn.innerHTML = "+";
+                    collapseBtn.style.left = "95.5%";
                     panel.style.color = "white";
                     panel.style.overflow = "hidden";
                     panel.style.width = "2%";
                     mapStyle.width = "98%";
-                } else {
-                    button.innerHTML = "-";
-                    button.style.left = "82.5%";
+                } 
+
+                // If the side panel is contracted
+                else {
+                    collapseBtn.innerHTML = "-";
+                    collapseBtn.style.left = "82.5%";
                     panel.style.color = "black";
                     panel.style.overflow = "initial";
                     panel.style.width = "15%";
                     mapStyle.width = "85%";
                 }
+
+                // Resize the google maps so that it fills all the empty space
                 google.maps.event.trigger(map, 'resize');
             }
 
+            // Function that filters the markers based on the selected club
 		   	filterMarkers = function (selectedClub) {
+
+                // Close an openWindow if there is one
+                infoWindow.close();
+
 		   		// Create an array to store the markers that belong to the same team
 		   		var team = [];
 
@@ -324,8 +356,8 @@
 
                 // If a club is selected, set the appropriate text
              	if (selectedClub.length !== 0) {
-                    var club = document.createElement('img');
 
+                    var club = document.createElement('img');
                     club.src = 'logos/' + selectedClub + '.png';
                     panel.append(club);
 
@@ -339,8 +371,10 @@
 
 			        // If the current markers club and the selected club match
 			        if (marker.club === selectedClub || selectedClub.length === 0) {
+
 			    		// Set the player information in the panel only if a club is selected
 			    		if (selectedClub.length !== 0) {
+
                             var img = document.createElement('img');
                             img.id = 'player';
                             img.src = 'players/' + marker.club + '/' + marker.name + '.png';
@@ -399,6 +433,7 @@
 				      				// Increase the player count by 1
 				        			players++;
 				        		}
+
 				        		// If the elements nationality does not match
 				        		else {
 				        			// Set the current markers label to the player count(which should always be 1)
@@ -411,6 +446,7 @@
 			        		// Increase the m variable by 1
 			     			m++;
 			        	}
+
 			        	// If the team array only has one player
 			        	else {
 				        	// Set the current markers label to the player count(which should always be 1)
@@ -420,14 +456,17 @@
 			        		players = 1;
 			        	}
 			        }
-			        // If the clubs don't match hide the marker
+
+			        // If the clubs don't match, hide the marker
 			        else {
 			            marker.setVisible(false);
 			        }
 		    	}
 			}
 
+            // Function for when a player is clicked
 			playerClicked = function (playerName) {
+
 		        // Loop through all the markers
                 for (var i = 0; i < allMarkers.length; i++) {
 
@@ -440,9 +479,6 @@
                 		var position = allMarkers[i].getPosition();
                 		map.panTo(position);
 
-                        // Set the infoWindow content to the players name and place it at the markers position
-                		//infoWindow.setContent(playerName);
-
                         var img = document.createElement('img');
                         //img.id = 'player';
                         img.src = 'players/' + marker.club + '/' + markerName + '.png';
@@ -450,18 +486,21 @@
                         // Check if the image exists
                         imageExists(img);
 
+                        // Set the infoWindow content and open it on the map
                         infoWindow.setContent(img);
                 		infoWindow.open(map, marker);
                 	}
                 }
 			}
 
+            // Function to check if an immage exists
             imageExists = function (img) {
                 img.onerror = function () {
+
                     // Clear console of uneccesary ERR_FILE_NOT_FOUND errors
                     console.clear();
 
-                    // Change the image source to the default
+                    // Change the image source to the default no picture image
                     img.src = 'players/no_picture.png';
                 }
             }
